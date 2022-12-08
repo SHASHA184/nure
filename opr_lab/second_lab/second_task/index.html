@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Sum(n) {
+            max_number = 0
+            min_number = 9
+            for (let i; n != 0; n = parseInt((n - i) / 10)) {
+                i = n % 10
+                if (min_number > i) {
+                    min_number = i
+                }
+                if (max_number < i) {
+                    max_number = i
+                }
+        
+            }
+            num_sum = min_number + max_number
+            return num_sum
+        }
+
+        alert(Sum(9))
+    </script>    
+</body>
+</html>
