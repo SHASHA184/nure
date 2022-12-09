@@ -1,11 +1,10 @@
-
 import time 
 
 start = time.time()
 
-def combination(enter_list, n):
+def combination(enter_list, k):
      
-    if n == 0:
+    if k == 0:
         return [[]]
      
     l = []
@@ -14,16 +13,22 @@ def combination(enter_list, n):
 
         remain_list = enter_list[i + 1:]
 
-        remain_list_combo = combination(remain_list, n - 1)
+        remain_list_combo = combination(remain_list, k - 1)
         for p in remain_list_combo:
-             l.append([m, *p])
+            l.append([m, *p])
            
     return l
 
 
-result = combination(list(range(1, 4)), 3)
+n = int(input("Enter a number of set: "))
+k = int(input("Enter a k-kombinations of set: "))
+result = combination(list(range(0, n)), k)
 
 end = time.time() - start
 
 print(end)
-print(result)
+if result:
+    print('Result', '\n'.join(str(x) for x in result), f'\n{len(result)} - count of combinations')
+else:
+    print('Result', '\n'.join(str(x) for x in result), f'\n0 - count of combinations')
+    

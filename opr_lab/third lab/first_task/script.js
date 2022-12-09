@@ -1,8 +1,7 @@
 function recognice_word(word, sequence_array) {
     let sequence = sequence_array[0], missing_letter_word = '', replaced_letter = '', confused_letter_word = '', sequence_word = '', result = ''
-    // const ended_sym = [' ', ',', '.']
     for (letter of sequence) {
-        if (letter != ',' || letter != '.' || letter != ' ') {
+        if (letter != ',' && letter != '.' && letter != ' ') {
             sequence_word += letter
         }
         else {
@@ -39,4 +38,6 @@ function recognice_word(word, sequence_array) {
     return result
 }
 
-alert(recognice_word('слово', ['солво, слво сово лово, слоло.']))
+word = prompt("Введіть шукане слово")
+sequence_array = [prompt("Введіть послідовність слів")]
+alert(recognice_word(word, sequence_array))

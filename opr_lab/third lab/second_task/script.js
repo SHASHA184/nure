@@ -26,4 +26,4 @@ function binary_sequence(n) {
     return sum
 }
 let enter_number = +prompt("Введіть число")
-let res = binary_sequence(enter_number)
+alert(binary_sequence(enter_number))
