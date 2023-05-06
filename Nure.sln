@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course Work OOP", "Course Work OOP\Course Work OOP.csproj", "{92F1110A-17E6-4D25-AD92-A88CEBD6A837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second Lab OOP", "Second Lab OOP\Second Lab OOP.csproj", "{C795BACC-3474-41DF-97E1-AFD49B452264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F1110A-17E6-4D25-AD92-A88CEBD6A837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F1110A-17E6-4D25-AD92-A88CEBD6A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F1110A-17E6-4D25-AD92-A88CEBD6A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F1110A-17E6-4D25-AD92-A88CEBD6A837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C795BACC-3474-41DF-97E1-AFD49B452264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C795BACC-3474-41DF-97E1-AFD49B452264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C795BACC-3474-41DF-97E1-AFD49B452264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C795BACC-3474-41DF-97E1-AFD49B452264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
