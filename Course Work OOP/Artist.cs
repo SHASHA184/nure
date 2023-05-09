@@ -19,14 +19,16 @@ public class Artist
     
     public void PrintInfo(List<Album> albums, List<Song> songs)
     {
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine($"\nName: {Name}");
-        Console.WriteLine("Albums:");
+        Console.ResetColor();
+        Console.WriteLine("\nAlbums:");
         foreach (var albumId in AlbumIds)
         {
             var album = albums.Find(a => a.Id == albumId);
             album?.PrintInfo(Name);
         }
-        Console.WriteLine("Songs:");
+        Console.WriteLine("\nSongs:");
         foreach (var songId in SongIds)
         {
             var song = songs.Find(s => s.Id == songId);

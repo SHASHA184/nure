@@ -22,7 +22,7 @@ namespace Course_Work_OOP
                     case "1":
                     {
                         string name = InputHandler.GetString("Enter artist name:");
-                        musicBase.AddArtist(name);
+                        MusicBaseArtists.AddArtist(name);
                         break;
                     }
                     case "2":
@@ -30,7 +30,7 @@ namespace Course_Work_OOP
                         string name = InputHandler.GetString("Enter album name:");
                         int year = InputHandler.GetInt("Enter album year:");
                         string artistName = InputHandler.GetString("Enter artist name:");
-                        musicBase.AddAlbum(name, year, artistName);
+                        MusicBaseAlbums.AddAlbum(name, year, artistName);
                         break;
                     }
                     case "3":
@@ -38,88 +38,79 @@ namespace Course_Work_OOP
                         string name = InputHandler.GetString("Enter song name:");
                         string albumName = InputHandler.GetString("Enter album name:");
                         string artistName = InputHandler.GetString("Enter artist name:");
-                        musicBase.AddSong(name, artistName, albumName);
+                        MusicBaseSongs.AddSong(name, artistName, albumName);
                         break;
                     }
                     case "4":
                     {
-                        musicBase.PrintArtists();
+                        MusicBaseArtists.PrintArtists();
                         break;
                     }
                     case "5":
                     {
-                        musicBase.PrintAlbums();
+                        MusicBaseAlbums.PrintAlbums();
                         break;
                     }
                     case "6":
                     {
-                        musicBase.PrintSongs();
+                        MusicBaseSongs.PrintSongs();
                         break;
                     }
                     case "7":
                     {
                         string artistName = InputHandler.GetString("Enter artist name:");
-                        musicBase.PrintSongsByArtist(artistName);
+                        MusicBaseArtists.PrintSongsByArtist(artistName);
                         break;
                     }
                     case "8":
                     {
                         string albumName = InputHandler.GetString("Enter album name:");
-                        musicBase.PrintSongsByAlbum(albumName);
+                        MusicBaseAlbums.PrintSongsByAlbum(albumName);
                         break;
                     }
                     case "9":
                     {
                         string artistName = InputHandler.GetString("Enter artist name:");
-                        musicBase.PrintAlbumsByArtist(artistName);
+                        MusicBaseArtists.PrintAlbumsByArtist(artistName);
                         break;
                     }
                     case "10":
                     {
                         int year = InputHandler.GetInt("Enter year:");
-                        musicBase.PrintAlbumsByYear(year);
+                        MusicBaseAlbums.PrintAlbumsByYear(year);
                         break;
                     }
                     case "11":
                     {
-                        musicBase.PrintSortedSongsByName();
+                        MusicBaseAlbums.PrintSortedAlbumsByYear();
                         break;
                     }
                     case "12":
                     {
-                        string artistName = InputHandler.GetString("Enter artist name:");
-                        musicBase.DeleteArtist(artistName);
+                        MusicBaseSongs.PrintSortedSongsByName();
                         break;
                     }
                     case "13":
                     {
-                        string artistName = InputHandler.GetString("Enter artist name:");
-                        string albumName = InputHandler.GetString("Enter album name:");
-                        musicBase.DeleteAlbum(artistName, albumName);
+                        MusicBaseArtists.PrintSortedSongsByArtist();
                         break;
                     }
                     case "14":
                     {
-                        string artistName = InputHandler.GetString("Enter artist name:");
-                        string albumName = InputHandler.GetString("Enter album name:");
-                        string songName = InputHandler.GetString("Enter song name:");
-                        musicBase.DeleteSong(artistName, albumName, songName);
+                        MusicBaseAlbums.PrintSortedSongsByAlbum();
                         break;
                     }
                     case "15":
                     {
                         string artistName = InputHandler.GetString("Enter artist name:");
-                        string newName = InputHandler.GetString("Enter new name:");
-                        musicBase.EditArtist(artistName, newName);
+                        MusicBaseArtists.DeleteArtist(artistName);
                         break;
                     }
                     case "16":
                     {
                         string artistName = InputHandler.GetString("Enter artist name:");
                         string albumName = InputHandler.GetString("Enter album name:");
-                        string newName = InputHandler.GetString("Enter new name:");
-                        int newYear = InputHandler.GetInt("Enter new year:");
-                        musicBase.EditAlbum(artistName, albumName, newName, newYear);
+                        MusicBaseAlbums.DeleteAlbum(artistName, albumName);
                         break;
                     }
                     case "17":
@@ -127,8 +118,32 @@ namespace Course_Work_OOP
                         string artistName = InputHandler.GetString("Enter artist name:");
                         string albumName = InputHandler.GetString("Enter album name:");
                         string songName = InputHandler.GetString("Enter song name:");
+                        MusicBaseSongs.DeleteSong(artistName, albumName, songName);
+                        break;
+                    }
+                    case "18":
+                    {
+                        string artistName = InputHandler.GetString("Enter artist name:");
                         string newName = InputHandler.GetString("Enter new name:");
-                        musicBase.EditSong(artistName, albumName, songName, newName);
+                        MusicBaseArtists.EditArtist(artistName, newName);
+                        break;
+                    }
+                    case "19":
+                    {
+                        string artistName = InputHandler.GetString("Enter artist name:");
+                        string albumName = InputHandler.GetString("Enter album name:");
+                        string newName = InputHandler.GetString("Enter new name:");
+                        int newYear = InputHandler.GetInt("Enter new year:");
+                        MusicBaseAlbums.EditAlbum(artistName, albumName, newName, newYear);
+                        break;
+                    }
+                    case "20":
+                    {
+                        string artistName = InputHandler.GetString("Enter artist name:");
+                        string albumName = InputHandler.GetString("Enter album name:");
+                        string songName = InputHandler.GetString("Enter song name:");
+                        string newName = InputHandler.GetString("Enter new name:");
+                        MusicBaseSongs.EditSong(artistName, albumName, songName, newName);
                         break;
                     }
                     default:

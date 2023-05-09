@@ -19,9 +19,11 @@ public class Song
     
     public void PrintInfo(string artistName, string albumName)
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine($"\nName: {Name}");
         Console.WriteLine($"Artist: {artistName}");
         Console.WriteLine($"Album: {albumName}");
+        Console.ResetColor();
     }
     
 

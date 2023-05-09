@@ -18,12 +18,15 @@ public abstract class InputHandler
         Console.WriteLine("9 - Print all albums by artist");
         Console.WriteLine("10 - Print all albums by year");
         Console.WriteLine("11 - Sort songs by name");
-        Console.WriteLine("12 - Delete artist");
-        Console.WriteLine("13 - Delete album");
-        Console.WriteLine("14 - Delete song");
-        Console.WriteLine("15 - Edit artist");
-        Console.WriteLine("16 - Edit album");
-        Console.WriteLine("17 - Edit song");
+        Console.WriteLine("12 - Sort songs by artist");
+        Console.WriteLine("13 - Sort songs by album");
+        Console.WriteLine("14 - Sort albums by year");
+        Console.WriteLine("15 - Delete artist");
+        Console.WriteLine("16 - Delete album");
+        Console.WriteLine("17 - Delete song");
+        Console.WriteLine("18 - Edit artist");
+        Console.WriteLine("19 - Edit album");
+        Console.WriteLine("20 - Edit song");
         
     }
     

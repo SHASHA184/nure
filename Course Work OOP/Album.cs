@@ -19,9 +19,11 @@ public class Album
     
     public void PrintInfo(string artistName)
     {
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"\nName: {Name}");
         Console.WriteLine($"Year: {Year}");
         Console.WriteLine($"Artist: {artistName}");
+        Console.ResetColor();
     }
     
 }
