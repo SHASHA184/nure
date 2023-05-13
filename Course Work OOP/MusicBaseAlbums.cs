@@ -2,7 +2,7 @@ using System.Text.Json;
 
 namespace Course_Work_OOP;
 
-public abstract class MusicBaseAlbums: MusicBase
+public class MusicBaseAlbums: MusicBase
 {
     
 

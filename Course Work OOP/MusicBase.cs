@@ -7,7 +7,7 @@ public class MusicBase
     protected static List<Artist> Artists { get; set; }
     protected static List<Album> Albums { get; set; }
     protected static List<Song> Songs { get; set; }
-    
+
     public MusicBase()
     {
         Artists = MusicBaseArtists.GetArtists();

@@ -10,8 +10,8 @@ namespace Course_Work_OOP
             while (choice != "0")
             {
                 InputHandler.PrintOptions();
-                choice = InputHandler.GetString("Enter your choice:");
                 MusicBase musicBase = new MusicBase();
+                choice = InputHandler.GetString("Enter your choice:");
                 switch (choice)
                 {
                     case "0":
@@ -82,22 +82,22 @@ namespace Course_Work_OOP
                     }
                     case "11":
                     {
-                        MusicBaseAlbums.PrintSortedAlbumsByYear();
+                        MusicBaseSongs.PrintSortedSongsByName();
                         break;
                     }
                     case "12":
                     {
-                        MusicBaseSongs.PrintSortedSongsByName();
+                        MusicBaseArtists.PrintSortedSongsByArtist();
                         break;
                     }
                     case "13":
                     {
-                        MusicBaseArtists.PrintSortedSongsByArtist();
+                        MusicBaseAlbums.PrintSortedSongsByAlbum();
                         break;
                     }
                     case "14":
                     {
-                        MusicBaseAlbums.PrintSortedSongsByAlbum();
+                        MusicBaseAlbums.PrintSortedAlbumsByYear();
                         break;
                     }
                     case "15":

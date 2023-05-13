@@ -25,6 +25,6 @@ public class Song
         Console.WriteLine($"Album: {albumName}");
         Console.ResetColor();
     }
-    
+
 
 }

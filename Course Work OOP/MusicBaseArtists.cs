@@ -2,7 +2,7 @@ using System.Text.Json;
 
 namespace Course_Work_OOP;
 
-public abstract class MusicBaseArtists: MusicBase
+public class MusicBaseArtists: MusicBase
 {
     
     // print info about artist/artists
