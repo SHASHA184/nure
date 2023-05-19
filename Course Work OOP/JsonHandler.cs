@@ -1,6 +1,6 @@
 namespace Course_Work_OOP;
 
-public abstract class JsonHelper
+public abstract class JsonHandler
 {
     public static string ReadJson(string fileName)
     {

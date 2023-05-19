@@ -18,7 +18,7 @@ public class MusicBase
     // common methods
     protected static int GetLastId(string key)
     {
-        string artistsJson = JsonHelper.ReadJson(key + ".json");
+        string artistsJson = JsonHandler.ReadJson(key + ".json");
         if (artistsJson == "")
         {
             return 1;

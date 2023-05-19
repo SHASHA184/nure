@@ -17,28 +17,26 @@ public class Artist
         SongIds = new List<int>();
     }
     
-    public void PrintInfo(List<Album> albums, List<Song> songs)
+    public void PrintInfo()
     {
+        List<Album> albums = MusicBaseAlbums.GetAlbums();
+        List<Song> songs = MusicBaseSongs.GetSongs();
         Console.ForegroundColor = ConsoleColor.Blue;
-        Console.WriteLine($"\nName: {Name}");
+        InputHandler.PrintTopAndBottomLine(40);
+        InputHandler.PrintTextWithSides(Name);
+        InputHandler.PrintTopAndBottomLine(40);
         Console.ResetColor();
         Console.WriteLine("\nAlbums:");
         foreach (var albumId in AlbumIds)
         {
             var album = albums.Find(a => a.Id == albumId);
-            album?.PrintInfo(Name);
+            album?.PrintInfo();
         }
-        Console.WriteLine("\nSongs:");
+        Console.WriteLine("Songs:");
         foreach (var songId in SongIds)
         {
             var song = songs.Find(s => s.Id == songId);
-            if (song == null)
-            {
-                continue;
-            }
-            string? albumName = albums.Find(a => a.Id == song.AlbumId)?.Name;
-            if (albumName != null)
-                song.PrintInfo(Name, albumName);
+            song?.PrintInfo();
         }
     }
 

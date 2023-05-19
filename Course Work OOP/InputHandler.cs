@@ -5,29 +5,58 @@ public abstract class InputHandler
 
     public static void PrintOptions()
     {
-        Console.WriteLine("\nChoose an option:");
-        Console.WriteLine("0 - Exit");
-        Console.WriteLine("1 - Add new artist");
-        Console.WriteLine("2 - Add new album");
-        Console.WriteLine("3 - Add new song");
-        Console.WriteLine("4 - Print all artists");
-        Console.WriteLine("5 - Print all albums");
-        Console.WriteLine("6 - Print all songs");
-        Console.WriteLine("7 - Print all songs by artist");
-        Console.WriteLine("8 - Print all songs by album");
-        Console.WriteLine("9 - Print all albums by artist");
-        Console.WriteLine("10 - Print all albums by year");
-        Console.WriteLine("11 - Sort songs by name");
-        Console.WriteLine("12 - Sort songs by artist");
-        Console.WriteLine("13 - Sort songs by album");
-        Console.WriteLine("14 - Sort albums by year");
-        Console.WriteLine("15 - Delete artist");
-        Console.WriteLine("16 - Delete album");
-        Console.WriteLine("17 - Delete song");
-        Console.WriteLine("18 - Edit artist");
-        Console.WriteLine("19 - Edit album");
-        Console.WriteLine("20 - Edit song");
-        
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("Choose an option:");
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("0 | Exit");
+        PrintTopAndBottomLine(40);
+        // Add new
+        PrintTextWithSides("1 | Add new artist");
+        PrintTextWithSides("2 | Add new album");
+        PrintTextWithSides("3 | Add new song");
+        PrintTextWithSides("4 | Create playlist");
+        // Print all
+        // PrintLine();
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("5 | Print all artists");
+        PrintTextWithSides("6 | Print all albums");
+        PrintTextWithSides("7 | Print all songs");
+        // Print songs by
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("8 | Print all songs by artist");
+        PrintTextWithSides("9 | Print all songs by album");
+        PrintTextWithSides("10 | Print all songs by genre");
+        // Print albums by
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("11 | Print all albums by artist");
+        PrintTextWithSides("12 | Print all albums by year");
+        PrintTextWithSides("13 | Print all albums by genre");
+        // Print artist by
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("14 | Print artist by song");
+        // Sort by
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("15 | Sort songs by artist");
+        PrintTextWithSides("16 | Sort songs by album");
+        PrintTextWithSides("17 | Sort songs by genre");
+        PrintTextWithSides("18 | Sort songs by duration");
+        PrintTextWithSides("19 | Sort albums by year");
+        PrintTextWithSides("20 | Sort albums by genre");
+        PrintTextWithSides("21 | Sort albums by duration");
+        // Delete
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("22 | Delete artist");
+        PrintTextWithSides("23 | Delete album");
+        PrintTextWithSides("24 | Delete song");
+        // Edit
+        PrintTopAndBottomLine(40);
+        PrintTextWithSides("25 | Edit artist");
+        PrintTextWithSides("26 | Edit album name");
+        PrintTextWithSides("27 | Edit album year");
+        PrintTextWithSides("28 | Edit song name");
+        PrintTextWithSides("29 | Edit song duration");
+        PrintTextWithSides("30 | Edit song genre");
+        PrintTopAndBottomLine(40);
     }
     
     public static string GetString(string message)
@@ -55,4 +84,25 @@ public abstract class InputHandler
         }
         return int.Parse(input);
     }
+    
+    public static string GetDuration(string message, string format)
+    {
+        string input = GetString(message);
+        while (!TimeHandler.IsValidDuration(input, format))
+        {
+            input = GetString(message);
+        }
+        return input;
+    }
+    
+    public static void PrintTopAndBottomLine(int length)
+    {
+        Console.WriteLine("+" + new string('–', length) + "+");
+    }
+    
+    public static void PrintTextWithSides(string text)
+    {
+        Console.WriteLine("| " + text + new string(' ', 38 - text.Length) + " |");
+    }
+    
 }
