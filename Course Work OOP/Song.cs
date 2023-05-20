@@ -21,7 +21,7 @@ public class Song
         ArtistId = artistId;
     }
     
-    public void PrintInfo()
+    public void PrintInfo(bool withId = false)
     {
         Artist? artist = MusicBaseArtists.GetArtist("Id", ArtistId);
         Album? album = MusicBaseAlbums.GetAlbum("Id", AlbumId);
@@ -30,13 +30,17 @@ public class Song
             return;
         }
         Console.ForegroundColor = ConsoleColor.Yellow;
-        InputHandler.PrintTopAndBottomLine(40);
+        InputHandler.PrintTopAndBottomLine();
+        if (withId)
+        {
+            InputHandler.PrintTextWithSides($"Id: {Id}");
+        }
         InputHandler.PrintTextWithSides($"Name: {Name}");
         InputHandler.PrintTextWithSides($"Artist: {artist.Name}");
         InputHandler.PrintTextWithSides($"Album: {album.Name}");
         InputHandler.PrintTextWithSides($"Genre: {Genre}");
         InputHandler.PrintTextWithSides($"Duration: {Duration}");
-        InputHandler.PrintTopAndBottomLine(40);
+        InputHandler.PrintTopAndBottomLine();
         Console.WriteLine();
         Console.ResetColor();
     }

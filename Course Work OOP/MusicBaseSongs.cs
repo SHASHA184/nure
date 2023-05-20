@@ -7,17 +7,11 @@ public class MusicBaseSongs: MusicBase
     
     
     // print info about song/songs
-    public static void PrintSongs()
+    public static void PrintSongs(bool withId = false)
     {
         foreach (var song in Songs)
         {
-            Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
-            Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
-            if (artist == null || album == null)
-            {
-                continue;
-            }
-            song.PrintInfo();
+            song.PrintInfo(withId);
         }
     }
 
@@ -26,13 +20,21 @@ public class MusicBaseSongs: MusicBase
         var song = GetSong("Name", songName);
         if (song == null)
         {
-            Console.WriteLine("Song not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
         if (artist == null)
         {
-            Console.WriteLine("Artist not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         List<Album> albums = Albums.Where(a => a.ArtistId == artist.Id).ToList();
@@ -79,53 +81,112 @@ public class MusicBaseSongs: MusicBase
         var album = MusicBaseAlbums.GetAlbum("Name", albumName);
         if (album == null)
         {
-            Console.WriteLine("Album not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var song = GetSong("Name", name);
         if (song != null)
         {
-            Console.WriteLine("Song already exists");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song already exists");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)
         {
-            Console.WriteLine("Artist not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         song = new Song(GetLastId("songs"), name, duration, genre, album.Id, album.ArtistId);
         Songs.Add(song);
-        string jsonString = JsonSerializer.Serialize(Songs);
-        JsonHandler.WriteJson("songs.json", jsonString);
         MusicBaseAlbums.UpdateAlbumSongs(album, song, "add");
         MusicBaseArtists.UpdateArtistSongs(artist, song);
     }
-    
+
+    public static void EditSong(int id, string field, string newValue)
+    {
+        var song = GetSong("Id", id.ToString());
+        if (song == null)
+        {
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+
+        var artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
+        if (artist == null)
+        {
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+
+        var album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
+        if (album == null)
+        {
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+
+        song.GetType().GetProperty(field)?.SetValue(song, newValue);
+        Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
+    }
+
     public static void EditSongName(string artistName, string albumName, string songName, string newSongName)
     {
         var artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)
         {
-            Console.WriteLine("Artist not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var album = MusicBaseAlbums.GetAlbum("Name", albumName);
         if (album == null)
         {
-            Console.WriteLine("Album not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var song = GetSong("Name", songName);
         if (song == null)
         {
-            Console.WriteLine("Song not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         song.Name = newSongName;
         Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
-        string jsonString = JsonSerializer.Serialize(Songs);
-        JsonHandler.WriteJson("songs.json", jsonString);
     }
     
     public static void EditSongGenre(string artistName, string albumName, string songName, string newGenre)
@@ -133,25 +194,35 @@ public class MusicBaseSongs: MusicBase
         var artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)
         {
-            Console.WriteLine("Artist not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var album = MusicBaseAlbums.GetAlbum("Name", albumName);
         if (album == null)
         {
-            Console.WriteLine("Album not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var song = GetSong("Name", songName);
         if (song == null)
         {
-            Console.WriteLine("Song not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         song.Genre = newGenre;
         Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
-        string jsonString = JsonSerializer.Serialize(Songs);
-        JsonHandler.WriteJson("songs.json", jsonString);
     }
     
     public static void EditSongDuration(string artistName, string albumName, string songName, string newDuration)
@@ -159,64 +230,75 @@ public class MusicBaseSongs: MusicBase
         var artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)
         {
-            Console.WriteLine("Artist not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var album = MusicBaseAlbums.GetAlbum("Name", albumName);
         if (album == null)
         {
-            Console.WriteLine("Album not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
         var song = GetSong("Name", songName);
         if (song == null)
         {
-            Console.WriteLine("Song not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
-        string difference = (Convert.ToDateTime(newDuration) - Convert.ToDateTime(song.Duration)).ToString();
-        
         song.Duration = newDuration;
         Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
         MusicBaseAlbums.UpdateAlbumSongs(album, song, "edit");
-        string jsonString = JsonSerializer.Serialize(Songs);
-        JsonHandler.WriteJson("songs.json", jsonString);
     }
     
-    public static void DeleteSong(string artistName, string albumName, string songName)
+    public static void DeleteSong(int id)
     {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
-        if (artist == null)
-        {
-            Console.WriteLine("Artist not found");
-            return;
-        }
-        var album = MusicBaseAlbums.GetAlbum("Name", albumName);
-        if (album == null)
-        {
-            Console.WriteLine("Album not found");
-            return;
-        }
-        var song = GetSong("Name", songName);
+        var song = GetSong("Id", id);
+        
         if (song == null)
         {
-            Console.WriteLine("Song not found");
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Song not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
             return;
         }
-        int songIndex = Songs.FindIndex(s => s.Id == song.Id);
+        
+        var album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
+        
+        if (album == null)
+        {
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album not found");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+        
+        int songIndex = Songs.FindIndex(s => s.Id == id);
         if (songIndex == -1) 
         {
             return;
         }
+        
         Songs.RemoveAt(songIndex);
-        string jsonString = JsonSerializer.Serialize(Songs);
-        JsonHandler.WriteJson("songs.json", jsonString);
         
         MusicBaseAlbums.UpdateAlbumSongs(album, song, "delete");
         
         Artists?.Find(a => a.Id == song.ArtistId)?.SongIds.Remove(song.Id);
-        jsonString = JsonSerializer.Serialize(Artists);
-        JsonHandler.WriteJson("artists.json", jsonString);
     }
 
     public static Song? GetSong<T>(string field, T value)
@@ -239,5 +321,11 @@ public class MusicBaseSongs: MusicBase
         }
         List<Song>? songs = JsonSerializer.Deserialize<List<Song>>(jsonString);
         return songs ?? new List<Song>();
+    }
+
+    public static void SaveSongs()
+    {
+        string jsonString = JsonSerializer.Serialize(Songs);
+        JsonHandler.WriteJson("songs.json", jsonString);
     }
 }

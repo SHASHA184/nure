@@ -7,16 +7,11 @@ public class MusicBaseAlbums: MusicBase
     
 
     // print info about album/albums
-    public static void PrintAlbums()
+    public static void PrintAlbums(bool withId = false)
     {
         foreach (var album in Albums)
         {
-            Artist? artist = MusicBaseArtists.GetArtist("Id", album.ArtistId);
-            if (artist == null)
-            {
-                continue;
-            }
-            album.PrintInfo();
+            album.PrintInfo(withId);
         }
     }
     
@@ -117,8 +112,6 @@ public class MusicBaseAlbums: MusicBase
         }
         album = new Album(GetLastId("albums"), name, year, genre, artist.Id);
         Albums.Add(album);
-        string jsonString = JsonSerializer.Serialize(Albums);
-        JsonHandler.WriteJson("albums.json", jsonString);
         MusicBaseArtists.UpdateArtistAlbums(artist, album);
     }
 
@@ -144,44 +137,17 @@ public class MusicBaseAlbums: MusicBase
         return albums ?? new List<Album>();
     }
     
-    public static void EditAlbumName(string artistName, string albumName, string newAlbumName)
+    public static void EditAlbum<T>(int id, string field, T newValue)
     {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
-        if (artist == null)
-        {
-            Console.WriteLine("Artist not found");
-            return;
-        }
-        var album = GetAlbum("Name", albumName);
+        var album = GetAlbum("Id", id);
         if (album == null)
         {
             Console.WriteLine("Album not found");
             return;
         }
-        album.Name = newAlbumName;
-        string jsonString = JsonSerializer.Serialize(Albums);
-        JsonHandler.WriteJson("albums.json", jsonString);
+        album.GetType().GetProperty(field)?.SetValue(album, newValue);
     }
-    
-    public static void EditAlbumYear(string artistName, string albumName, int newAlbumYear)
-    {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
-        if (artist == null)
-        {
-            Console.WriteLine("Artist not found");
-            return;
-        }
-        var album = GetAlbum("Name", albumName);
-        if (album == null)
-        {
-            Console.WriteLine("Album not found");
-            return;
-        }
-        album.Year = newAlbumYear;
-        string jsonString = JsonSerializer.Serialize(Albums);
-        JsonHandler.WriteJson("albums.json", jsonString);
-    }
-    
+
     
     public static void UpdateAlbumSongs(Album album, Song song, string action)
     {
@@ -211,20 +177,18 @@ public class MusicBaseAlbums: MusicBase
         if (Albums != null)
         {
             Albums[Albums.FindIndex(a => a.Id == album.Id)].Duration = newDuration;
-            string jsonString = JsonSerializer.Serialize(Albums);
-            JsonHandler.WriteJson("albums.json", jsonString);
         }
     }
     
-    public static void DeleteAlbum(string artistName, string albumName)
+    public static void DeleteAlbum(int id)
     {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
+        var artist = MusicBaseArtists.GetArtist("Id", id);
         if (artist == null)
         {
             Console.WriteLine("Artist not found");
             return;
         }
-        var album = GetAlbum("Name", albumName);
+        var album = GetAlbum("Id", id);
         if (album == null)
         {
             Console.WriteLine("Album not found");
@@ -238,7 +202,7 @@ public class MusicBaseAlbums: MusicBase
             {
                 continue;
             }
-            MusicBaseSongs.DeleteSong(artistName, albumName, song.Name);
+            MusicBaseSongs.DeleteSong(song.Id);
         }
         MusicBaseArtists.DeleteArtistAlbum(artist, album);
         
@@ -249,8 +213,11 @@ public class MusicBaseAlbums: MusicBase
             return;
         }
         Albums.RemoveAt(albumIndex);
+    }
+    
+    public static void SaveAlbums()
+    {
         string jsonString = JsonSerializer.Serialize(Albums);
         JsonHandler.WriteJson("albums.json", jsonString);
     }
-    
 }

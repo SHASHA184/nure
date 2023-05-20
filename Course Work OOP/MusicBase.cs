@@ -18,36 +18,35 @@ public class MusicBase
     // common methods
     protected static int GetLastId(string key)
     {
-        string artistsJson = JsonHandler.ReadJson(key + ".json");
-        if (artistsJson == "")
-        {
-            return 1;
-        }
         if (key == "artists")
         {
-            List<Artist>? artists = JsonSerializer.Deserialize<List<Artist>>(artistsJson);
-            if (artists != null && artists.Count > 0)
+            if (Artists.Count > 0)
             {
-                return artists.Last().Id + 1;
+                return Artists.Last().Id + 1;
             }
         }
         else if (key == "albums")
         {
-            List<Album>? albums = JsonSerializer.Deserialize<List<Album>>(artistsJson);
-            if (albums != null && albums.Count > 0)
+            if (Albums.Count > 0)
             {
-                return albums.Last().Id + 1;
+                return Albums.Last().Id + 1;
             }
         }
         else if (key == "songs")
         {
-            List<Song>? songs = JsonSerializer.Deserialize<List<Song>>(artistsJson);
-            if (songs != null && songs.Count > 0)
+            if (Songs.Count > 0)
             {
-                return songs.Last().Id + 1;
+                return Songs.Last().Id + 1;
             }
         }
         return 1;
+    }
+
+    public void Save()
+    {
+        MusicBaseArtists.SaveArtists();
+        MusicBaseAlbums.SaveAlbums();
+        MusicBaseSongs.SaveSongs();
     }
 
 }

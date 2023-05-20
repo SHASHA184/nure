@@ -1,8 +1,8 @@
 namespace Course_Work_OOP;
 
-public class MusicBasePlaylists
+public class Playlists
 {
-    public static void Create(string name, string description, string genre, string duration, int yearFrom, int yearTo)
+    public static void Add(string name, string description, string genre, string duration, int yearFrom, int yearTo)
 
     {
         List<Song> playlistSongs = new List<Song>();

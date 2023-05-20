@@ -17,14 +17,18 @@ public class Artist
         SongIds = new List<int>();
     }
     
-    public void PrintInfo()
+    public void PrintInfo(bool withId = false)
     {
         List<Album> albums = MusicBaseAlbums.GetAlbums();
         List<Song> songs = MusicBaseSongs.GetSongs();
         Console.ForegroundColor = ConsoleColor.Blue;
-        InputHandler.PrintTopAndBottomLine(40);
+        InputHandler.PrintTopAndBottomLine();
+        if (withId)
+        {
+            InputHandler.PrintTextWithSides($"Id: {Id}");
+        }
         InputHandler.PrintTextWithSides(Name);
-        InputHandler.PrintTopAndBottomLine(40);
+        InputHandler.PrintTopAndBottomLine();
         Console.ResetColor();
         Console.WriteLine("\nAlbums:");
         foreach (var albumId in AlbumIds)
@@ -32,12 +36,12 @@ public class Artist
             var album = albums.Find(a => a.Id == albumId);
             album?.PrintInfo();
         }
-        Console.WriteLine("Songs:");
-        foreach (var songId in SongIds)
-        {
-            var song = songs.Find(s => s.Id == songId);
-            song?.PrintInfo();
-        }
+        // Console.WriteLine("Songs:");
+        // foreach (var songId in SongIds)
+        // {
+        //     var song = songs.Find(s => s.Id == songId);
+        //     song?.PrintInfo();
+        // }
     }
 
 
