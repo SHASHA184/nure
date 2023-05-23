@@ -117,18 +117,13 @@ public class MusicBaseAlbums: MusicBase
 
     public static Album? GetAlbum<T>(string field, T value)
     {
-        string jsonString = JsonHandler.ReadJson("albums.json");
-        if (jsonString == "")
-        {
-            return null;
-        }
-        List<Album>? albums = JsonSerializer.Deserialize<List<Album>>(jsonString);
-        return albums?.FirstOrDefault(a => a.GetType().GetProperty(field)?.GetValue(a)?.Equals(value) == true);
+        Album? album = Albums.FirstOrDefault(a => a.GetType().GetProperty(field)?.GetValue(a)?.Equals(value) == true);
+        return album;
     }
     
     public static List<Album> GetAlbums()
     {
-        string jsonString = JsonHandler.ReadJson("albums.json");
+        string jsonString = FileHandler.ReadFile("albums.json");
         if (jsonString == "")
         {
             return new List<Album>();
@@ -218,6 +213,6 @@ public class MusicBaseAlbums: MusicBase
     public static void SaveAlbums()
     {
         string jsonString = JsonSerializer.Serialize(Albums);
-        JsonHandler.WriteJson("albums.json", jsonString);
+        FileHandler.WriteFile("albums.json", jsonString);
     }
 }

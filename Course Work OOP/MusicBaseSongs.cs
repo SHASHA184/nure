@@ -303,18 +303,13 @@ public class MusicBaseSongs: MusicBase
 
     public static Song? GetSong<T>(string field, T value)
     {
-        string jsonString = JsonHandler.ReadJson("songs.json");
-        if (jsonString == "")
-        {
-            return null;
-        }
-        List<Song>? songs = JsonSerializer.Deserialize<List<Song>>(jsonString);
-        return songs?.FirstOrDefault(a => a.GetType().GetProperty(field)?.GetValue(a)?.Equals(value) == true);
+        Song? song = Songs?.FirstOrDefault(a => a.GetType().GetProperty(field)?.GetValue(a)?.Equals(value) == true);
+        return song;
     }
     
     public static List<Song> GetSongs()
     {
-        string jsonString = JsonHandler.ReadJson("songs.json");
+        string jsonString = FileHandler.ReadFile("songs.json");
         if (jsonString == "")
         {
             return new List<Song>();
@@ -326,6 +321,6 @@ public class MusicBaseSongs: MusicBase
     public static void SaveSongs()
     {
         string jsonString = JsonSerializer.Serialize(Songs);
-        JsonHandler.WriteJson("songs.json", jsonString);
+        FileHandler.WriteFile("songs.json", jsonString);
     }
 }

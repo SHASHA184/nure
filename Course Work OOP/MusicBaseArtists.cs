@@ -80,18 +80,13 @@ public class MusicBaseArtists: MusicBase
     public static Artist? GetArtist<T>(string field, T value)
     {
         
-        string jsonString = JsonHandler.ReadJson("artists.json");
-        if (jsonString == "")
-        {
-            return null;
-        }
-        List<Artist>? artists = JsonSerializer.Deserialize<List<Artist>>(jsonString);
-        return artists?.FirstOrDefault(a => a.GetType().GetProperty(field)?.GetValue(a)?.Equals(value) == true);
+        Artist? artist = Artists?.FirstOrDefault(a => a.GetType().GetProperty(field)?.GetValue(a)?.Equals(value) == true);
+        return artist;
     }
     
     public static List<Artist> GetArtists()
     {
-        string jsonString = JsonHandler.ReadJson("artists.json");
+        string jsonString = FileHandler.ReadFile("artists.json");
         if (jsonString == "")
         {
             return new List<Artist>();
@@ -174,6 +169,6 @@ public class MusicBaseArtists: MusicBase
     public static void SaveArtists()
     {
         string jsonString = JsonSerializer.Serialize(Artists);
-        JsonHandler.WriteJson("artists.json", jsonString);
+        FileHandler.WriteFile("artists.json", jsonString);
     }
 }

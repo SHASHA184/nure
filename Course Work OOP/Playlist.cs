@@ -3,51 +3,67 @@ namespace Course_Work_OOP;
 public class Playlist
 {
     public string Name { get; set; }
-    public string Description { get; set; }
-    public string Genre { get; set; }
+    private string Description { get; set; }
+    private List<string> Artists { get; set; }
+    private List<string> Genres { get; set; }
     public string Duration { get; set; }
-    public int YearFrom { get; set; }
-    public int YearTo { get; set; }
+    private int YearFrom { get; set; }
+    private int YearTo { get; set; }
     public List<Song> PlaylistSongs { get; set; }
 
-    public Playlist(string name, string description, string genre, string duration, int yearFrom, int yearTo, List<Song> playlistSongs)
+    public Playlist(string name, string description, List<string> artists, List<string> genres, string duration, int yearFrom, int yearTo,
+        List<Song> playlistSongs)
     {
         Name = name;
         Description = description;
-        Genre = genre;
+        Artists = artists;
+        Genres = genres;
         Duration = duration;
         YearFrom = yearFrom;
         YearTo = yearTo;
         PlaylistSongs = playlistSongs;
     }
-    
+
     public void WriteToFile(string filePath)
     {
-        using (StreamWriter writer = new StreamWriter(filePath))
+        string playlistInfo = $"Name: {Name}\n" +
+                              $"Description: {Description}\n" +
+                              $"Artists: {string.Join(", ", Artists)}\n" +
+                              $"Genres: {string.Join(", ", Genres)}\n" +
+                              $"Duration: {Duration}\n" +
+                              $"From year: {YearFrom}\n" +
+                              $"To year: {YearTo}\n\n" +
+                              $"Songs:\n";
+
+        foreach (var song in PlaylistSongs)
         {
-            writer.WriteLine($"Name: {Name}");
-            writer.WriteLine($"Description: {Description}");
-            writer.WriteLine($"Genre: {Genre}");
-            writer.WriteLine($"Duration: {Duration}");
-            writer.WriteLine($"From year: {YearFrom}");
-            writer.WriteLine($"To year: {YearTo}");
-            writer.WriteLine("Songs:");
-            
-            foreach (var song in PlaylistSongs)
+            Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
+            if (artist != null)
             {
-                Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
-                Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
-                if (artist == null || album == null)
-                {
-                    continue;
-                }
-                writer.WriteLine();
-                writer.WriteLine($"Name: {song.Name}");
-                writer.WriteLine($"Artist: {artist.Name}");
-                writer.WriteLine($"Album: {album.Name}");
-                writer.WriteLine($"Genre: {song.Genre}");
-                writer.WriteLine($"Duration: {song.Duration}");
+                playlistInfo += $"Name: {song.Name}\n" +
+                                $"Artist: {artist.Name}\n" +
+                                $"Genre: {song.Genre}\n" +
+                                $"Duration: {song.Duration}\n";
             }
+        }
+        FileHandler.WriteFile(filePath, playlistInfo);
+    }
+
+    public void PrintInfo()
+    {
+        InputHandler.PrintTopAndBottomLine();
+        InputHandler.PrintTextWithSides($"Name: {Name}");
+        InputHandler.PrintTextWithSides($"Description: {Description}");
+        InputHandler.PrintTextWithSides($"Genres: {string.Join(", ", Genres)}");
+        InputHandler.PrintTextWithSides($"Duration: {Duration}");
+        InputHandler.PrintTextWithSides($"From year: {YearFrom}");
+        InputHandler.PrintTextWithSides($"To year: {YearTo}");
+        InputHandler.PrintTextWithSides("Songs:");
+        InputHandler.PrintTopAndBottomLine();
+
+        foreach (var song in PlaylistSongs)
+        {
+            song.PrintInfo();
         }
     }
 }

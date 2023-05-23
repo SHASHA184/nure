@@ -79,20 +79,20 @@ public abstract class InputHandler
 
     private static void AddNewAlbum()
     {
+        string artistName = GetString("Enter artist name:");
         string name = GetString("Enter album name:");
         int year = GetInt("Enter album year:");
-        string artistName = GetString("Enter artist name:");
         string genre = GetString("Enter genre:");
         MusicBaseAlbums.AddAlbum(name, year, genre, artistName);
     }
 
     private static void AddNewSong()
     {
-        string name = GetString("Enter song name:");
-        string albumName = GetString("Enter album name:");
         string artistName = GetString("Enter artist name:");
-        string genre = GetString("Enter genre:");
+        string albumName = GetString("Enter album name:");
+        string name = GetString("Enter song name:");
         string duration = GetDuration("Enter duration in mm:ss format:", "mmss");
+        string genre = GetString("Enter genre:");
         MusicBaseSongs.AddSong(name, albumName, artistName, genre, duration);
     }
 
@@ -100,12 +100,14 @@ public abstract class InputHandler
     {
         string name = GetString("Enter playlist name:");
         string description = GetString("Enter playlist description:");
-        string genre = GetString("Enter playlist genre (type All if not necessary):");
+        List<string> artists = GetList("Enter artists (comma-separated, type All if not necessary):");
+        List<string> genres = GetList("Enter playlist genres (comma-separated, type All if not necessary):");
         string duration = GetDuration("Enter playlist duration in hh:mm:ss format:", "hhmmss");
         int yearFrom = GetInt("Enter playlist year from:");
         int yearTo = GetInt("Enter playlist year to:");
-        Playlists.Add(name, description, genre, duration, yearFrom, yearTo);
+        Playlists.Add(name, description, artists, genres, duration, yearFrom, yearTo);
     }
+    
 
     private static void DisplayPrintSubMenu()
 {
@@ -543,8 +545,91 @@ public abstract class InputHandler
     }
     
     
+    public static void HandlePlaylistSaveMenu(Playlist playlist)
+    {
+        string choice = "";
+        while (choice != "0")
+        {
+            DisplayPlaylistSubMenu();
+            choice = GetString("Enter your choice:");
+            switch (choice)
+            {
+                case "0":
+                    Console.WriteLine();
+                    PrintTopAndBottomLine();
+                    PrintTextWithSides("Returning to the main menu.");
+                    PrintTopAndBottomLine();
+                    Console.WriteLine();
+                    break;
+                case "1":
+                    SavePlaylist(playlist);
+                    break;
+                case "2":
+                    AddSongToPlaylist(playlist);
+                    break;
+                case "3":
+                    RemoveSongFromPlaylist(playlist);
+                    break;
+                case "4":
+                    PrintPlaylist(playlist);
+                    break;
+                default:
+                    Console.WriteLine();
+                    PrintTopAndBottomLine();
+                    PrintTextWithSides("Invalid choice");
+                    PrintTopAndBottomLine();
+                    Console.WriteLine();
+                    break;
+            }
+        }
+    }
     
+    private static void DisplayPlaylistSubMenu()
+    {
+        PrintTopAndBottomLine();
+        PrintTextWithSides("Choose an option:");
+        PrintTopAndBottomLine();
+        PrintTextWithSides("0 | Back");
+        PrintTopAndBottomLine();
+        PrintTextWithSides("1 | Save playlist");
+        PrintTextWithSides("2 | Add song to playlist");
+        PrintTextWithSides("3 | Remove song from playlist");
+        PrintTextWithSides("4 | Print playlist");
+        PrintTopAndBottomLine();
+    }
     
+    private static void SavePlaylist(Playlist playlist)
+
+    {
+        Playlists.SavePlaylist(playlist);
+    }
+    
+    private static void AddSongToPlaylist(Playlist playlist)
+    {
+        PrintAllSongs(true);
+        int songId = GetInt("Enter the id of the song you want to add to the playlist:");
+        Playlists.AddSongToPlaylist(playlist, songId);
+    }
+    
+    private static void RemoveSongFromPlaylist(Playlist playlist)
+    {
+        foreach (Song song in playlist.PlaylistSongs)
+        {
+            PrintTextWithSides($"{song.Id} | {song.Name}");
+        }
+        int songId = GetInt("Enter the id of the song you want to remove from the playlist:");
+        Playlists.RemoveSongFromPlaylist(playlist, songId);
+
+    }
+
+    private static void PrintPlaylist(Playlist playlist)
+    {
+        playlist.PrintInfo();
+    }
+
+
+
+
     // validation methods
     public static string GetString(string message)
     {
@@ -563,7 +648,7 @@ public abstract class InputHandler
         return input;
     }
 
-    private static int GetInt(string message)
+    public static int GetInt(string message)
     {
         PrintTopAndBottomLine();
         PrintTextWithSides(message);
@@ -589,6 +674,31 @@ public abstract class InputHandler
         }
         return input;
     }
+    
+    private static List<string> GetList(string message)
+    {
+        string input = GetString(message);
+        while (!input.Contains(',') && input != "All" && input.Length == 0)
+        {
+            input = GetString(message);
+        }
+        if (input == "All")
+        {
+            return new List<string>();
+        }
+        return input.Split(',').ToList();
+    }
+    
+    private static string GetChoice(string message, List<string> options)
+    {
+        string input = GetString(message);
+        while (!options.Contains(input))
+        {
+            input = GetString(message);
+        }
+        return input;
+    }
+
     
     // print methods
     public static void PrintTopAndBottomLine()
@@ -632,7 +742,5 @@ public abstract class InputHandler
             }
         }
     }
-
     
-
 }
