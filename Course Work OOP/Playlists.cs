@@ -104,7 +104,7 @@ public class Playlists
     }
     
 
-    private static void Shuffle<T>(List<T> list)
+    private static List<T> Shuffle<T>(List<T> list)
     {
         Random random = new Random();
         int n = list.Count;
@@ -114,6 +114,7 @@ public class Playlists
             int k = random.Next(n + 1);
             (list[k], list[n]) = (list[n], list[k]);
         }
+        return list;
     }
     
     private static List<Song> GetAvailableSongs(List<string> artists, List<string> genres, int yearFrom, int yearTo)
@@ -121,27 +122,24 @@ public class Playlists
         List<Song> songs = new List<Song>();
         if (genres.Count == 0 && artists.Count == 0)
         {
-            return MusicBaseSongs.GetSongs();
+            return Shuffle(MusicBaseSongs.GetSongs());
         }
         if (genres.Count != 0)
         {
             songs.AddRange(GetSongsByGenres(genres));
         }
-        else if (artists.Count != 0)
+        if (artists.Count != 0)
         {
             songs.AddRange(GetSongsByArtists(artists));
         }
-        
         DeleteOutsideYearRange(songs, yearFrom, yearTo);
-        
-        Shuffle(songs);
         return songs;
     }
     
     private static List<Song> GetSongsByArtists(List<string> artists)
     {
         List<Song> songs = new List<Song>();
-        foreach (Song song in MusicBaseSongs.GetSongs())
+        foreach (Song song in Shuffle(MusicBaseSongs.GetSongs()))
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
             if (artist == null)
@@ -159,7 +157,7 @@ public class Playlists
     private static List<Song> GetSongsByGenres(List<string> genres)
     {
         List<Song> songs = new List<Song>();
-        foreach (Song song in MusicBaseSongs.GetSongs())
+        foreach (Song song in Shuffle(MusicBaseSongs.GetSongs()))
         {
             if (genres.Any(g => g.Trim().Equals(song.Genre, StringComparison.OrdinalIgnoreCase)))
             {

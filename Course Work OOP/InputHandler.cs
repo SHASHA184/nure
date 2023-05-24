@@ -606,7 +606,14 @@ public abstract class InputHandler
     
     private static void AddSongToPlaylist(Playlist playlist)
     {
-        PrintAllSongs(true);
+        foreach (Song song in MusicBaseSongs.GetSongs())
+        {
+            if (playlist.PlaylistSongs.Any(s => s.Id == song.Id))
+            {
+                continue;
+            }
+            song.PrintInfo(true);
+        }
         int songId = GetInt("Enter the id of the song you want to add to the playlist:");
         Playlists.AddSongToPlaylist(playlist, songId);
     }
@@ -615,7 +622,7 @@ public abstract class InputHandler
     {
         foreach (Song song in playlist.PlaylistSongs)
         {
-            PrintTextWithSides($"{song.Id} | {song.Name}");
+            song.PrintInfo(true);
         }
         int songId = GetInt("Enter the id of the song you want to remove from the playlist:");
         Playlists.RemoveSongFromPlaylist(playlist, songId);
@@ -730,33 +737,16 @@ public abstract class InputHandler
         }
         else
         {
-            List<string> lines = new List<string>();
-            string[] words = text.Split(' ');
-
-            string currentLine = string.Empty;
-            foreach (string word in words)
+            int startIndex = 0;
+            while (startIndex < text.Length)
             {
-                if (currentLine.Length + word.Length + 1 <= Length - 2)
-                {
-                    currentLine += word + ' ';
-                }
-                else
-                {
-                    lines.Add(currentLine.Trim());
-                    currentLine = word + ' ';
-                }
-            }
-
-            if (!string.IsNullOrWhiteSpace(currentLine))
-            {
-                lines.Add(currentLine.Trim());
-            }
-
-            foreach (string line in lines)
-            {
-                Console.WriteLine("| " + line + new string(' ', Length - 2 - line.Length) + " |");
+                int remainingLength = text.Length - startIndex;
+                int charsToPrint = Math.Min(Length - 2, remainingLength);
+                string substring = text.Substring(startIndex, charsToPrint);
+                Console.WriteLine("| " + substring + new string(' ', Length - 2 - substring.Length) + " |");
+                startIndex += charsToPrint;
             }
         }
     }
-    
+
 }
