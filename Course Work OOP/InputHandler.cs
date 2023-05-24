@@ -81,7 +81,7 @@ public abstract class InputHandler
     {
         string artistName = GetString("Enter artist name:");
         string name = GetString("Enter album name:");
-        int year = GetInt("Enter album year:");
+        int year = GetYear("Enter album year:");
         string genre = GetString("Enter genre:");
         MusicBaseAlbums.AddAlbum(name, year, genre, artistName);
     }
@@ -103,8 +103,8 @@ public abstract class InputHandler
         List<string> artists = GetList("Enter artists (comma-separated, type All if not necessary):");
         List<string> genres = GetList("Enter playlist genres (comma-separated, type All if not necessary):");
         string duration = GetDuration("Enter playlist duration in hh:mm:ss format:", "hhmmss");
-        int yearFrom = GetInt("Enter playlist year from:");
-        int yearTo = GetInt("Enter playlist year to:");
+        int yearFrom = GetYear("Enter playlist year from:");
+        int yearTo = GetYear("Enter playlist year to:");
         Playlists.Add(name, description, artists, genres, duration, yearFrom, yearTo);
     }
     
@@ -235,7 +235,7 @@ public abstract class InputHandler
     
     private static void PrintAlbumsByYear()
     {
-        int year = GetInt("Enter year:");
+        int year = GetYear("Enter year:");
         MusicBaseAlbums.PrintAlbumsByYear(year);
     }
     
@@ -508,7 +508,7 @@ public abstract class InputHandler
     {
         PrintAllAlbums(true);
         int id = GetInt("Enter the id of the album you want to edit:");
-        int year = GetInt("Enter the new year of the album:");
+        int year = GetYear("Enter the new year of the album:");
         MusicBaseAlbums.EditAlbum(id, "Year", year);
     }
     
@@ -648,13 +648,29 @@ public abstract class InputHandler
         return input;
     }
 
-    public static int GetInt(string message)
+    private static int GetInt(string message)
     {
         PrintTopAndBottomLine();
         PrintTextWithSides(message);
         PrintTopAndBottomLine();
         var input = Console.ReadLine();
         while (!int.TryParse(input, out _))
+        {
+            PrintTopAndBottomLine();
+            PrintTextWithSides(message);
+            PrintTopAndBottomLine();
+            input = Console.ReadLine();
+        }
+        return int.Parse(input);
+    }
+    
+    private static int GetYear(string message)
+    {
+        PrintTopAndBottomLine();
+        PrintTextWithSides(message);
+        PrintTopAndBottomLine();
+        var input = Console.ReadLine();
+        while (!int.TryParse(input, out _) || int.Parse(input) < 0 || int.Parse(input) > DateTime.Now.Year)
         {
             PrintTopAndBottomLine();
             PrintTextWithSides(message);
