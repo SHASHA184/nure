@@ -88,6 +88,16 @@ public class MusicBaseSongs: MusicBase
             Console.WriteLine();
             return;
         }
+        Song? checkSong = GetSong("AlbumId", album.Id);
+        if (checkSong != null)
+        {
+            Console.WriteLine();
+            InputHandler.PrintTopAndBottomLine();
+            InputHandler.PrintTextWithSides("Album already has this song");
+            InputHandler.PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
 
         Artist? artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)

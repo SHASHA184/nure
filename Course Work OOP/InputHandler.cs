@@ -2,7 +2,7 @@ namespace Course_Work_OOP;
 
 public abstract class InputHandler
 {
-    private const int Length = 40;
+    private const int Length = 70;
 
     public static void DisplayMainMenu()
     {
