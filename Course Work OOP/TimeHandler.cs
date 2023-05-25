@@ -75,7 +75,7 @@ public abstract class TimeHandler
     public static string CalculateDuration(List<string> allDurations)
     {
         string totalDuration = "00:00:00";
-        foreach (var duration in allDurations)
+        foreach (string duration in allDurations)
         {
             totalDuration = AddDuration(totalDuration, duration);
         }

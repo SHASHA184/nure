@@ -8,7 +8,7 @@ public class MusicBaseArtists: MusicBase
     // print info about artist/artists
     public static void PrintArtists(bool withId = false)
     {
-        foreach (var artist in Artists)
+        foreach (Artist artist in Artists)
         {
             artist.PrintInfo(withId);
         }
@@ -17,15 +17,15 @@ public class MusicBaseArtists: MusicBase
     
     public static void PrintSongsByArtist(string artistName)
     {
-        var artist = GetArtist("Name", artistName);
+        Artist? artist = GetArtist("Name", artistName);
         if (artist == null)
         {
             
             Console.WriteLine("Artist not found");
             return;
         }
-        var artistSongs = Songs.Where(s => artist.SongIds.Contains(s.Id)).ToList();
-        foreach (var artistSong in artistSongs)
+        List<Song> artistSongs = Songs.Where(s => artist.SongIds.Contains(s.Id)).ToList();
+        foreach (Song artistSong in artistSongs)
         {
             artistSong.PrintInfo();
         }
@@ -33,14 +33,14 @@ public class MusicBaseArtists: MusicBase
     
     public static void PrintAlbumsByArtist(string artistName)
     {
-        var artist = GetArtist("Name", artistName);
+        Artist? artist = GetArtist("Name", artistName);
         if (artist == null)
         {
             Console.WriteLine("Artist not found");
             return;
         }
-        var artistAlbums = Albums.Where(a => artist.AlbumIds.Contains(a.Id)).ToList();
-        foreach (var artistAlbum in artistAlbums)
+        List<Album> artistAlbums = Albums.Where(a => artist.AlbumIds.Contains(a.Id)).ToList();
+        foreach (Album artistAlbum in artistAlbums)
         {
             artistAlbum.PrintInfo();
             
@@ -50,12 +50,12 @@ public class MusicBaseArtists: MusicBase
     public static void PrintSortedSongsByArtist()
     {
         
-        var sortedArtists = Artists.OrderBy(a => a.Name).ToList();
+        List<Artist> sortedArtists = Artists.OrderBy(a => a.Name).ToList();
         
-        foreach (var artist in sortedArtists)
+        foreach (Artist artist in sortedArtists)
         {
             List<Song> sortedSongs = Songs.Where(s => artist.SongIds.Contains(s.Id)).OrderBy(s => s.Name).ToList();
-            foreach (var song in sortedSongs)
+            foreach (Song song in sortedSongs)
             {
                 song.PrintInfo();
             }
@@ -66,7 +66,7 @@ public class MusicBaseArtists: MusicBase
     // all actions with artist
     public static void AddArtist(string name)
     {
-        var artist = GetArtist("Name", name);
+        Artist? artist = GetArtist("Name", name);
         if (artist != null)
         {
             Console.WriteLine("Artist already exists");

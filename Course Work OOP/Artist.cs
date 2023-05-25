@@ -31,17 +31,11 @@ public class Artist
         InputHandler.PrintTopAndBottomLine();
         Console.ResetColor();
         Console.WriteLine("\nAlbums:");
-        foreach (var albumId in AlbumIds)
+        foreach (int albumId in AlbumIds)
         {
-            var album = albums.Find(a => a.Id == albumId);
+            Album? album = albums.Find(a => a.Id == albumId);
             album?.PrintInfo();
         }
-        // Console.WriteLine("Songs:");
-        // foreach (var songId in SongIds)
-        // {
-        //     var song = songs.Find(s => s.Id == songId);
-        //     song?.PrintInfo();
-        // }
     }
 
 

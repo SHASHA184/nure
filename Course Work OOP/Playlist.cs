@@ -35,7 +35,7 @@ public class Playlist
                               $"To year: {YearTo}\n\n" +
                               $"Songs:\n";
 
-        foreach (var song in PlaylistSongs)
+        foreach (Song song in PlaylistSongs)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
             if (artist != null)
@@ -61,7 +61,7 @@ public class Playlist
         InputHandler.PrintTextWithSides("Songs:");
         InputHandler.PrintTopAndBottomLine();
 
-        foreach (var song in PlaylistSongs)
+        foreach (Song song in PlaylistSongs)
         {
             song.PrintInfo();
         }

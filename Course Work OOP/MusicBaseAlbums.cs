@@ -9,7 +9,7 @@ public class MusicBaseAlbums: MusicBase
     // print info about album/albums
     public static void PrintAlbums(bool withId = false)
     {
-        foreach (var album in Albums)
+        foreach (Album album in Albums)
         {
             album.PrintInfo(withId);
         }
@@ -17,8 +17,8 @@ public class MusicBaseAlbums: MusicBase
     
     public static void PrintAlbumsByYear(int year)
     {
-        var albumsByYear = Albums.Where(a => a.Year == year).ToList();
-        foreach (var album in albumsByYear)
+        List<Album> albumsByYear = Albums.Where(a => a.Year == year).ToList();
+        foreach (Album album in albumsByYear)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", album.ArtistId);
             Console.WriteLine($"Name: {album.Name}, Artist: {artist?.Name}");
@@ -27,13 +27,13 @@ public class MusicBaseAlbums: MusicBase
     
     public static void PrintSongsByAlbum(string albumName)
     {
-        var album = GetAlbum("Name", albumName);
+        Album? album = GetAlbum("Name", albumName);
         if (album == null)
         {
             Console.WriteLine("Album not found");
             return;
         }
-        var albumSongs = Songs.Where(s => album.SongIds.Contains(s.Id)).ToList();
+        List<Song> albumSongs = Songs.Where(s => album.SongIds.Contains(s.Id)).ToList();
         foreach (Song albumSong in albumSongs)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", albumSong.ArtistId);
@@ -47,8 +47,8 @@ public class MusicBaseAlbums: MusicBase
     
     public static void PrintAlbumsByGenre(string genre)
     {
-        var albumsByGenre = Albums.Where(a => a.Genre == genre).ToList();
-        foreach (var album in albumsByGenre)
+        List<Album> albumsByGenre = Albums.Where(a => a.Genre == genre).ToList();
+        foreach (Album album in albumsByGenre)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", album.ArtistId);
             if (artist == null)
@@ -63,8 +63,8 @@ public class MusicBaseAlbums: MusicBase
     
     public static void PrintSortedSongsByAlbum()
     {
-        var sortedSongs = Songs.OrderBy(s => GetAlbum("Id", s.AlbumId)?.Year).ToList();
-        foreach (var song in sortedSongs)
+        List<Song> sortedSongs = Songs.OrderBy(s => GetAlbum("Id", s.AlbumId)?.Year).ToList();
+        foreach (Song song in sortedSongs)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
             if (artist == null)
@@ -83,8 +83,8 @@ public class MusicBaseAlbums: MusicBase
 
     public static void PrintSortedAlbumsBy(string field)
     {
-        var sortedAlbums = Albums.OrderBy(a => a.GetType().GetProperty(field)?.GetValue(a)).ToList();
-        foreach (var album in sortedAlbums)
+        List<Album> sortedAlbums = Albums.OrderBy(a => a.GetType().GetProperty(field)?.GetValue(a)).ToList();
+        foreach (Album album in sortedAlbums)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", album.ArtistId);
             if (artist == null)
@@ -98,13 +98,13 @@ public class MusicBaseAlbums: MusicBase
     // all actions with album
     public static void AddAlbum(string name, int year, string genre, string artistName)
     {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
+        Artist? artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)
         {
             Console.WriteLine("Artist not found");
             return;
         }
-        var album = GetAlbum("Name", name);
+        Album? album = GetAlbum("Name", name);
         if (album != null)
         {
             Console.WriteLine("Album already exists");
@@ -134,7 +134,7 @@ public class MusicBaseAlbums: MusicBase
     
     public static void EditAlbum<T>(int id, string field, T newValue)
     {
-        var album = GetAlbum("Id", id);
+        Album? album = GetAlbum("Id", id);
         if (album == null)
         {
             Console.WriteLine("Album not found");
@@ -177,13 +177,13 @@ public class MusicBaseAlbums: MusicBase
     
     public static void DeleteAlbum(int id)
     {
-        var artist = MusicBaseArtists.GetArtist("Id", id);
+        Artist? artist = MusicBaseArtists.GetArtist("Id", id);
         if (artist == null)
         {
             Console.WriteLine("Artist not found");
             return;
         }
-        var album = GetAlbum("Id", id);
+        Album? album = GetAlbum("Id", id);
         if (album == null)
         {
             Console.WriteLine("Album not found");

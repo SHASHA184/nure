@@ -9,7 +9,7 @@ public class MusicBaseSongs: MusicBase
     // print info about song/songs
     public static void PrintSongs(bool withId = false)
     {
-        foreach (var song in Songs)
+        foreach (Song song in Songs)
         {
             song.PrintInfo(withId);
         }
@@ -17,7 +17,7 @@ public class MusicBaseSongs: MusicBase
 
     public static void PrintArtistBySong(string songName)
     {
-        var song = GetSong("Name", songName);
+        Song? song = GetSong("Name", songName);
         if (song == null)
         {
             Console.WriteLine();
@@ -46,8 +46,8 @@ public class MusicBaseSongs: MusicBase
     
     public static void PrintSongsByGenre(string genre)
     {
-        var songsByGenre = Songs.Where(s => s.Genre == genre).ToList();
-        foreach (var song in songsByGenre)
+        List<Song> songsByGenre = Songs.Where(s => s.Genre == genre).ToList();
+        foreach (Song song in songsByGenre)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
             Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
@@ -62,8 +62,8 @@ public class MusicBaseSongs: MusicBase
     
     public static void PrintSortedSongsBy(string field)
     {
-        var sortedSongs = Songs.OrderBy(s => s.GetType().GetProperty(field)?.GetValue(s, null)).ToList();
-        foreach (var song in sortedSongs)
+        List<Song> sortedSongs = Songs.OrderBy(s => s.GetType().GetProperty(field)?.GetValue(s, null)).ToList();
+        foreach (Song song in sortedSongs)
         {
             Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
             Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
@@ -78,7 +78,7 @@ public class MusicBaseSongs: MusicBase
     // all actions with song/songs
     public static void AddSong(string name, string albumName, string artistName, string genre, string duration)
     {
-        var album = MusicBaseAlbums.GetAlbum("Name", albumName);
+        Album? album = MusicBaseAlbums.GetAlbum("Name", albumName);
         if (album == null)
         {
             Console.WriteLine();
@@ -88,17 +88,8 @@ public class MusicBaseSongs: MusicBase
             Console.WriteLine();
             return;
         }
-        var song = GetSong("Name", name);
-        if (song != null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Song already exists");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
+
+        Artist? artist = MusicBaseArtists.GetArtist("Name", artistName);
         if (artist == null)
         {
             Console.WriteLine();
@@ -108,7 +99,7 @@ public class MusicBaseSongs: MusicBase
             Console.WriteLine();
             return;
         }
-        song = new Song(GetLastId("songs"), name, duration, genre, album.Id, album.ArtistId);
+        Song song = new Song(GetLastId("songs"), name, duration, genre, album.Id, album.ArtistId);
         Songs.Add(song);
         MusicBaseAlbums.UpdateAlbumSongs(album, song, "add");
         MusicBaseArtists.UpdateArtistSongs(artist, song);
@@ -116,7 +107,7 @@ public class MusicBaseSongs: MusicBase
 
     public static void EditSong(int id, string field, string newValue)
     {
-        var song = GetSong("Id", id.ToString());
+        Song? song = GetSong("Id", id.ToString());
         if (song == null)
         {
             Console.WriteLine();
@@ -127,7 +118,7 @@ public class MusicBaseSongs: MusicBase
             return;
         }
 
-        var artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
+        Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
         if (artist == null)
         {
             Console.WriteLine();
@@ -138,7 +129,7 @@ public class MusicBaseSongs: MusicBase
             return;
         }
 
-        var album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
+        Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
         if (album == null)
         {
             Console.WriteLine();
@@ -152,119 +143,9 @@ public class MusicBaseSongs: MusicBase
         song.GetType().GetProperty(field)?.SetValue(song, newValue);
         Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
     }
-
-    public static void EditSongName(string artistName, string albumName, string songName, string newSongName)
-    {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
-        if (artist == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Artist not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var album = MusicBaseAlbums.GetAlbum("Name", albumName);
-        if (album == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Album not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var song = GetSong("Name", songName);
-        if (song == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Song not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        song.Name = newSongName;
-        Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
-    }
-    
-    public static void EditSongGenre(string artistName, string albumName, string songName, string newGenre)
-    {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
-        if (artist == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Artist not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var album = MusicBaseAlbums.GetAlbum("Name", albumName);
-        if (album == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Album not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var song = GetSong("Name", songName);
-        if (song == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Song not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        song.Genre = newGenre;
-        Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
-    }
-    
-    public static void EditSongDuration(string artistName, string albumName, string songName, string newDuration)
-    {
-        var artist = MusicBaseArtists.GetArtist("Name", artistName);
-        if (artist == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Artist not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var album = MusicBaseAlbums.GetAlbum("Name", albumName);
-        if (album == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Album not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        var song = GetSong("Name", songName);
-        if (song == null)
-        {
-            Console.WriteLine();
-            InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Song not found");
-            InputHandler.PrintTopAndBottomLine();
-            Console.WriteLine();
-            return;
-        }
-        song.Duration = newDuration;
-        Songs[Songs.FindIndex(s => s.Id == song.Id)] = song;
-        MusicBaseAlbums.UpdateAlbumSongs(album, song, "edit");
-    }
-    
     public static void DeleteSong(int id)
     {
-        var song = GetSong("Id", id);
+        Song? song = GetSong("Id", id);
         
         if (song == null)
         {
@@ -276,7 +157,7 @@ public class MusicBaseSongs: MusicBase
             return;
         }
         
-        var album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
+        Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
         
         if (album == null)
         {

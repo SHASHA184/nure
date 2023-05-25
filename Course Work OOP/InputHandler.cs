@@ -659,7 +659,7 @@ public abstract class InputHandler
         PrintTopAndBottomLine();
         PrintTextWithSides(message);
         PrintTopAndBottomLine();
-        var input = Console.ReadLine();
+        string? input = Console.ReadLine();
         while (string.IsNullOrWhiteSpace(input))
         {
             PrintTopAndBottomLine();
@@ -676,7 +676,7 @@ public abstract class InputHandler
         PrintTopAndBottomLine();
         PrintTextWithSides(message);
         PrintTopAndBottomLine();
-        var input = Console.ReadLine();
+        string? input = Console.ReadLine();
         while (!int.TryParse(input, out _))
         {
             PrintTopAndBottomLine();
@@ -692,7 +692,7 @@ public abstract class InputHandler
         PrintTopAndBottomLine();
         PrintTextWithSides(message);
         PrintTopAndBottomLine();
-        var input = Console.ReadLine();
+        string? input = Console.ReadLine();
         while (!int.TryParse(input, out _) || int.Parse(input) < 0 || int.Parse(input) > DateTime.Now.Year)
         {
             PrintTopAndBottomLine();
