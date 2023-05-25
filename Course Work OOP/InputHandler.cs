@@ -606,12 +606,19 @@ public abstract class InputHandler
     
     private static void AddSongToPlaylist(Playlist playlist)
     {
-        foreach (Song song in MusicBaseSongs.GetSongs())
+        List<Song> songsToAdd = MusicBaseSongs.GetSongs().Where
+            (s => playlist.PlaylistSongs.All(ps => ps.Id != s.Id)).ToList();
+        if (songsToAdd.Count == 0)
         {
-            if (playlist.PlaylistSongs.Any(s => s.Id == song.Id))
-            {
-                continue;
-            }
+            Console.WriteLine();
+            PrintTopAndBottomLine();
+            PrintTextWithSides("There are no songs to add to the playlist.");
+            PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+        foreach (Song song in songsToAdd)
+        {
             song.PrintInfo(true);
         }
         int songId = GetInt("Enter the id of the song you want to add to the playlist:");
@@ -620,6 +627,15 @@ public abstract class InputHandler
     
     private static void RemoveSongFromPlaylist(Playlist playlist)
     {
+        if (playlist.PlaylistSongs.Count == 0)
+        {
+            Console.WriteLine();
+            PrintTopAndBottomLine();
+            PrintTextWithSides("There are no songs to remove from the playlist.");
+            PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
         foreach (Song song in playlist.PlaylistSongs)
         {
             song.PrintInfo(true);
