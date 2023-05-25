@@ -727,18 +727,8 @@ public abstract class InputHandler
         }
         return input.Split(',').ToList();
     }
-    
-    private static string GetChoice(string message, List<string> options)
-    {
-        string input = GetString(message);
-        while (!options.Contains(input))
-        {
-            input = GetString(message);
-        }
-        return input;
-    }
 
-    
+
     // print methods
     public static void PrintTopAndBottomLine()
     {
