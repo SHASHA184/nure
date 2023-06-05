@@ -15,9 +15,9 @@ public class MusicBaseSongs: MusicBase
         }
     }
 
-    public static void PrintArtistBySong(string songName)
+    public static void PrintArtistBySong(string name)
     {
-        Song? song = GetSong("Name", songName);
+        Song? song = GetSong("Name", name);
         if (song == null)
         {
             Console.WriteLine();
@@ -30,16 +30,29 @@ public class MusicBaseSongs: MusicBase
         Artist? artist = MusicBaseArtists.GetArtist("Id", song.ArtistId);
         if (artist == null)
         {
+            return;
+        }
+        artist.PrintInfo();
+    }
+    
+    public static void PrintAlbumBySong(string name)
+    {
+        Song? song = GetSong("Name", name);
+        if (song == null)
+        {
             Console.WriteLine();
             InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Artist not found");
+            InputHandler.PrintTextWithSides("Song not found");
             InputHandler.PrintTopAndBottomLine();
             Console.WriteLine();
             return;
         }
-        List<Album> albums = Albums.Where(a => a.ArtistId == artist.Id).ToList();
-        List<Song> songs = Songs.Where(s => s.ArtistId == artist.Id).ToList();
-        artist.PrintInfo();
+        Album? album = MusicBaseAlbums.GetAlbum("Id", song.AlbumId);
+        if (album == null)
+        {
+            return;
+        }
+        album.PrintInfo();
     }
     
     
@@ -88,12 +101,12 @@ public class MusicBaseSongs: MusicBase
             Console.WriteLine();
             return;
         }
-        Song? checkSong = GetSong("AlbumId", album.Id);
+        Song? checkSong = Songs.FirstOrDefault(s => s.Name == name && s.AlbumId == album.Id);
         if (checkSong != null)
         {
             Console.WriteLine();
             InputHandler.PrintTopAndBottomLine();
-            InputHandler.PrintTextWithSides("Album already has this song");
+            InputHandler.PrintTextWithSides("Song already exists");
             InputHandler.PrintTopAndBottomLine();
             Console.WriteLine();
             return;
@@ -117,7 +130,7 @@ public class MusicBaseSongs: MusicBase
 
     public static void EditSong(int id, string field, string newValue)
     {
-        Song? song = GetSong("Id", id.ToString());
+        Song? song = GetSong("Id", id);
         if (song == null)
         {
             Console.WriteLine();
@@ -198,7 +211,7 @@ public class MusicBaseSongs: MusicBase
         return song;
     }
     
-    public static List<Song> GetSongs()
+    public static List<Song> GetSongsFromJson()
     {
         string jsonString = FileHandler.ReadFile("songs.json");
         if (jsonString == "")
@@ -207,6 +220,11 @@ public class MusicBaseSongs: MusicBase
         }
         List<Song>? songs = JsonSerializer.Deserialize<List<Song>>(jsonString);
         return songs ?? new List<Song>();
+    }
+    
+    public static List<Song> GetSongs()
+    {
+        return Songs;
     }
 
     public static void SaveSongs()

@@ -121,7 +121,7 @@ public class MusicBaseAlbums: MusicBase
         return album;
     }
     
-    public static List<Album> GetAlbums()
+    public static List<Album> GetAlbumsFromJson()
     {
         string jsonString = FileHandler.ReadFile("albums.json");
         if (jsonString == "")
@@ -132,6 +132,11 @@ public class MusicBaseAlbums: MusicBase
         return albums ?? new List<Album>();
     }
     
+    public static List<Album> GetAlbums()
+    {
+        return Albums;
+    }
+
     public static void EditAlbum<T>(int id, string field, T newValue)
     {
         Album? album = GetAlbum("Id", id);
@@ -177,16 +182,16 @@ public class MusicBaseAlbums: MusicBase
     
     public static void DeleteAlbum(int id)
     {
-        Artist? artist = MusicBaseArtists.GetArtist("Id", id);
-        if (artist == null)
-        {
-            Console.WriteLine("Artist not found");
-            return;
-        }
         Album? album = GetAlbum("Id", id);
         if (album == null)
         {
             Console.WriteLine("Album not found");
+            return;
+        }
+        Artist? artist = MusicBaseArtists.GetArtist("Id", id);
+        if (artist == null)
+        {
+            Console.WriteLine("Artist not found");
             return;
         }
 
@@ -199,7 +204,7 @@ public class MusicBaseAlbums: MusicBase
             }
             MusicBaseSongs.DeleteSong(song.Id);
         }
-        MusicBaseArtists.DeleteArtistAlbum(artist, album);
+        MusicBaseArtists.DeleteArtistAlbum(artist.Id, id);
         
         int albumIndex = Albums.FindIndex(a => a.Id == album.Id);
         if (albumIndex == -1) 

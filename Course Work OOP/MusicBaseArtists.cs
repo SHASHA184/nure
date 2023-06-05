@@ -84,7 +84,7 @@ public class MusicBaseArtists: MusicBase
         return artist;
     }
     
-    public static List<Artist> GetArtists()
+    public static List<Artist> GetArtistsFromJson()
     {
         string jsonString = FileHandler.ReadFile("artists.json");
         if (jsonString == "")
@@ -93,6 +93,11 @@ public class MusicBaseArtists: MusicBase
         }
         List<Artist>? artists = JsonSerializer.Deserialize<List<Artist>>(jsonString);
         return artists ?? new List<Artist>();
+    }
+    
+    public static List<Artist> GetArtists()
+    {
+        return Artists;
     }
     
     public static void EditArtist(int id, string newArtistName)
@@ -147,23 +152,18 @@ public class MusicBaseArtists: MusicBase
         }
 
         int artistIndex = Artists.FindIndex(a => a.Id == id);
-        if (artistIndex == -1) 
-        {
-            Console.WriteLine("Artist not found");
-            return;
-        }
         Artists.RemoveAt(artistIndex);
     }
 
 
-    public static void DeleteArtistAlbum(Artist artist, Album album)
+    public static void DeleteArtistAlbum(int artistId, int albumId)
     {
-        int albumIndex = Artists.Find(a => a.Id == artist.Id)?.AlbumIds.IndexOf(album.Id) ?? -1;
+        int albumIndex = Artists.Find(a => a.Id == artistId)?.AlbumIds.IndexOf(albumId) ?? -1;
         if (albumIndex == -1) 
         {
             return;
         }
-        Artists.Find(a => a.Id == artist.Id)?.AlbumIds.RemoveAt(albumIndex);
+        Artists.Find(a => a.Id == artistId)?.AlbumIds.RemoveAt(albumIndex);
     }
     
     public static void SaveArtists()

@@ -10,9 +10,9 @@ public class MusicBase
 
     public MusicBase()
     {
-        Artists = MusicBaseArtists.GetArtists();
-        Albums = MusicBaseAlbums.GetAlbums();
-        Songs = MusicBaseSongs.GetSongs();
+        Artists = MusicBaseArtists.GetArtistsFromJson();
+        Albums = MusicBaseAlbums.GetAlbumsFromJson();
+        Songs = MusicBaseSongs.GetSongsFromJson();
     }
     
     // common methods

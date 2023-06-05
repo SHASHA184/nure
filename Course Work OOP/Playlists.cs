@@ -3,7 +3,6 @@ namespace Course_Work_OOP;
 public class Playlists
 {
     public static void Add(string name, string description, List<string> artists, List<string> genres, string duration, int yearFrom, int yearTo)
-
     {
         List<Song> playlistSongs = new List<Song>();
         string songsDuration = "00:00:00";

@@ -43,7 +43,7 @@ public class Playlist
                 playlistInfo += $"Name: {song.Name}\n" +
                                 $"Artist: {artist.Name}\n" +
                                 $"Genre: {song.Genre}\n" +
-                                $"Duration: {song.Duration}\n";
+                                $"Duration: {song.Duration}\n\n";
             }
         }
         FileHandler.WriteFile(filePath, playlistInfo);

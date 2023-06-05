@@ -133,6 +133,9 @@ public abstract class InputHandler
         // Print artist by
         PrintTopAndBottomLine();
         PrintTextWithSides("10 | Print artist by song");
+        // Print album by song
+        PrintTopAndBottomLine();
+        PrintTextWithSides("11 | Print album by song");
         PrintTopAndBottomLine();
     }
     
@@ -181,6 +184,9 @@ public abstract class InputHandler
                     break;
                 case "10":
                     PrintArtistBySong();
+                    break;
+                case "11":
+                    PrintAlbumBySong();
                     break;
                 default:
                     Console.WriteLine();
@@ -247,8 +253,43 @@ public abstract class InputHandler
     
     private static void PrintArtistBySong()
     {
-        string songName = GetString("Enter song name:");
-        MusicBaseSongs.PrintArtistBySong(songName);
+        if (MusicBaseSongs.GetSongs().Count == 0)
+        {
+            Console.WriteLine();
+            PrintTopAndBottomLine();
+            PrintTextWithSides("There are no songs in the database.");
+            PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+        PrintTopAndBottomLine();
+        foreach (Song song in MusicBaseSongs.GetSongs())
+        {
+            PrintTextWithSides(song.Name);
+        }
+        string name = GetString("Enter the name of the song:");
+        MusicBaseSongs.PrintArtistBySong(name);
+    }
+    
+    private static void PrintAlbumBySong()
+    {
+        if (MusicBaseSongs.GetSongs().Count == 0)
+        {
+            Console.WriteLine();
+            PrintTopAndBottomLine();
+            PrintTextWithSides("There are no songs in the database.");
+            PrintTopAndBottomLine();
+            Console.WriteLine();
+            return;
+        }
+        PrintTopAndBottomLine();
+        foreach (Song song in MusicBaseSongs.GetSongs())
+        {
+            PrintTextWithSides(song.Name);
+        }
+        PrintTopAndBottomLine();
+        string name = GetString("Enter the name of the song:");
+        MusicBaseSongs.PrintAlbumBySong(name);
     }
     
     
@@ -478,7 +519,7 @@ public abstract class InputHandler
         PrintTopAndBottomLine();
         PrintTextWithSides("0 | Back");
         PrintTopAndBottomLine();
-        PrintTextWithSides("1 | Edit artist");
+        PrintTextWithSides("1 | Edit artist name");
         PrintTextWithSides("2 | Edit album name");
         PrintTextWithSides("3 | Edit album year");
         PrintTextWithSides("4 | Edit album genre");
