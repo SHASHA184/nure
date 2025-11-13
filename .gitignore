@@ -1,0 +1,119 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# C# / .NET
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+*.csproj.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rtefacts/
+*.DotSettings.user
+.dotnet/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
