@@ -1,0 +1,5001 @@
+customer_id,cluster,cluster_name
+1,2,Moderate Risk - Average
+2,2,Moderate Risk - Average
+3,2,Moderate Risk - Average
+4,2,Moderate Risk - Average
+5,2,Moderate Risk - Average
+6,2,Moderate Risk - Average
+7,2,Moderate Risk - Average
+8,2,Moderate Risk - Average
+9,2,Moderate Risk - Average
+10,2,Moderate Risk - Average
+11,2,Moderate Risk - Average
+12,2,Moderate Risk - Average
+13,2,Moderate Risk - Average
+14,2,Moderate Risk - Average
+15,2,Moderate Risk - Average
+16,2,Moderate Risk - Average
+17,2,Moderate Risk - Average
+18,2,Moderate Risk - Average
+19,2,Moderate Risk - Average
+20,2,Moderate Risk - Average
+21,2,Moderate Risk - Average
+22,2,Moderate Risk - Average
+23,2,Moderate Risk - Average
+24,2,Moderate Risk - Average
+25,2,Moderate Risk - Average
+26,2,Moderate Risk - Average
+27,2,Moderate Risk - Average
+28,2,Moderate Risk - Average
+29,2,Moderate Risk - Average
+30,2,Moderate Risk - Average
+31,2,Moderate Risk - Average
+32,2,Moderate Risk - Average
+33,2,Moderate Risk - Average
+34,2,Moderate Risk - Average
+35,2,Moderate Risk - Average
+36,2,Moderate Risk - Average
+37,2,Moderate Risk - Average
+38,2,Moderate Risk - Average
+39,2,Moderate Risk - Average
+40,2,Moderate Risk - Average
+41,2,Moderate Risk - Average
+42,2,Moderate Risk - Average
+43,2,Moderate Risk - Average
+44,2,Moderate Risk - Average
+45,2,Moderate Risk - Average
+46,2,Moderate Risk - Average
+47,2,Moderate Risk - Average
+48,2,Moderate Risk - Average
+49,2,Moderate Risk - Average
+50,2,Moderate Risk - Average
+51,2,Moderate Risk - Average
+52,2,Moderate Risk - Average
+53,2,Moderate Risk - Average
+54,2,Moderate Risk - Average
+55,2,Moderate Risk - Average
+56,2,Moderate Risk - Average
+57,2,Moderate Risk - Average
+58,2,Moderate Risk - Average
+59,2,Moderate Risk - Average
+60,2,Moderate Risk - Average
+61,2,Moderate Risk - Average
+62,2,Moderate Risk - Average
+63,2,Moderate Risk - Average
+64,2,Moderate Risk - Average
+65,2,Moderate Risk - Average
+66,2,Moderate Risk - Average
+67,2,Moderate Risk - Average
+68,2,Moderate Risk - Average
+69,2,Moderate Risk - Average
+70,2,Moderate Risk - Average
+71,2,Moderate Risk - Average
+72,2,Moderate Risk - Average
+73,2,Moderate Risk - Average
+74,2,Moderate Risk - Average
+75,2,Moderate Risk - Average
+76,2,Moderate Risk - Average
+77,2,Moderate Risk - Average
+78,2,Moderate Risk - Average
+79,2,Moderate Risk - Average
+80,2,Moderate Risk - Average
+81,2,Moderate Risk - Average
+82,2,Moderate Risk - Average
+83,2,Moderate Risk - Average
+84,2,Moderate Risk - Average
+85,2,Moderate Risk - Average
+86,2,Moderate Risk - Average
+87,2,Moderate Risk - Average
+88,2,Moderate Risk - Average
+89,2,Moderate Risk - Average
+90,2,Moderate Risk - Average
+91,2,Moderate Risk - Average
+92,2,Moderate Risk - Average
+93,2,Moderate Risk - Average
+94,2,Moderate Risk - Average
+95,2,Moderate Risk - Average
+96,2,Moderate Risk - Average
+97,2,Moderate Risk - Average
+98,2,Moderate Risk - Average
+99,2,Moderate Risk - Average
+100,2,Moderate Risk - Average
+101,2,Moderate Risk - Average
+102,2,Moderate Risk - Average
+103,2,Moderate Risk - Average
+104,2,Moderate Risk - Average
+105,2,Moderate Risk - Average
+106,2,Moderate Risk - Average
+107,2,Moderate Risk - Average
+108,2,Moderate Risk - Average
+109,2,Moderate Risk - Average
+110,2,Moderate Risk - Average
+111,2,Moderate Risk - Average
+112,2,Moderate Risk - Average
+113,2,Moderate Risk - Average
+114,2,Moderate Risk - Average
+115,2,Moderate Risk - Average
+116,2,Moderate Risk - Average
+117,2,Moderate Risk - Average
+118,2,Moderate Risk - Average
+119,2,Moderate Risk - Average
+120,2,Moderate Risk - Average
+121,2,Moderate Risk - Average
+122,2,Moderate Risk - Average
+123,2,Moderate Risk - Average
+124,2,Moderate Risk - Average
+125,2,Moderate Risk - Average
+126,2,Moderate Risk - Average
+127,2,Moderate Risk - Average
+128,2,Moderate Risk - Average
+129,2,Moderate Risk - Average
+130,2,Moderate Risk - Average
+131,2,Moderate Risk - Average
+132,2,Moderate Risk - Average
+133,2,Moderate Risk - Average
+134,2,Moderate Risk - Average
+135,2,Moderate Risk - Average
+136,2,Moderate Risk - Average
+137,2,Moderate Risk - Average
+138,2,Moderate Risk - Average
+139,2,Moderate Risk - Average
+140,2,Moderate Risk - Average
+141,2,Moderate Risk - Average
+142,2,Moderate Risk - Average
+143,2,Moderate Risk - Average
+144,2,Moderate Risk - Average
+145,2,Moderate Risk - Average
+146,2,Moderate Risk - Average
+147,2,Moderate Risk - Average
+148,2,Moderate Risk - Average
+149,2,Moderate Risk - Average
+150,2,Moderate Risk - Average
+151,2,Moderate Risk - Average
+152,2,Moderate Risk - Average
+153,2,Moderate Risk - Average
+154,2,Moderate Risk - Average
+155,2,Moderate Risk - Average
+156,2,Moderate Risk - Average
+157,2,Moderate Risk - Average
+158,2,Moderate Risk - Average
+159,2,Moderate Risk - Average
+160,2,Moderate Risk - Average
+161,2,Moderate Risk - Average
+162,2,Moderate Risk - Average
+163,2,Moderate Risk - Average
+164,2,Moderate Risk - Average
+165,2,Moderate Risk - Average
+166,2,Moderate Risk - Average
+167,2,Moderate Risk - Average
+168,2,Moderate Risk - Average
+169,2,Moderate Risk - Average
+170,2,Moderate Risk - Average
+171,2,Moderate Risk - Average
+172,2,Moderate Risk - Average
+173,2,Moderate Risk - Average
+174,2,Moderate Risk - Average
+175,2,Moderate Risk - Average
+176,2,Moderate Risk - Average
+177,2,Moderate Risk - Average
+178,2,Moderate Risk - Average
+179,2,Moderate Risk - Average
+180,2,Moderate Risk - Average
+181,2,Moderate Risk - Average
+182,2,Moderate Risk - Average
+183,2,Moderate Risk - Average
+184,2,Moderate Risk - Average
+185,2,Moderate Risk - Average
+186,2,Moderate Risk - Average
+187,2,Moderate Risk - Average
+188,2,Moderate Risk - Average
+189,2,Moderate Risk - Average
+190,2,Moderate Risk - Average
+191,2,Moderate Risk - Average
+192,2,Moderate Risk - Average
+193,2,Moderate Risk - Average
+194,2,Moderate Risk - Average
+195,2,Moderate Risk - Average
+196,2,Moderate Risk - Average
+197,2,Moderate Risk - Average
+198,2,Moderate Risk - Average
+199,2,Moderate Risk - Average
+200,2,Moderate Risk - Average
+201,2,Moderate Risk - Average
+202,2,Moderate Risk - Average
+203,2,Moderate Risk - Average
+204,2,Moderate Risk - Average
+205,2,Moderate Risk - Average
+206,2,Moderate Risk - Average
+207,2,Moderate Risk - Average
+208,2,Moderate Risk - Average
+209,2,Moderate Risk - Average
+210,0,Moderate Risk - Average
+211,2,Moderate Risk - Average
+212,2,Moderate Risk - Average
+213,2,Moderate Risk - Average
+214,2,Moderate Risk - Average
+215,2,Moderate Risk - Average
+216,2,Moderate Risk - Average
+217,2,Moderate Risk - Average
+218,2,Moderate Risk - Average
+219,2,Moderate Risk - Average
+220,2,Moderate Risk - Average
+221,2,Moderate Risk - Average
+222,2,Moderate Risk - Average
+223,2,Moderate Risk - Average
+224,2,Moderate Risk - Average
+225,2,Moderate Risk - Average
+226,2,Moderate Risk - Average
+227,2,Moderate Risk - Average
+228,2,Moderate Risk - Average
+229,2,Moderate Risk - Average
+230,2,Moderate Risk - Average
+231,2,Moderate Risk - Average
+232,2,Moderate Risk - Average
+233,2,Moderate Risk - Average
+234,2,Moderate Risk - Average
+235,2,Moderate Risk - Average
+236,2,Moderate Risk - Average
+237,2,Moderate Risk - Average
+238,2,Moderate Risk - Average
+239,2,Moderate Risk - Average
+240,2,Moderate Risk - Average
+241,2,Moderate Risk - Average
+242,2,Moderate Risk - Average
+243,2,Moderate Risk - Average
+244,2,Moderate Risk - Average
+245,2,Moderate Risk - Average
+246,2,Moderate Risk - Average
+247,2,Moderate Risk - Average
+248,2,Moderate Risk - Average
+249,2,Moderate Risk - Average
+250,2,Moderate Risk - Average
+251,2,Moderate Risk - Average
+252,2,Moderate Risk - Average
+253,2,Moderate Risk - Average
+254,2,Moderate Risk - Average
+255,2,Moderate Risk - Average
+256,2,Moderate Risk - Average
+257,2,Moderate Risk - Average
+258,2,Moderate Risk - Average
+259,2,Moderate Risk - Average
+260,2,Moderate Risk - Average
+261,2,Moderate Risk - Average
+262,2,Moderate Risk - Average
+263,2,Moderate Risk - Average
+264,2,Moderate Risk - Average
+265,2,Moderate Risk - Average
+266,2,Moderate Risk - Average
+267,2,Moderate Risk - Average
+268,2,Moderate Risk - Average
+269,2,Moderate Risk - Average
+270,2,Moderate Risk - Average
+271,2,Moderate Risk - Average
+272,2,Moderate Risk - Average
+273,2,Moderate Risk - Average
+274,2,Moderate Risk - Average
+275,2,Moderate Risk - Average
+276,2,Moderate Risk - Average
+277,2,Moderate Risk - Average
+278,2,Moderate Risk - Average
+279,2,Moderate Risk - Average
+280,2,Moderate Risk - Average
+281,2,Moderate Risk - Average
+282,2,Moderate Risk - Average
+283,2,Moderate Risk - Average
+284,2,Moderate Risk - Average
+285,2,Moderate Risk - Average
+286,2,Moderate Risk - Average
+287,2,Moderate Risk - Average
+288,2,Moderate Risk - Average
+289,2,Moderate Risk - Average
+290,2,Moderate Risk - Average
+291,2,Moderate Risk - Average
+292,2,Moderate Risk - Average
+293,2,Moderate Risk - Average
+294,2,Moderate Risk - Average
+295,2,Moderate Risk - Average
+296,2,Moderate Risk - Average
+297,2,Moderate Risk - Average
+298,2,Moderate Risk - Average
+299,2,Moderate Risk - Average
+300,2,Moderate Risk - Average
+301,2,Moderate Risk - Average
+302,2,Moderate Risk - Average
+303,2,Moderate Risk - Average
+304,2,Moderate Risk - Average
+305,2,Moderate Risk - Average
+306,2,Moderate Risk - Average
+307,2,Moderate Risk - Average
+308,2,Moderate Risk - Average
+309,2,Moderate Risk - Average
+310,2,Moderate Risk - Average
+311,2,Moderate Risk - Average
+312,2,Moderate Risk - Average
+313,2,Moderate Risk - Average
+314,2,Moderate Risk - Average
+315,2,Moderate Risk - Average
+316,2,Moderate Risk - Average
+317,2,Moderate Risk - Average
+318,2,Moderate Risk - Average
+319,2,Moderate Risk - Average
+320,2,Moderate Risk - Average
+321,2,Moderate Risk - Average
+322,2,Moderate Risk - Average
+323,2,Moderate Risk - Average
+324,2,Moderate Risk - Average
+325,2,Moderate Risk - Average
+326,2,Moderate Risk - Average
+327,2,Moderate Risk - Average
+328,2,Moderate Risk - Average
+329,2,Moderate Risk - Average
+330,2,Moderate Risk - Average
+331,2,Moderate Risk - Average
+332,2,Moderate Risk - Average
+333,2,Moderate Risk - Average
+334,2,Moderate Risk - Average
+335,2,Moderate Risk - Average
+336,2,Moderate Risk - Average
+337,2,Moderate Risk - Average
+338,2,Moderate Risk - Average
+339,2,Moderate Risk - Average
+340,2,Moderate Risk - Average
+341,2,Moderate Risk - Average
+342,2,Moderate Risk - Average
+343,2,Moderate Risk - Average
+344,2,Moderate Risk - Average
+345,2,Moderate Risk - Average
+346,2,Moderate Risk - Average
+347,2,Moderate Risk - Average
+348,2,Moderate Risk - Average
+349,2,Moderate Risk - Average
+350,2,Moderate Risk - Average
+351,2,Moderate Risk - Average
+352,2,Moderate Risk - Average
+353,2,Moderate Risk - Average
+354,2,Moderate Risk - Average
+355,2,Moderate Risk - Average
+356,2,Moderate Risk - Average
+357,2,Moderate Risk - Average
+358,2,Moderate Risk - Average
+359,2,Moderate Risk - Average
+360,2,Moderate Risk - Average
+361,2,Moderate Risk - Average
+362,2,Moderate Risk - Average
+363,2,Moderate Risk - Average
+364,2,Moderate Risk - Average
+365,2,Moderate Risk - Average
+366,2,Moderate Risk - Average
+367,2,Moderate Risk - Average
+368,2,Moderate Risk - Average
+369,2,Moderate Risk - Average
+370,2,Moderate Risk - Average
+371,2,Moderate Risk - Average
+372,2,Moderate Risk - Average
+373,2,Moderate Risk - Average
+374,2,Moderate Risk - Average
+375,0,Moderate Risk - Average
+376,2,Moderate Risk - Average
+377,2,Moderate Risk - Average
+378,2,Moderate Risk - Average
+379,2,Moderate Risk - Average
+380,2,Moderate Risk - Average
+381,2,Moderate Risk - Average
+382,2,Moderate Risk - Average
+383,2,Moderate Risk - Average
+384,2,Moderate Risk - Average
+385,2,Moderate Risk - Average
+386,2,Moderate Risk - Average
+387,2,Moderate Risk - Average
+388,2,Moderate Risk - Average
+389,2,Moderate Risk - Average
+390,2,Moderate Risk - Average
+391,2,Moderate Risk - Average
+392,2,Moderate Risk - Average
+393,2,Moderate Risk - Average
+394,2,Moderate Risk - Average
+395,2,Moderate Risk - Average
+396,2,Moderate Risk - Average
+397,2,Moderate Risk - Average
+398,2,Moderate Risk - Average
+399,2,Moderate Risk - Average
+400,2,Moderate Risk - Average
+401,2,Moderate Risk - Average
+402,2,Moderate Risk - Average
+403,2,Moderate Risk - Average
+404,2,Moderate Risk - Average
+405,2,Moderate Risk - Average
+406,2,Moderate Risk - Average
+407,2,Moderate Risk - Average
+408,2,Moderate Risk - Average
+409,2,Moderate Risk - Average
+410,2,Moderate Risk - Average
+411,2,Moderate Risk - Average
+412,2,Moderate Risk - Average
+413,2,Moderate Risk - Average
+414,2,Moderate Risk - Average
+415,2,Moderate Risk - Average
+416,2,Moderate Risk - Average
+417,2,Moderate Risk - Average
+418,2,Moderate Risk - Average
+419,2,Moderate Risk - Average
+420,2,Moderate Risk - Average
+421,2,Moderate Risk - Average
+422,2,Moderate Risk - Average
+423,2,Moderate Risk - Average
+424,2,Moderate Risk - Average
+425,2,Moderate Risk - Average
+426,2,Moderate Risk - Average
+427,2,Moderate Risk - Average
+428,2,Moderate Risk - Average
+429,2,Moderate Risk - Average
+430,2,Moderate Risk - Average
+431,2,Moderate Risk - Average
+432,2,Moderate Risk - Average
+433,2,Moderate Risk - Average
+434,2,Moderate Risk - Average
+435,2,Moderate Risk - Average
+436,2,Moderate Risk - Average
+437,2,Moderate Risk - Average
+438,2,Moderate Risk - Average
+439,2,Moderate Risk - Average
+440,2,Moderate Risk - Average
+441,2,Moderate Risk - Average
+442,2,Moderate Risk - Average
+443,2,Moderate Risk - Average
+444,2,Moderate Risk - Average
+445,2,Moderate Risk - Average
+446,2,Moderate Risk - Average
+447,2,Moderate Risk - Average
+448,2,Moderate Risk - Average
+449,2,Moderate Risk - Average
+450,2,Moderate Risk - Average
+451,2,Moderate Risk - Average
+452,2,Moderate Risk - Average
+453,2,Moderate Risk - Average
+454,2,Moderate Risk - Average
+455,2,Moderate Risk - Average
+456,2,Moderate Risk - Average
+457,2,Moderate Risk - Average
+458,2,Moderate Risk - Average
+459,2,Moderate Risk - Average
+460,2,Moderate Risk - Average
+461,2,Moderate Risk - Average
+462,2,Moderate Risk - Average
+463,2,Moderate Risk - Average
+464,2,Moderate Risk - Average
+465,2,Moderate Risk - Average
+466,2,Moderate Risk - Average
+467,2,Moderate Risk - Average
+468,2,Moderate Risk - Average
+469,2,Moderate Risk - Average
+470,2,Moderate Risk - Average
+471,2,Moderate Risk - Average
+472,2,Moderate Risk - Average
+473,2,Moderate Risk - Average
+474,2,Moderate Risk - Average
+475,2,Moderate Risk - Average
+476,2,Moderate Risk - Average
+477,2,Moderate Risk - Average
+478,2,Moderate Risk - Average
+479,2,Moderate Risk - Average
+480,2,Moderate Risk - Average
+481,2,Moderate Risk - Average
+482,2,Moderate Risk - Average
+483,2,Moderate Risk - Average
+484,2,Moderate Risk - Average
+485,2,Moderate Risk - Average
+486,2,Moderate Risk - Average
+487,2,Moderate Risk - Average
+488,2,Moderate Risk - Average
+489,2,Moderate Risk - Average
+490,2,Moderate Risk - Average
+491,2,Moderate Risk - Average
+492,2,Moderate Risk - Average
+493,2,Moderate Risk - Average
+494,2,Moderate Risk - Average
+495,2,Moderate Risk - Average
+496,2,Moderate Risk - Average
+497,2,Moderate Risk - Average
+498,2,Moderate Risk - Average
+499,2,Moderate Risk - Average
+500,2,Moderate Risk - Average
+501,2,Moderate Risk - Average
+502,2,Moderate Risk - Average
+503,2,Moderate Risk - Average
+504,2,Moderate Risk - Average
+505,2,Moderate Risk - Average
+506,2,Moderate Risk - Average
+507,2,Moderate Risk - Average
+508,2,Moderate Risk - Average
+509,2,Moderate Risk - Average
+510,2,Moderate Risk - Average
+511,2,Moderate Risk - Average
+512,2,Moderate Risk - Average
+513,2,Moderate Risk - Average
+514,2,Moderate Risk - Average
+515,2,Moderate Risk - Average
+516,2,Moderate Risk - Average
+517,2,Moderate Risk - Average
+518,2,Moderate Risk - Average
+519,2,Moderate Risk - Average
+520,2,Moderate Risk - Average
+521,2,Moderate Risk - Average
+522,2,Moderate Risk - Average
+523,2,Moderate Risk - Average
+524,2,Moderate Risk - Average
+525,2,Moderate Risk - Average
+526,2,Moderate Risk - Average
+527,2,Moderate Risk - Average
+528,2,Moderate Risk - Average
+529,2,Moderate Risk - Average
+530,2,Moderate Risk - Average
+531,2,Moderate Risk - Average
+532,2,Moderate Risk - Average
+533,2,Moderate Risk - Average
+534,2,Moderate Risk - Average
+535,2,Moderate Risk - Average
+536,2,Moderate Risk - Average
+537,2,Moderate Risk - Average
+538,2,Moderate Risk - Average
+539,2,Moderate Risk - Average
+540,2,Moderate Risk - Average
+541,2,Moderate Risk - Average
+542,2,Moderate Risk - Average
+543,2,Moderate Risk - Average
+544,2,Moderate Risk - Average
+545,2,Moderate Risk - Average
+546,2,Moderate Risk - Average
+547,2,Moderate Risk - Average
+548,2,Moderate Risk - Average
+549,2,Moderate Risk - Average
+550,2,Moderate Risk - Average
+551,2,Moderate Risk - Average
+552,2,Moderate Risk - Average
+553,2,Moderate Risk - Average
+554,2,Moderate Risk - Average
+555,2,Moderate Risk - Average
+556,2,Moderate Risk - Average
+557,2,Moderate Risk - Average
+558,2,Moderate Risk - Average
+559,2,Moderate Risk - Average
+560,2,Moderate Risk - Average
+561,2,Moderate Risk - Average
+562,2,Moderate Risk - Average
+563,2,Moderate Risk - Average
+564,2,Moderate Risk - Average
+565,2,Moderate Risk - Average
+566,2,Moderate Risk - Average
+567,2,Moderate Risk - Average
+568,2,Moderate Risk - Average
+569,2,Moderate Risk - Average
+570,2,Moderate Risk - Average
+571,2,Moderate Risk - Average
+572,2,Moderate Risk - Average
+573,2,Moderate Risk - Average
+574,2,Moderate Risk - Average
+575,2,Moderate Risk - Average
+576,2,Moderate Risk - Average
+577,2,Moderate Risk - Average
+578,2,Moderate Risk - Average
+579,2,Moderate Risk - Average
+580,2,Moderate Risk - Average
+581,2,Moderate Risk - Average
+582,2,Moderate Risk - Average
+583,2,Moderate Risk - Average
+584,2,Moderate Risk - Average
+585,2,Moderate Risk - Average
+586,2,Moderate Risk - Average
+587,2,Moderate Risk - Average
+588,2,Moderate Risk - Average
+589,2,Moderate Risk - Average
+590,2,Moderate Risk - Average
+591,2,Moderate Risk - Average
+592,2,Moderate Risk - Average
+593,2,Moderate Risk - Average
+594,2,Moderate Risk - Average
+595,2,Moderate Risk - Average
+596,2,Moderate Risk - Average
+597,2,Moderate Risk - Average
+598,2,Moderate Risk - Average
+599,2,Moderate Risk - Average
+600,2,Moderate Risk - Average
+601,2,Moderate Risk - Average
+602,2,Moderate Risk - Average
+603,2,Moderate Risk - Average
+604,2,Moderate Risk - Average
+605,2,Moderate Risk - Average
+606,2,Moderate Risk - Average
+607,2,Moderate Risk - Average
+608,2,Moderate Risk - Average
+609,2,Moderate Risk - Average
+610,2,Moderate Risk - Average
+611,2,Moderate Risk - Average
+612,2,Moderate Risk - Average
+613,2,Moderate Risk - Average
+614,2,Moderate Risk - Average
+615,2,Moderate Risk - Average
+616,2,Moderate Risk - Average
+617,2,Moderate Risk - Average
+618,2,Moderate Risk - Average
+619,2,Moderate Risk - Average
+620,2,Moderate Risk - Average
+621,2,Moderate Risk - Average
+622,2,Moderate Risk - Average
+623,2,Moderate Risk - Average
+624,2,Moderate Risk - Average
+625,2,Moderate Risk - Average
+626,2,Moderate Risk - Average
+627,2,Moderate Risk - Average
+628,2,Moderate Risk - Average
+629,2,Moderate Risk - Average
+630,2,Moderate Risk - Average
+631,2,Moderate Risk - Average
+632,2,Moderate Risk - Average
+633,2,Moderate Risk - Average
+634,2,Moderate Risk - Average
+635,2,Moderate Risk - Average
+636,2,Moderate Risk - Average
+637,2,Moderate Risk - Average
+638,2,Moderate Risk - Average
+639,2,Moderate Risk - Average
+640,2,Moderate Risk - Average
+641,2,Moderate Risk - Average
+642,2,Moderate Risk - Average
+643,2,Moderate Risk - Average
+644,2,Moderate Risk - Average
+645,2,Moderate Risk - Average
+646,2,Moderate Risk - Average
+647,2,Moderate Risk - Average
+648,2,Moderate Risk - Average
+649,2,Moderate Risk - Average
+650,2,Moderate Risk - Average
+651,2,Moderate Risk - Average
+652,2,Moderate Risk - Average
+653,2,Moderate Risk - Average
+654,2,Moderate Risk - Average
+655,2,Moderate Risk - Average
+656,2,Moderate Risk - Average
+657,2,Moderate Risk - Average
+658,2,Moderate Risk - Average
+659,2,Moderate Risk - Average
+660,2,Moderate Risk - Average
+661,2,Moderate Risk - Average
+662,2,Moderate Risk - Average
+663,2,Moderate Risk - Average
+664,2,Moderate Risk - Average
+665,2,Moderate Risk - Average
+666,2,Moderate Risk - Average
+667,2,Moderate Risk - Average
+668,2,Moderate Risk - Average
+669,2,Moderate Risk - Average
+670,2,Moderate Risk - Average
+671,2,Moderate Risk - Average
+672,2,Moderate Risk - Average
+673,2,Moderate Risk - Average
+674,2,Moderate Risk - Average
+675,2,Moderate Risk - Average
+676,2,Moderate Risk - Average
+677,2,Moderate Risk - Average
+678,2,Moderate Risk - Average
+679,2,Moderate Risk - Average
+680,2,Moderate Risk - Average
+681,2,Moderate Risk - Average
+682,2,Moderate Risk - Average
+683,2,Moderate Risk - Average
+684,2,Moderate Risk - Average
+685,2,Moderate Risk - Average
+686,2,Moderate Risk - Average
+687,2,Moderate Risk - Average
+688,2,Moderate Risk - Average
+689,2,Moderate Risk - Average
+690,2,Moderate Risk - Average
+691,2,Moderate Risk - Average
+692,2,Moderate Risk - Average
+693,2,Moderate Risk - Average
+694,2,Moderate Risk - Average
+695,2,Moderate Risk - Average
+696,2,Moderate Risk - Average
+697,2,Moderate Risk - Average
+698,2,Moderate Risk - Average
+699,2,Moderate Risk - Average
+700,2,Moderate Risk - Average
+701,2,Moderate Risk - Average
+702,2,Moderate Risk - Average
+703,2,Moderate Risk - Average
+704,2,Moderate Risk - Average
+705,2,Moderate Risk - Average
+706,2,Moderate Risk - Average
+707,2,Moderate Risk - Average
+708,2,Moderate Risk - Average
+709,2,Moderate Risk - Average
+710,2,Moderate Risk - Average
+711,2,Moderate Risk - Average
+712,2,Moderate Risk - Average
+713,2,Moderate Risk - Average
+714,2,Moderate Risk - Average
+715,2,Moderate Risk - Average
+716,2,Moderate Risk - Average
+717,2,Moderate Risk - Average
+718,2,Moderate Risk - Average
+719,2,Moderate Risk - Average
+720,2,Moderate Risk - Average
+721,2,Moderate Risk - Average
+722,2,Moderate Risk - Average
+723,2,Moderate Risk - Average
+724,2,Moderate Risk - Average
+725,2,Moderate Risk - Average
+726,2,Moderate Risk - Average
+727,2,Moderate Risk - Average
+728,2,Moderate Risk - Average
+729,2,Moderate Risk - Average
+730,2,Moderate Risk - Average
+731,2,Moderate Risk - Average
+732,2,Moderate Risk - Average
+733,2,Moderate Risk - Average
+734,2,Moderate Risk - Average
+735,2,Moderate Risk - Average
+736,2,Moderate Risk - Average
+737,2,Moderate Risk - Average
+738,2,Moderate Risk - Average
+739,2,Moderate Risk - Average
+740,2,Moderate Risk - Average
+741,2,Moderate Risk - Average
+742,2,Moderate Risk - Average
+743,2,Moderate Risk - Average
+744,2,Moderate Risk - Average
+745,2,Moderate Risk - Average
+746,2,Moderate Risk - Average
+747,2,Moderate Risk - Average
+748,2,Moderate Risk - Average
+749,2,Moderate Risk - Average
+750,2,Moderate Risk - Average
+751,2,Moderate Risk - Average
+752,2,Moderate Risk - Average
+753,2,Moderate Risk - Average
+754,2,Moderate Risk - Average
+755,2,Moderate Risk - Average
+756,0,Moderate Risk - Average
+757,2,Moderate Risk - Average
+758,2,Moderate Risk - Average
+759,2,Moderate Risk - Average
+760,2,Moderate Risk - Average
+761,2,Moderate Risk - Average
+762,2,Moderate Risk - Average
+763,2,Moderate Risk - Average
+764,2,Moderate Risk - Average
+765,2,Moderate Risk - Average
+766,2,Moderate Risk - Average
+767,2,Moderate Risk - Average
+768,2,Moderate Risk - Average
+769,2,Moderate Risk - Average
+770,2,Moderate Risk - Average
+771,2,Moderate Risk - Average
+772,2,Moderate Risk - Average
+773,2,Moderate Risk - Average
+774,2,Moderate Risk - Average
+775,2,Moderate Risk - Average
+776,2,Moderate Risk - Average
+777,2,Moderate Risk - Average
+778,2,Moderate Risk - Average
+779,2,Moderate Risk - Average
+780,2,Moderate Risk - Average
+781,2,Moderate Risk - Average
+782,2,Moderate Risk - Average
+783,2,Moderate Risk - Average
+784,2,Moderate Risk - Average
+785,2,Moderate Risk - Average
+786,2,Moderate Risk - Average
+787,2,Moderate Risk - Average
+788,2,Moderate Risk - Average
+789,2,Moderate Risk - Average
+790,2,Moderate Risk - Average
+791,2,Moderate Risk - Average
+792,2,Moderate Risk - Average
+793,2,Moderate Risk - Average
+794,2,Moderate Risk - Average
+795,2,Moderate Risk - Average
+796,2,Moderate Risk - Average
+797,2,Moderate Risk - Average
+798,2,Moderate Risk - Average
+799,2,Moderate Risk - Average
+800,2,Moderate Risk - Average
+801,2,Moderate Risk - Average
+802,2,Moderate Risk - Average
+803,2,Moderate Risk - Average
+804,2,Moderate Risk - Average
+805,2,Moderate Risk - Average
+806,2,Moderate Risk - Average
+807,2,Moderate Risk - Average
+808,2,Moderate Risk - Average
+809,2,Moderate Risk - Average
+810,2,Moderate Risk - Average
+811,2,Moderate Risk - Average
+812,2,Moderate Risk - Average
+813,2,Moderate Risk - Average
+814,2,Moderate Risk - Average
+815,2,Moderate Risk - Average
+816,2,Moderate Risk - Average
+817,2,Moderate Risk - Average
+818,2,Moderate Risk - Average
+819,2,Moderate Risk - Average
+820,2,Moderate Risk - Average
+821,2,Moderate Risk - Average
+822,2,Moderate Risk - Average
+823,2,Moderate Risk - Average
+824,2,Moderate Risk - Average
+825,2,Moderate Risk - Average
+826,2,Moderate Risk - Average
+827,2,Moderate Risk - Average
+828,2,Moderate Risk - Average
+829,2,Moderate Risk - Average
+830,2,Moderate Risk - Average
+831,2,Moderate Risk - Average
+832,2,Moderate Risk - Average
+833,2,Moderate Risk - Average
+834,2,Moderate Risk - Average
+835,2,Moderate Risk - Average
+836,2,Moderate Risk - Average
+837,2,Moderate Risk - Average
+838,2,Moderate Risk - Average
+839,2,Moderate Risk - Average
+840,2,Moderate Risk - Average
+841,2,Moderate Risk - Average
+842,2,Moderate Risk - Average
+843,2,Moderate Risk - Average
+844,2,Moderate Risk - Average
+845,2,Moderate Risk - Average
+846,2,Moderate Risk - Average
+847,2,Moderate Risk - Average
+848,2,Moderate Risk - Average
+849,2,Moderate Risk - Average
+850,2,Moderate Risk - Average
+851,2,Moderate Risk - Average
+852,2,Moderate Risk - Average
+853,2,Moderate Risk - Average
+854,2,Moderate Risk - Average
+855,2,Moderate Risk - Average
+856,2,Moderate Risk - Average
+857,2,Moderate Risk - Average
+858,2,Moderate Risk - Average
+859,2,Moderate Risk - Average
+860,2,Moderate Risk - Average
+861,2,Moderate Risk - Average
+862,2,Moderate Risk - Average
+863,2,Moderate Risk - Average
+864,2,Moderate Risk - Average
+865,2,Moderate Risk - Average
+866,2,Moderate Risk - Average
+867,2,Moderate Risk - Average
+868,2,Moderate Risk - Average
+869,2,Moderate Risk - Average
+870,2,Moderate Risk - Average
+871,2,Moderate Risk - Average
+872,2,Moderate Risk - Average
+873,2,Moderate Risk - Average
+874,2,Moderate Risk - Average
+875,2,Moderate Risk - Average
+876,2,Moderate Risk - Average
+877,2,Moderate Risk - Average
+878,2,Moderate Risk - Average
+879,2,Moderate Risk - Average
+880,2,Moderate Risk - Average
+881,2,Moderate Risk - Average
+882,2,Moderate Risk - Average
+883,2,Moderate Risk - Average
+884,2,Moderate Risk - Average
+885,2,Moderate Risk - Average
+886,2,Moderate Risk - Average
+887,2,Moderate Risk - Average
+888,2,Moderate Risk - Average
+889,2,Moderate Risk - Average
+890,2,Moderate Risk - Average
+891,2,Moderate Risk - Average
+892,2,Moderate Risk - Average
+893,2,Moderate Risk - Average
+894,2,Moderate Risk - Average
+895,2,Moderate Risk - Average
+896,2,Moderate Risk - Average
+897,2,Moderate Risk - Average
+898,2,Moderate Risk - Average
+899,2,Moderate Risk - Average
+900,2,Moderate Risk - Average
+901,2,Moderate Risk - Average
+902,2,Moderate Risk - Average
+903,2,Moderate Risk - Average
+904,2,Moderate Risk - Average
+905,2,Moderate Risk - Average
+906,2,Moderate Risk - Average
+907,2,Moderate Risk - Average
+908,2,Moderate Risk - Average
+909,2,Moderate Risk - Average
+910,2,Moderate Risk - Average
+911,2,Moderate Risk - Average
+912,2,Moderate Risk - Average
+913,2,Moderate Risk - Average
+914,2,Moderate Risk - Average
+915,2,Moderate Risk - Average
+916,2,Moderate Risk - Average
+917,2,Moderate Risk - Average
+918,2,Moderate Risk - Average
+919,2,Moderate Risk - Average
+920,2,Moderate Risk - Average
+921,2,Moderate Risk - Average
+922,2,Moderate Risk - Average
+923,2,Moderate Risk - Average
+924,2,Moderate Risk - Average
+925,2,Moderate Risk - Average
+926,2,Moderate Risk - Average
+927,2,Moderate Risk - Average
+928,2,Moderate Risk - Average
+929,2,Moderate Risk - Average
+930,2,Moderate Risk - Average
+931,2,Moderate Risk - Average
+932,2,Moderate Risk - Average
+933,2,Moderate Risk - Average
+934,2,Moderate Risk - Average
+935,2,Moderate Risk - Average
+936,2,Moderate Risk - Average
+937,2,Moderate Risk - Average
+938,2,Moderate Risk - Average
+939,2,Moderate Risk - Average
+940,2,Moderate Risk - Average
+941,2,Moderate Risk - Average
+942,2,Moderate Risk - Average
+943,2,Moderate Risk - Average
+944,2,Moderate Risk - Average
+945,2,Moderate Risk - Average
+946,2,Moderate Risk - Average
+947,2,Moderate Risk - Average
+948,2,Moderate Risk - Average
+949,2,Moderate Risk - Average
+950,2,Moderate Risk - Average
+951,2,Moderate Risk - Average
+952,2,Moderate Risk - Average
+953,2,Moderate Risk - Average
+954,2,Moderate Risk - Average
+955,2,Moderate Risk - Average
+956,2,Moderate Risk - Average
+957,2,Moderate Risk - Average
+958,2,Moderate Risk - Average
+959,2,Moderate Risk - Average
+960,2,Moderate Risk - Average
+961,2,Moderate Risk - Average
+962,2,Moderate Risk - Average
+963,2,Moderate Risk - Average
+964,2,Moderate Risk - Average
+965,2,Moderate Risk - Average
+966,2,Moderate Risk - Average
+967,2,Moderate Risk - Average
+968,2,Moderate Risk - Average
+969,2,Moderate Risk - Average
+970,2,Moderate Risk - Average
+971,2,Moderate Risk - Average
+972,2,Moderate Risk - Average
+973,2,Moderate Risk - Average
+974,2,Moderate Risk - Average
+975,2,Moderate Risk - Average
+976,2,Moderate Risk - Average
+977,2,Moderate Risk - Average
+978,2,Moderate Risk - Average
+979,2,Moderate Risk - Average
+980,2,Moderate Risk - Average
+981,2,Moderate Risk - Average
+982,2,Moderate Risk - Average
+983,2,Moderate Risk - Average
+984,2,Moderate Risk - Average
+985,2,Moderate Risk - Average
+986,2,Moderate Risk - Average
+987,2,Moderate Risk - Average
+988,2,Moderate Risk - Average
+989,2,Moderate Risk - Average
+990,2,Moderate Risk - Average
+991,2,Moderate Risk - Average
+992,2,Moderate Risk - Average
+993,2,Moderate Risk - Average
+994,2,Moderate Risk - Average
+995,2,Moderate Risk - Average
+996,2,Moderate Risk - Average
+997,2,Moderate Risk - Average
+998,2,Moderate Risk - Average
+999,2,Moderate Risk - Average
+1000,2,Moderate Risk - Average
+1001,0,Moderate Risk - Average
+1002,0,Moderate Risk - Average
+1003,0,Moderate Risk - Average
+1004,0,Moderate Risk - Average
+1005,0,Moderate Risk - Average
+1006,0,Moderate Risk - Average
+1007,0,Moderate Risk - Average
+1008,0,Moderate Risk - Average
+1009,0,Moderate Risk - Average
+1010,0,Moderate Risk - Average
+1011,0,Moderate Risk - Average
+1012,0,Moderate Risk - Average
+1013,0,Moderate Risk - Average
+1014,0,Moderate Risk - Average
+1015,0,Moderate Risk - Average
+1016,0,Moderate Risk - Average
+1017,0,Moderate Risk - Average
+1018,0,Moderate Risk - Average
+1019,0,Moderate Risk - Average
+1020,0,Moderate Risk - Average
+1021,0,Moderate Risk - Average
+1022,0,Moderate Risk - Average
+1023,1,Risk Group - Many Claims/Violations
+1024,0,Moderate Risk - Average
+1025,0,Moderate Risk - Average
+1026,0,Moderate Risk - Average
+1027,0,Moderate Risk - Average
+1028,0,Moderate Risk - Average
+1029,0,Moderate Risk - Average
+1030,0,Moderate Risk - Average
+1031,0,Moderate Risk - Average
+1032,0,Moderate Risk - Average
+1033,0,Moderate Risk - Average
+1034,0,Moderate Risk - Average
+1035,0,Moderate Risk - Average
+1036,0,Moderate Risk - Average
+1037,0,Moderate Risk - Average
+1038,0,Moderate Risk - Average
+1039,0,Moderate Risk - Average
+1040,0,Moderate Risk - Average
+1041,0,Moderate Risk - Average
+1042,0,Moderate Risk - Average
+1043,0,Moderate Risk - Average
+1044,0,Moderate Risk - Average
+1045,0,Moderate Risk - Average
+1046,0,Moderate Risk - Average
+1047,0,Moderate Risk - Average
+1048,0,Moderate Risk - Average
+1049,0,Moderate Risk - Average
+1050,0,Moderate Risk - Average
+1051,0,Moderate Risk - Average
+1052,0,Moderate Risk - Average
+1053,0,Moderate Risk - Average
+1054,0,Moderate Risk - Average
+1055,0,Moderate Risk - Average
+1056,0,Moderate Risk - Average
+1057,0,Moderate Risk - Average
+1058,0,Moderate Risk - Average
+1059,0,Moderate Risk - Average
+1060,0,Moderate Risk - Average
+1061,0,Moderate Risk - Average
+1062,0,Moderate Risk - Average
+1063,0,Moderate Risk - Average
+1064,0,Moderate Risk - Average
+1065,0,Moderate Risk - Average
+1066,0,Moderate Risk - Average
+1067,0,Moderate Risk - Average
+1068,0,Moderate Risk - Average
+1069,0,Moderate Risk - Average
+1070,0,Moderate Risk - Average
+1071,0,Moderate Risk - Average
+1072,0,Moderate Risk - Average
+1073,0,Moderate Risk - Average
+1074,0,Moderate Risk - Average
+1075,0,Moderate Risk - Average
+1076,0,Moderate Risk - Average
+1077,0,Moderate Risk - Average
+1078,0,Moderate Risk - Average
+1079,0,Moderate Risk - Average
+1080,0,Moderate Risk - Average
+1081,0,Moderate Risk - Average
+1082,0,Moderate Risk - Average
+1083,0,Moderate Risk - Average
+1084,0,Moderate Risk - Average
+1085,0,Moderate Risk - Average
+1086,0,Moderate Risk - Average
+1087,0,Moderate Risk - Average
+1088,0,Moderate Risk - Average
+1089,0,Moderate Risk - Average
+1090,0,Moderate Risk - Average
+1091,0,Moderate Risk - Average
+1092,0,Moderate Risk - Average
+1093,0,Moderate Risk - Average
+1094,0,Moderate Risk - Average
+1095,0,Moderate Risk - Average
+1096,0,Moderate Risk - Average
+1097,2,Moderate Risk - Average
+1098,0,Moderate Risk - Average
+1099,0,Moderate Risk - Average
+1100,0,Moderate Risk - Average
+1101,0,Moderate Risk - Average
+1102,0,Moderate Risk - Average
+1103,0,Moderate Risk - Average
+1104,0,Moderate Risk - Average
+1105,0,Moderate Risk - Average
+1106,0,Moderate Risk - Average
+1107,0,Moderate Risk - Average
+1108,0,Moderate Risk - Average
+1109,0,Moderate Risk - Average
+1110,0,Moderate Risk - Average
+1111,0,Moderate Risk - Average
+1112,0,Moderate Risk - Average
+1113,0,Moderate Risk - Average
+1114,0,Moderate Risk - Average
+1115,0,Moderate Risk - Average
+1116,0,Moderate Risk - Average
+1117,0,Moderate Risk - Average
+1118,0,Moderate Risk - Average
+1119,0,Moderate Risk - Average
+1120,0,Moderate Risk - Average
+1121,0,Moderate Risk - Average
+1122,0,Moderate Risk - Average
+1123,0,Moderate Risk - Average
+1124,0,Moderate Risk - Average
+1125,0,Moderate Risk - Average
+1126,0,Moderate Risk - Average
+1127,0,Moderate Risk - Average
+1128,0,Moderate Risk - Average
+1129,0,Moderate Risk - Average
+1130,0,Moderate Risk - Average
+1131,0,Moderate Risk - Average
+1132,0,Moderate Risk - Average
+1133,0,Moderate Risk - Average
+1134,0,Moderate Risk - Average
+1135,0,Moderate Risk - Average
+1136,0,Moderate Risk - Average
+1137,0,Moderate Risk - Average
+1138,0,Moderate Risk - Average
+1139,0,Moderate Risk - Average
+1140,0,Moderate Risk - Average
+1141,0,Moderate Risk - Average
+1142,0,Moderate Risk - Average
+1143,0,Moderate Risk - Average
+1144,0,Moderate Risk - Average
+1145,0,Moderate Risk - Average
+1146,0,Moderate Risk - Average
+1147,0,Moderate Risk - Average
+1148,0,Moderate Risk - Average
+1149,0,Moderate Risk - Average
+1150,0,Moderate Risk - Average
+1151,0,Moderate Risk - Average
+1152,0,Moderate Risk - Average
+1153,0,Moderate Risk - Average
+1154,0,Moderate Risk - Average
+1155,0,Moderate Risk - Average
+1156,0,Moderate Risk - Average
+1157,0,Moderate Risk - Average
+1158,0,Moderate Risk - Average
+1159,0,Moderate Risk - Average
+1160,0,Moderate Risk - Average
+1161,0,Moderate Risk - Average
+1162,0,Moderate Risk - Average
+1163,0,Moderate Risk - Average
+1164,0,Moderate Risk - Average
+1165,0,Moderate Risk - Average
+1166,0,Moderate Risk - Average
+1167,0,Moderate Risk - Average
+1168,0,Moderate Risk - Average
+1169,0,Moderate Risk - Average
+1170,0,Moderate Risk - Average
+1171,0,Moderate Risk - Average
+1172,0,Moderate Risk - Average
+1173,0,Moderate Risk - Average
+1174,0,Moderate Risk - Average
+1175,0,Moderate Risk - Average
+1176,0,Moderate Risk - Average
+1177,0,Moderate Risk - Average
+1178,0,Moderate Risk - Average
+1179,0,Moderate Risk - Average
+1180,0,Moderate Risk - Average
+1181,0,Moderate Risk - Average
+1182,0,Moderate Risk - Average
+1183,0,Moderate Risk - Average
+1184,0,Moderate Risk - Average
+1185,0,Moderate Risk - Average
+1186,0,Moderate Risk - Average
+1187,0,Moderate Risk - Average
+1188,0,Moderate Risk - Average
+1189,0,Moderate Risk - Average
+1190,0,Moderate Risk - Average
+1191,0,Moderate Risk - Average
+1192,0,Moderate Risk - Average
+1193,0,Moderate Risk - Average
+1194,0,Moderate Risk - Average
+1195,0,Moderate Risk - Average
+1196,0,Moderate Risk - Average
+1197,0,Moderate Risk - Average
+1198,0,Moderate Risk - Average
+1199,0,Moderate Risk - Average
+1200,0,Moderate Risk - Average
+1201,2,Moderate Risk - Average
+1202,0,Moderate Risk - Average
+1203,0,Moderate Risk - Average
+1204,0,Moderate Risk - Average
+1205,0,Moderate Risk - Average
+1206,0,Moderate Risk - Average
+1207,0,Moderate Risk - Average
+1208,0,Moderate Risk - Average
+1209,0,Moderate Risk - Average
+1210,0,Moderate Risk - Average
+1211,0,Moderate Risk - Average
+1212,0,Moderate Risk - Average
+1213,0,Moderate Risk - Average
+1214,0,Moderate Risk - Average
+1215,0,Moderate Risk - Average
+1216,0,Moderate Risk - Average
+1217,0,Moderate Risk - Average
+1218,0,Moderate Risk - Average
+1219,0,Moderate Risk - Average
+1220,0,Moderate Risk - Average
+1221,0,Moderate Risk - Average
+1222,0,Moderate Risk - Average
+1223,0,Moderate Risk - Average
+1224,0,Moderate Risk - Average
+1225,0,Moderate Risk - Average
+1226,0,Moderate Risk - Average
+1227,0,Moderate Risk - Average
+1228,0,Moderate Risk - Average
+1229,0,Moderate Risk - Average
+1230,0,Moderate Risk - Average
+1231,0,Moderate Risk - Average
+1232,0,Moderate Risk - Average
+1233,0,Moderate Risk - Average
+1234,0,Moderate Risk - Average
+1235,0,Moderate Risk - Average
+1236,0,Moderate Risk - Average
+1237,0,Moderate Risk - Average
+1238,0,Moderate Risk - Average
+1239,0,Moderate Risk - Average
+1240,0,Moderate Risk - Average
+1241,0,Moderate Risk - Average
+1242,0,Moderate Risk - Average
+1243,0,Moderate Risk - Average
+1244,0,Moderate Risk - Average
+1245,0,Moderate Risk - Average
+1246,0,Moderate Risk - Average
+1247,0,Moderate Risk - Average
+1248,0,Moderate Risk - Average
+1249,0,Moderate Risk - Average
+1250,0,Moderate Risk - Average
+1251,0,Moderate Risk - Average
+1252,0,Moderate Risk - Average
+1253,0,Moderate Risk - Average
+1254,0,Moderate Risk - Average
+1255,0,Moderate Risk - Average
+1256,0,Moderate Risk - Average
+1257,0,Moderate Risk - Average
+1258,0,Moderate Risk - Average
+1259,0,Moderate Risk - Average
+1260,2,Moderate Risk - Average
+1261,0,Moderate Risk - Average
+1262,0,Moderate Risk - Average
+1263,0,Moderate Risk - Average
+1264,0,Moderate Risk - Average
+1265,0,Moderate Risk - Average
+1266,0,Moderate Risk - Average
+1267,0,Moderate Risk - Average
+1268,0,Moderate Risk - Average
+1269,0,Moderate Risk - Average
+1270,0,Moderate Risk - Average
+1271,0,Moderate Risk - Average
+1272,0,Moderate Risk - Average
+1273,0,Moderate Risk - Average
+1274,0,Moderate Risk - Average
+1275,0,Moderate Risk - Average
+1276,0,Moderate Risk - Average
+1277,0,Moderate Risk - Average
+1278,0,Moderate Risk - Average
+1279,0,Moderate Risk - Average
+1280,0,Moderate Risk - Average
+1281,0,Moderate Risk - Average
+1282,0,Moderate Risk - Average
+1283,0,Moderate Risk - Average
+1284,0,Moderate Risk - Average
+1285,0,Moderate Risk - Average
+1286,0,Moderate Risk - Average
+1287,0,Moderate Risk - Average
+1288,0,Moderate Risk - Average
+1289,0,Moderate Risk - Average
+1290,0,Moderate Risk - Average
+1291,0,Moderate Risk - Average
+1292,0,Moderate Risk - Average
+1293,0,Moderate Risk - Average
+1294,0,Moderate Risk - Average
+1295,0,Moderate Risk - Average
+1296,0,Moderate Risk - Average
+1297,0,Moderate Risk - Average
+1298,0,Moderate Risk - Average
+1299,0,Moderate Risk - Average
+1300,0,Moderate Risk - Average
+1301,0,Moderate Risk - Average
+1302,0,Moderate Risk - Average
+1303,0,Moderate Risk - Average
+1304,0,Moderate Risk - Average
+1305,0,Moderate Risk - Average
+1306,0,Moderate Risk - Average
+1307,0,Moderate Risk - Average
+1308,0,Moderate Risk - Average
+1309,0,Moderate Risk - Average
+1310,0,Moderate Risk - Average
+1311,0,Moderate Risk - Average
+1312,0,Moderate Risk - Average
+1313,2,Moderate Risk - Average
+1314,0,Moderate Risk - Average
+1315,0,Moderate Risk - Average
+1316,0,Moderate Risk - Average
+1317,0,Moderate Risk - Average
+1318,0,Moderate Risk - Average
+1319,0,Moderate Risk - Average
+1320,0,Moderate Risk - Average
+1321,0,Moderate Risk - Average
+1322,0,Moderate Risk - Average
+1323,0,Moderate Risk - Average
+1324,0,Moderate Risk - Average
+1325,0,Moderate Risk - Average
+1326,0,Moderate Risk - Average
+1327,0,Moderate Risk - Average
+1328,0,Moderate Risk - Average
+1329,0,Moderate Risk - Average
+1330,0,Moderate Risk - Average
+1331,0,Moderate Risk - Average
+1332,0,Moderate Risk - Average
+1333,0,Moderate Risk - Average
+1334,0,Moderate Risk - Average
+1335,0,Moderate Risk - Average
+1336,0,Moderate Risk - Average
+1337,0,Moderate Risk - Average
+1338,0,Moderate Risk - Average
+1339,0,Moderate Risk - Average
+1340,0,Moderate Risk - Average
+1341,0,Moderate Risk - Average
+1342,0,Moderate Risk - Average
+1343,0,Moderate Risk - Average
+1344,0,Moderate Risk - Average
+1345,0,Moderate Risk - Average
+1346,0,Moderate Risk - Average
+1347,0,Moderate Risk - Average
+1348,0,Moderate Risk - Average
+1349,0,Moderate Risk - Average
+1350,0,Moderate Risk - Average
+1351,0,Moderate Risk - Average
+1352,0,Moderate Risk - Average
+1353,0,Moderate Risk - Average
+1354,0,Moderate Risk - Average
+1355,0,Moderate Risk - Average
+1356,0,Moderate Risk - Average
+1357,0,Moderate Risk - Average
+1358,0,Moderate Risk - Average
+1359,0,Moderate Risk - Average
+1360,0,Moderate Risk - Average
+1361,0,Moderate Risk - Average
+1362,0,Moderate Risk - Average
+1363,0,Moderate Risk - Average
+1364,0,Moderate Risk - Average
+1365,0,Moderate Risk - Average
+1366,0,Moderate Risk - Average
+1367,0,Moderate Risk - Average
+1368,0,Moderate Risk - Average
+1369,0,Moderate Risk - Average
+1370,0,Moderate Risk - Average
+1371,0,Moderate Risk - Average
+1372,0,Moderate Risk - Average
+1373,0,Moderate Risk - Average
+1374,0,Moderate Risk - Average
+1375,0,Moderate Risk - Average
+1376,0,Moderate Risk - Average
+1377,0,Moderate Risk - Average
+1378,0,Moderate Risk - Average
+1379,0,Moderate Risk - Average
+1380,0,Moderate Risk - Average
+1381,0,Moderate Risk - Average
+1382,0,Moderate Risk - Average
+1383,0,Moderate Risk - Average
+1384,1,Risk Group - Many Claims/Violations
+1385,0,Moderate Risk - Average
+1386,0,Moderate Risk - Average
+1387,0,Moderate Risk - Average
+1388,0,Moderate Risk - Average
+1389,0,Moderate Risk - Average
+1390,0,Moderate Risk - Average
+1391,0,Moderate Risk - Average
+1392,0,Moderate Risk - Average
+1393,0,Moderate Risk - Average
+1394,0,Moderate Risk - Average
+1395,0,Moderate Risk - Average
+1396,0,Moderate Risk - Average
+1397,0,Moderate Risk - Average
+1398,0,Moderate Risk - Average
+1399,0,Moderate Risk - Average
+1400,0,Moderate Risk - Average
+1401,0,Moderate Risk - Average
+1402,0,Moderate Risk - Average
+1403,0,Moderate Risk - Average
+1404,0,Moderate Risk - Average
+1405,0,Moderate Risk - Average
+1406,0,Moderate Risk - Average
+1407,0,Moderate Risk - Average
+1408,0,Moderate Risk - Average
+1409,0,Moderate Risk - Average
+1410,0,Moderate Risk - Average
+1411,0,Moderate Risk - Average
+1412,0,Moderate Risk - Average
+1413,0,Moderate Risk - Average
+1414,0,Moderate Risk - Average
+1415,0,Moderate Risk - Average
+1416,0,Moderate Risk - Average
+1417,0,Moderate Risk - Average
+1418,0,Moderate Risk - Average
+1419,0,Moderate Risk - Average
+1420,0,Moderate Risk - Average
+1421,1,Risk Group - Many Claims/Violations
+1422,0,Moderate Risk - Average
+1423,0,Moderate Risk - Average
+1424,0,Moderate Risk - Average
+1425,0,Moderate Risk - Average
+1426,0,Moderate Risk - Average
+1427,0,Moderate Risk - Average
+1428,0,Moderate Risk - Average
+1429,0,Moderate Risk - Average
+1430,0,Moderate Risk - Average
+1431,0,Moderate Risk - Average
+1432,0,Moderate Risk - Average
+1433,0,Moderate Risk - Average
+1434,0,Moderate Risk - Average
+1435,0,Moderate Risk - Average
+1436,0,Moderate Risk - Average
+1437,0,Moderate Risk - Average
+1438,0,Moderate Risk - Average
+1439,0,Moderate Risk - Average
+1440,0,Moderate Risk - Average
+1441,0,Moderate Risk - Average
+1442,0,Moderate Risk - Average
+1443,0,Moderate Risk - Average
+1444,0,Moderate Risk - Average
+1445,0,Moderate Risk - Average
+1446,0,Moderate Risk - Average
+1447,0,Moderate Risk - Average
+1448,0,Moderate Risk - Average
+1449,0,Moderate Risk - Average
+1450,0,Moderate Risk - Average
+1451,0,Moderate Risk - Average
+1452,0,Moderate Risk - Average
+1453,0,Moderate Risk - Average
+1454,0,Moderate Risk - Average
+1455,0,Moderate Risk - Average
+1456,0,Moderate Risk - Average
+1457,0,Moderate Risk - Average
+1458,0,Moderate Risk - Average
+1459,0,Moderate Risk - Average
+1460,0,Moderate Risk - Average
+1461,0,Moderate Risk - Average
+1462,0,Moderate Risk - Average
+1463,2,Moderate Risk - Average
+1464,0,Moderate Risk - Average
+1465,0,Moderate Risk - Average
+1466,0,Moderate Risk - Average
+1467,0,Moderate Risk - Average
+1468,0,Moderate Risk - Average
+1469,0,Moderate Risk - Average
+1470,0,Moderate Risk - Average
+1471,0,Moderate Risk - Average
+1472,0,Moderate Risk - Average
+1473,0,Moderate Risk - Average
+1474,0,Moderate Risk - Average
+1475,0,Moderate Risk - Average
+1476,0,Moderate Risk - Average
+1477,0,Moderate Risk - Average
+1478,0,Moderate Risk - Average
+1479,0,Moderate Risk - Average
+1480,0,Moderate Risk - Average
+1481,0,Moderate Risk - Average
+1482,0,Moderate Risk - Average
+1483,0,Moderate Risk - Average
+1484,0,Moderate Risk - Average
+1485,0,Moderate Risk - Average
+1486,0,Moderate Risk - Average
+1487,0,Moderate Risk - Average
+1488,0,Moderate Risk - Average
+1489,0,Moderate Risk - Average
+1490,0,Moderate Risk - Average
+1491,0,Moderate Risk - Average
+1492,0,Moderate Risk - Average
+1493,0,Moderate Risk - Average
+1494,0,Moderate Risk - Average
+1495,0,Moderate Risk - Average
+1496,0,Moderate Risk - Average
+1497,0,Moderate Risk - Average
+1498,0,Moderate Risk - Average
+1499,0,Moderate Risk - Average
+1500,0,Moderate Risk - Average
+1501,0,Moderate Risk - Average
+1502,0,Moderate Risk - Average
+1503,0,Moderate Risk - Average
+1504,0,Moderate Risk - Average
+1505,0,Moderate Risk - Average
+1506,0,Moderate Risk - Average
+1507,0,Moderate Risk - Average
+1508,0,Moderate Risk - Average
+1509,0,Moderate Risk - Average
+1510,0,Moderate Risk - Average
+1511,0,Moderate Risk - Average
+1512,0,Moderate Risk - Average
+1513,0,Moderate Risk - Average
+1514,0,Moderate Risk - Average
+1515,0,Moderate Risk - Average
+1516,0,Moderate Risk - Average
+1517,0,Moderate Risk - Average
+1518,0,Moderate Risk - Average
+1519,0,Moderate Risk - Average
+1520,0,Moderate Risk - Average
+1521,0,Moderate Risk - Average
+1522,0,Moderate Risk - Average
+1523,0,Moderate Risk - Average
+1524,0,Moderate Risk - Average
+1525,0,Moderate Risk - Average
+1526,0,Moderate Risk - Average
+1527,0,Moderate Risk - Average
+1528,0,Moderate Risk - Average
+1529,0,Moderate Risk - Average
+1530,0,Moderate Risk - Average
+1531,0,Moderate Risk - Average
+1532,0,Moderate Risk - Average
+1533,0,Moderate Risk - Average
+1534,0,Moderate Risk - Average
+1535,0,Moderate Risk - Average
+1536,0,Moderate Risk - Average
+1537,0,Moderate Risk - Average
+1538,0,Moderate Risk - Average
+1539,0,Moderate Risk - Average
+1540,0,Moderate Risk - Average
+1541,0,Moderate Risk - Average
+1542,0,Moderate Risk - Average
+1543,0,Moderate Risk - Average
+1544,0,Moderate Risk - Average
+1545,0,Moderate Risk - Average
+1546,0,Moderate Risk - Average
+1547,0,Moderate Risk - Average
+1548,0,Moderate Risk - Average
+1549,0,Moderate Risk - Average
+1550,0,Moderate Risk - Average
+1551,0,Moderate Risk - Average
+1552,0,Moderate Risk - Average
+1553,0,Moderate Risk - Average
+1554,0,Moderate Risk - Average
+1555,0,Moderate Risk - Average
+1556,0,Moderate Risk - Average
+1557,0,Moderate Risk - Average
+1558,0,Moderate Risk - Average
+1559,0,Moderate Risk - Average
+1560,0,Moderate Risk - Average
+1561,0,Moderate Risk - Average
+1562,0,Moderate Risk - Average
+1563,0,Moderate Risk - Average
+1564,0,Moderate Risk - Average
+1565,0,Moderate Risk - Average
+1566,0,Moderate Risk - Average
+1567,0,Moderate Risk - Average
+1568,0,Moderate Risk - Average
+1569,0,Moderate Risk - Average
+1570,0,Moderate Risk - Average
+1571,0,Moderate Risk - Average
+1572,0,Moderate Risk - Average
+1573,0,Moderate Risk - Average
+1574,0,Moderate Risk - Average
+1575,0,Moderate Risk - Average
+1576,0,Moderate Risk - Average
+1577,0,Moderate Risk - Average
+1578,0,Moderate Risk - Average
+1579,0,Moderate Risk - Average
+1580,0,Moderate Risk - Average
+1581,0,Moderate Risk - Average
+1582,0,Moderate Risk - Average
+1583,0,Moderate Risk - Average
+1584,0,Moderate Risk - Average
+1585,0,Moderate Risk - Average
+1586,0,Moderate Risk - Average
+1587,0,Moderate Risk - Average
+1588,0,Moderate Risk - Average
+1589,0,Moderate Risk - Average
+1590,0,Moderate Risk - Average
+1591,0,Moderate Risk - Average
+1592,0,Moderate Risk - Average
+1593,0,Moderate Risk - Average
+1594,0,Moderate Risk - Average
+1595,0,Moderate Risk - Average
+1596,0,Moderate Risk - Average
+1597,0,Moderate Risk - Average
+1598,0,Moderate Risk - Average
+1599,0,Moderate Risk - Average
+1600,0,Moderate Risk - Average
+1601,0,Moderate Risk - Average
+1602,0,Moderate Risk - Average
+1603,0,Moderate Risk - Average
+1604,2,Moderate Risk - Average
+1605,0,Moderate Risk - Average
+1606,0,Moderate Risk - Average
+1607,0,Moderate Risk - Average
+1608,0,Moderate Risk - Average
+1609,0,Moderate Risk - Average
+1610,0,Moderate Risk - Average
+1611,0,Moderate Risk - Average
+1612,0,Moderate Risk - Average
+1613,0,Moderate Risk - Average
+1614,0,Moderate Risk - Average
+1615,0,Moderate Risk - Average
+1616,0,Moderate Risk - Average
+1617,0,Moderate Risk - Average
+1618,0,Moderate Risk - Average
+1619,0,Moderate Risk - Average
+1620,0,Moderate Risk - Average
+1621,0,Moderate Risk - Average
+1622,0,Moderate Risk - Average
+1623,0,Moderate Risk - Average
+1624,0,Moderate Risk - Average
+1625,0,Moderate Risk - Average
+1626,0,Moderate Risk - Average
+1627,0,Moderate Risk - Average
+1628,0,Moderate Risk - Average
+1629,0,Moderate Risk - Average
+1630,0,Moderate Risk - Average
+1631,0,Moderate Risk - Average
+1632,0,Moderate Risk - Average
+1633,0,Moderate Risk - Average
+1634,0,Moderate Risk - Average
+1635,0,Moderate Risk - Average
+1636,0,Moderate Risk - Average
+1637,0,Moderate Risk - Average
+1638,0,Moderate Risk - Average
+1639,0,Moderate Risk - Average
+1640,0,Moderate Risk - Average
+1641,0,Moderate Risk - Average
+1642,0,Moderate Risk - Average
+1643,0,Moderate Risk - Average
+1644,0,Moderate Risk - Average
+1645,0,Moderate Risk - Average
+1646,0,Moderate Risk - Average
+1647,0,Moderate Risk - Average
+1648,0,Moderate Risk - Average
+1649,0,Moderate Risk - Average
+1650,0,Moderate Risk - Average
+1651,0,Moderate Risk - Average
+1652,0,Moderate Risk - Average
+1653,0,Moderate Risk - Average
+1654,0,Moderate Risk - Average
+1655,0,Moderate Risk - Average
+1656,0,Moderate Risk - Average
+1657,0,Moderate Risk - Average
+1658,0,Moderate Risk - Average
+1659,0,Moderate Risk - Average
+1660,0,Moderate Risk - Average
+1661,0,Moderate Risk - Average
+1662,0,Moderate Risk - Average
+1663,0,Moderate Risk - Average
+1664,0,Moderate Risk - Average
+1665,0,Moderate Risk - Average
+1666,0,Moderate Risk - Average
+1667,0,Moderate Risk - Average
+1668,0,Moderate Risk - Average
+1669,0,Moderate Risk - Average
+1670,0,Moderate Risk - Average
+1671,0,Moderate Risk - Average
+1672,0,Moderate Risk - Average
+1673,0,Moderate Risk - Average
+1674,0,Moderate Risk - Average
+1675,0,Moderate Risk - Average
+1676,0,Moderate Risk - Average
+1677,0,Moderate Risk - Average
+1678,0,Moderate Risk - Average
+1679,0,Moderate Risk - Average
+1680,0,Moderate Risk - Average
+1681,0,Moderate Risk - Average
+1682,0,Moderate Risk - Average
+1683,0,Moderate Risk - Average
+1684,0,Moderate Risk - Average
+1685,0,Moderate Risk - Average
+1686,0,Moderate Risk - Average
+1687,0,Moderate Risk - Average
+1688,0,Moderate Risk - Average
+1689,0,Moderate Risk - Average
+1690,0,Moderate Risk - Average
+1691,2,Moderate Risk - Average
+1692,0,Moderate Risk - Average
+1693,0,Moderate Risk - Average
+1694,0,Moderate Risk - Average
+1695,0,Moderate Risk - Average
+1696,0,Moderate Risk - Average
+1697,0,Moderate Risk - Average
+1698,0,Moderate Risk - Average
+1699,0,Moderate Risk - Average
+1700,0,Moderate Risk - Average
+1701,0,Moderate Risk - Average
+1702,0,Moderate Risk - Average
+1703,0,Moderate Risk - Average
+1704,0,Moderate Risk - Average
+1705,0,Moderate Risk - Average
+1706,0,Moderate Risk - Average
+1707,0,Moderate Risk - Average
+1708,0,Moderate Risk - Average
+1709,0,Moderate Risk - Average
+1710,0,Moderate Risk - Average
+1711,0,Moderate Risk - Average
+1712,0,Moderate Risk - Average
+1713,0,Moderate Risk - Average
+1714,0,Moderate Risk - Average
+1715,0,Moderate Risk - Average
+1716,0,Moderate Risk - Average
+1717,0,Moderate Risk - Average
+1718,0,Moderate Risk - Average
+1719,0,Moderate Risk - Average
+1720,0,Moderate Risk - Average
+1721,0,Moderate Risk - Average
+1722,0,Moderate Risk - Average
+1723,0,Moderate Risk - Average
+1724,0,Moderate Risk - Average
+1725,0,Moderate Risk - Average
+1726,0,Moderate Risk - Average
+1727,0,Moderate Risk - Average
+1728,0,Moderate Risk - Average
+1729,0,Moderate Risk - Average
+1730,0,Moderate Risk - Average
+1731,0,Moderate Risk - Average
+1732,0,Moderate Risk - Average
+1733,0,Moderate Risk - Average
+1734,0,Moderate Risk - Average
+1735,0,Moderate Risk - Average
+1736,0,Moderate Risk - Average
+1737,0,Moderate Risk - Average
+1738,0,Moderate Risk - Average
+1739,0,Moderate Risk - Average
+1740,0,Moderate Risk - Average
+1741,0,Moderate Risk - Average
+1742,0,Moderate Risk - Average
+1743,0,Moderate Risk - Average
+1744,0,Moderate Risk - Average
+1745,0,Moderate Risk - Average
+1746,0,Moderate Risk - Average
+1747,0,Moderate Risk - Average
+1748,0,Moderate Risk - Average
+1749,0,Moderate Risk - Average
+1750,0,Moderate Risk - Average
+1751,0,Moderate Risk - Average
+1752,0,Moderate Risk - Average
+1753,0,Moderate Risk - Average
+1754,0,Moderate Risk - Average
+1755,0,Moderate Risk - Average
+1756,0,Moderate Risk - Average
+1757,0,Moderate Risk - Average
+1758,0,Moderate Risk - Average
+1759,0,Moderate Risk - Average
+1760,0,Moderate Risk - Average
+1761,0,Moderate Risk - Average
+1762,0,Moderate Risk - Average
+1763,0,Moderate Risk - Average
+1764,0,Moderate Risk - Average
+1765,0,Moderate Risk - Average
+1766,0,Moderate Risk - Average
+1767,0,Moderate Risk - Average
+1768,0,Moderate Risk - Average
+1769,0,Moderate Risk - Average
+1770,0,Moderate Risk - Average
+1771,0,Moderate Risk - Average
+1772,0,Moderate Risk - Average
+1773,0,Moderate Risk - Average
+1774,0,Moderate Risk - Average
+1775,0,Moderate Risk - Average
+1776,0,Moderate Risk - Average
+1777,0,Moderate Risk - Average
+1778,0,Moderate Risk - Average
+1779,0,Moderate Risk - Average
+1780,0,Moderate Risk - Average
+1781,0,Moderate Risk - Average
+1782,0,Moderate Risk - Average
+1783,0,Moderate Risk - Average
+1784,0,Moderate Risk - Average
+1785,0,Moderate Risk - Average
+1786,0,Moderate Risk - Average
+1787,0,Moderate Risk - Average
+1788,0,Moderate Risk - Average
+1789,0,Moderate Risk - Average
+1790,0,Moderate Risk - Average
+1791,0,Moderate Risk - Average
+1792,0,Moderate Risk - Average
+1793,0,Moderate Risk - Average
+1794,0,Moderate Risk - Average
+1795,0,Moderate Risk - Average
+1796,0,Moderate Risk - Average
+1797,0,Moderate Risk - Average
+1798,0,Moderate Risk - Average
+1799,0,Moderate Risk - Average
+1800,0,Moderate Risk - Average
+1801,0,Moderate Risk - Average
+1802,0,Moderate Risk - Average
+1803,0,Moderate Risk - Average
+1804,0,Moderate Risk - Average
+1805,0,Moderate Risk - Average
+1806,0,Moderate Risk - Average
+1807,0,Moderate Risk - Average
+1808,0,Moderate Risk - Average
+1809,0,Moderate Risk - Average
+1810,0,Moderate Risk - Average
+1811,0,Moderate Risk - Average
+1812,0,Moderate Risk - Average
+1813,0,Moderate Risk - Average
+1814,0,Moderate Risk - Average
+1815,0,Moderate Risk - Average
+1816,0,Moderate Risk - Average
+1817,0,Moderate Risk - Average
+1818,0,Moderate Risk - Average
+1819,0,Moderate Risk - Average
+1820,0,Moderate Risk - Average
+1821,0,Moderate Risk - Average
+1822,0,Moderate Risk - Average
+1823,0,Moderate Risk - Average
+1824,0,Moderate Risk - Average
+1825,0,Moderate Risk - Average
+1826,0,Moderate Risk - Average
+1827,0,Moderate Risk - Average
+1828,0,Moderate Risk - Average
+1829,0,Moderate Risk - Average
+1830,0,Moderate Risk - Average
+1831,0,Moderate Risk - Average
+1832,0,Moderate Risk - Average
+1833,0,Moderate Risk - Average
+1834,0,Moderate Risk - Average
+1835,0,Moderate Risk - Average
+1836,0,Moderate Risk - Average
+1837,0,Moderate Risk - Average
+1838,0,Moderate Risk - Average
+1839,0,Moderate Risk - Average
+1840,0,Moderate Risk - Average
+1841,0,Moderate Risk - Average
+1842,0,Moderate Risk - Average
+1843,0,Moderate Risk - Average
+1844,0,Moderate Risk - Average
+1845,0,Moderate Risk - Average
+1846,0,Moderate Risk - Average
+1847,0,Moderate Risk - Average
+1848,0,Moderate Risk - Average
+1849,0,Moderate Risk - Average
+1850,2,Moderate Risk - Average
+1851,0,Moderate Risk - Average
+1852,0,Moderate Risk - Average
+1853,0,Moderate Risk - Average
+1854,0,Moderate Risk - Average
+1855,0,Moderate Risk - Average
+1856,0,Moderate Risk - Average
+1857,0,Moderate Risk - Average
+1858,0,Moderate Risk - Average
+1859,0,Moderate Risk - Average
+1860,0,Moderate Risk - Average
+1861,0,Moderate Risk - Average
+1862,0,Moderate Risk - Average
+1863,1,Risk Group - Many Claims/Violations
+1864,0,Moderate Risk - Average
+1865,0,Moderate Risk - Average
+1866,0,Moderate Risk - Average
+1867,0,Moderate Risk - Average
+1868,0,Moderate Risk - Average
+1869,0,Moderate Risk - Average
+1870,0,Moderate Risk - Average
+1871,0,Moderate Risk - Average
+1872,0,Moderate Risk - Average
+1873,0,Moderate Risk - Average
+1874,0,Moderate Risk - Average
+1875,0,Moderate Risk - Average
+1876,0,Moderate Risk - Average
+1877,0,Moderate Risk - Average
+1878,0,Moderate Risk - Average
+1879,0,Moderate Risk - Average
+1880,0,Moderate Risk - Average
+1881,0,Moderate Risk - Average
+1882,0,Moderate Risk - Average
+1883,0,Moderate Risk - Average
+1884,0,Moderate Risk - Average
+1885,0,Moderate Risk - Average
+1886,0,Moderate Risk - Average
+1887,0,Moderate Risk - Average
+1888,0,Moderate Risk - Average
+1889,0,Moderate Risk - Average
+1890,0,Moderate Risk - Average
+1891,0,Moderate Risk - Average
+1892,0,Moderate Risk - Average
+1893,0,Moderate Risk - Average
+1894,0,Moderate Risk - Average
+1895,0,Moderate Risk - Average
+1896,0,Moderate Risk - Average
+1897,0,Moderate Risk - Average
+1898,0,Moderate Risk - Average
+1899,0,Moderate Risk - Average
+1900,0,Moderate Risk - Average
+1901,0,Moderate Risk - Average
+1902,0,Moderate Risk - Average
+1903,0,Moderate Risk - Average
+1904,0,Moderate Risk - Average
+1905,0,Moderate Risk - Average
+1906,0,Moderate Risk - Average
+1907,0,Moderate Risk - Average
+1908,0,Moderate Risk - Average
+1909,0,Moderate Risk - Average
+1910,0,Moderate Risk - Average
+1911,0,Moderate Risk - Average
+1912,0,Moderate Risk - Average
+1913,0,Moderate Risk - Average
+1914,0,Moderate Risk - Average
+1915,0,Moderate Risk - Average
+1916,0,Moderate Risk - Average
+1917,0,Moderate Risk - Average
+1918,0,Moderate Risk - Average
+1919,0,Moderate Risk - Average
+1920,0,Moderate Risk - Average
+1921,0,Moderate Risk - Average
+1922,0,Moderate Risk - Average
+1923,0,Moderate Risk - Average
+1924,0,Moderate Risk - Average
+1925,0,Moderate Risk - Average
+1926,0,Moderate Risk - Average
+1927,0,Moderate Risk - Average
+1928,0,Moderate Risk - Average
+1929,0,Moderate Risk - Average
+1930,0,Moderate Risk - Average
+1931,0,Moderate Risk - Average
+1932,0,Moderate Risk - Average
+1933,0,Moderate Risk - Average
+1934,0,Moderate Risk - Average
+1935,0,Moderate Risk - Average
+1936,0,Moderate Risk - Average
+1937,0,Moderate Risk - Average
+1938,0,Moderate Risk - Average
+1939,0,Moderate Risk - Average
+1940,0,Moderate Risk - Average
+1941,0,Moderate Risk - Average
+1942,0,Moderate Risk - Average
+1943,0,Moderate Risk - Average
+1944,0,Moderate Risk - Average
+1945,0,Moderate Risk - Average
+1946,0,Moderate Risk - Average
+1947,0,Moderate Risk - Average
+1948,0,Moderate Risk - Average
+1949,0,Moderate Risk - Average
+1950,0,Moderate Risk - Average
+1951,0,Moderate Risk - Average
+1952,0,Moderate Risk - Average
+1953,0,Moderate Risk - Average
+1954,0,Moderate Risk - Average
+1955,0,Moderate Risk - Average
+1956,0,Moderate Risk - Average
+1957,0,Moderate Risk - Average
+1958,0,Moderate Risk - Average
+1959,0,Moderate Risk - Average
+1960,0,Moderate Risk - Average
+1961,0,Moderate Risk - Average
+1962,0,Moderate Risk - Average
+1963,0,Moderate Risk - Average
+1964,0,Moderate Risk - Average
+1965,0,Moderate Risk - Average
+1966,0,Moderate Risk - Average
+1967,0,Moderate Risk - Average
+1968,0,Moderate Risk - Average
+1969,0,Moderate Risk - Average
+1970,0,Moderate Risk - Average
+1971,0,Moderate Risk - Average
+1972,0,Moderate Risk - Average
+1973,0,Moderate Risk - Average
+1974,0,Moderate Risk - Average
+1975,0,Moderate Risk - Average
+1976,0,Moderate Risk - Average
+1977,0,Moderate Risk - Average
+1978,0,Moderate Risk - Average
+1979,0,Moderate Risk - Average
+1980,0,Moderate Risk - Average
+1981,0,Moderate Risk - Average
+1982,0,Moderate Risk - Average
+1983,0,Moderate Risk - Average
+1984,0,Moderate Risk - Average
+1985,0,Moderate Risk - Average
+1986,0,Moderate Risk - Average
+1987,0,Moderate Risk - Average
+1988,0,Moderate Risk - Average
+1989,0,Moderate Risk - Average
+1990,0,Moderate Risk - Average
+1991,0,Moderate Risk - Average
+1992,0,Moderate Risk - Average
+1993,0,Moderate Risk - Average
+1994,0,Moderate Risk - Average
+1995,0,Moderate Risk - Average
+1996,0,Moderate Risk - Average
+1997,0,Moderate Risk - Average
+1998,0,Moderate Risk - Average
+1999,0,Moderate Risk - Average
+2000,0,Moderate Risk - Average
+2001,1,Risk Group - Many Claims/Violations
+2002,2,Moderate Risk - Average
+2003,2,Moderate Risk - Average
+2004,2,Moderate Risk - Average
+2005,1,Risk Group - Many Claims/Violations
+2006,1,Risk Group - Many Claims/Violations
+2007,2,Moderate Risk - Average
+2008,2,Moderate Risk - Average
+2009,2,Moderate Risk - Average
+2010,2,Moderate Risk - Average
+2011,2,Moderate Risk - Average
+2012,2,Moderate Risk - Average
+2013,2,Moderate Risk - Average
+2014,2,Moderate Risk - Average
+2015,1,Risk Group - Many Claims/Violations
+2016,2,Moderate Risk - Average
+2017,2,Moderate Risk - Average
+2018,1,Risk Group - Many Claims/Violations
+2019,2,Moderate Risk - Average
+2020,2,Moderate Risk - Average
+2021,2,Moderate Risk - Average
+2022,2,Moderate Risk - Average
+2023,2,Moderate Risk - Average
+2024,2,Moderate Risk - Average
+2025,2,Moderate Risk - Average
+2026,2,Moderate Risk - Average
+2027,2,Moderate Risk - Average
+2028,1,Risk Group - Many Claims/Violations
+2029,2,Moderate Risk - Average
+2030,2,Moderate Risk - Average
+2031,2,Moderate Risk - Average
+2032,1,Risk Group - Many Claims/Violations
+2033,2,Moderate Risk - Average
+2034,2,Moderate Risk - Average
+2035,2,Moderate Risk - Average
+2036,2,Moderate Risk - Average
+2037,2,Moderate Risk - Average
+2038,1,Risk Group - Many Claims/Violations
+2039,2,Moderate Risk - Average
+2040,2,Moderate Risk - Average
+2041,2,Moderate Risk - Average
+2042,2,Moderate Risk - Average
+2043,2,Moderate Risk - Average
+2044,2,Moderate Risk - Average
+2045,2,Moderate Risk - Average
+2046,2,Moderate Risk - Average
+2047,2,Moderate Risk - Average
+2048,2,Moderate Risk - Average
+2049,2,Moderate Risk - Average
+2050,1,Risk Group - Many Claims/Violations
+2051,2,Moderate Risk - Average
+2052,2,Moderate Risk - Average
+2053,2,Moderate Risk - Average
+2054,2,Moderate Risk - Average
+2055,2,Moderate Risk - Average
+2056,1,Risk Group - Many Claims/Violations
+2057,2,Moderate Risk - Average
+2058,2,Moderate Risk - Average
+2059,2,Moderate Risk - Average
+2060,2,Moderate Risk - Average
+2061,2,Moderate Risk - Average
+2062,2,Moderate Risk - Average
+2063,2,Moderate Risk - Average
+2064,2,Moderate Risk - Average
+2065,2,Moderate Risk - Average
+2066,2,Moderate Risk - Average
+2067,2,Moderate Risk - Average
+2068,1,Risk Group - Many Claims/Violations
+2069,2,Moderate Risk - Average
+2070,2,Moderate Risk - Average
+2071,2,Moderate Risk - Average
+2072,2,Moderate Risk - Average
+2073,2,Moderate Risk - Average
+2074,2,Moderate Risk - Average
+2075,2,Moderate Risk - Average
+2076,2,Moderate Risk - Average
+2077,2,Moderate Risk - Average
+2078,2,Moderate Risk - Average
+2079,2,Moderate Risk - Average
+2080,2,Moderate Risk - Average
+2081,1,Risk Group - Many Claims/Violations
+2082,2,Moderate Risk - Average
+2083,1,Risk Group - Many Claims/Violations
+2084,2,Moderate Risk - Average
+2085,2,Moderate Risk - Average
+2086,2,Moderate Risk - Average
+2087,2,Moderate Risk - Average
+2088,2,Moderate Risk - Average
+2089,2,Moderate Risk - Average
+2090,2,Moderate Risk - Average
+2091,2,Moderate Risk - Average
+2092,2,Moderate Risk - Average
+2093,2,Moderate Risk - Average
+2094,2,Moderate Risk - Average
+2095,1,Risk Group - Many Claims/Violations
+2096,1,Risk Group - Many Claims/Violations
+2097,2,Moderate Risk - Average
+2098,2,Moderate Risk - Average
+2099,2,Moderate Risk - Average
+2100,2,Moderate Risk - Average
+2101,1,Risk Group - Many Claims/Violations
+2102,2,Moderate Risk - Average
+2103,2,Moderate Risk - Average
+2104,2,Moderate Risk - Average
+2105,2,Moderate Risk - Average
+2106,1,Risk Group - Many Claims/Violations
+2107,2,Moderate Risk - Average
+2108,2,Moderate Risk - Average
+2109,2,Moderate Risk - Average
+2110,2,Moderate Risk - Average
+2111,2,Moderate Risk - Average
+2112,2,Moderate Risk - Average
+2113,2,Moderate Risk - Average
+2114,2,Moderate Risk - Average
+2115,2,Moderate Risk - Average
+2116,2,Moderate Risk - Average
+2117,2,Moderate Risk - Average
+2118,2,Moderate Risk - Average
+2119,2,Moderate Risk - Average
+2120,2,Moderate Risk - Average
+2121,1,Risk Group - Many Claims/Violations
+2122,2,Moderate Risk - Average
+2123,2,Moderate Risk - Average
+2124,1,Risk Group - Many Claims/Violations
+2125,2,Moderate Risk - Average
+2126,2,Moderate Risk - Average
+2127,1,Risk Group - Many Claims/Violations
+2128,2,Moderate Risk - Average
+2129,2,Moderate Risk - Average
+2130,1,Risk Group - Many Claims/Violations
+2131,2,Moderate Risk - Average
+2132,2,Moderate Risk - Average
+2133,2,Moderate Risk - Average
+2134,2,Moderate Risk - Average
+2135,2,Moderate Risk - Average
+2136,2,Moderate Risk - Average
+2137,2,Moderate Risk - Average
+2138,2,Moderate Risk - Average
+2139,2,Moderate Risk - Average
+2140,2,Moderate Risk - Average
+2141,2,Moderate Risk - Average
+2142,1,Risk Group - Many Claims/Violations
+2143,2,Moderate Risk - Average
+2144,2,Moderate Risk - Average
+2145,2,Moderate Risk - Average
+2146,1,Risk Group - Many Claims/Violations
+2147,1,Risk Group - Many Claims/Violations
+2148,2,Moderate Risk - Average
+2149,2,Moderate Risk - Average
+2150,2,Moderate Risk - Average
+2151,2,Moderate Risk - Average
+2152,2,Moderate Risk - Average
+2153,2,Moderate Risk - Average
+2154,2,Moderate Risk - Average
+2155,2,Moderate Risk - Average
+2156,2,Moderate Risk - Average
+2157,2,Moderate Risk - Average
+2158,2,Moderate Risk - Average
+2159,2,Moderate Risk - Average
+2160,2,Moderate Risk - Average
+2161,2,Moderate Risk - Average
+2162,2,Moderate Risk - Average
+2163,2,Moderate Risk - Average
+2164,1,Risk Group - Many Claims/Violations
+2165,2,Moderate Risk - Average
+2166,2,Moderate Risk - Average
+2167,1,Risk Group - Many Claims/Violations
+2168,2,Moderate Risk - Average
+2169,2,Moderate Risk - Average
+2170,2,Moderate Risk - Average
+2171,2,Moderate Risk - Average
+2172,2,Moderate Risk - Average
+2173,2,Moderate Risk - Average
+2174,2,Moderate Risk - Average
+2175,1,Risk Group - Many Claims/Violations
+2176,2,Moderate Risk - Average
+2177,2,Moderate Risk - Average
+2178,2,Moderate Risk - Average
+2179,2,Moderate Risk - Average
+2180,2,Moderate Risk - Average
+2181,2,Moderate Risk - Average
+2182,2,Moderate Risk - Average
+2183,2,Moderate Risk - Average
+2184,2,Moderate Risk - Average
+2185,2,Moderate Risk - Average
+2186,2,Moderate Risk - Average
+2187,2,Moderate Risk - Average
+2188,2,Moderate Risk - Average
+2189,1,Risk Group - Many Claims/Violations
+2190,2,Moderate Risk - Average
+2191,2,Moderate Risk - Average
+2192,2,Moderate Risk - Average
+2193,2,Moderate Risk - Average
+2194,1,Risk Group - Many Claims/Violations
+2195,2,Moderate Risk - Average
+2196,2,Moderate Risk - Average
+2197,2,Moderate Risk - Average
+2198,2,Moderate Risk - Average
+2199,1,Risk Group - Many Claims/Violations
+2200,1,Risk Group - Many Claims/Violations
+2201,1,Risk Group - Many Claims/Violations
+2202,1,Risk Group - Many Claims/Violations
+2203,2,Moderate Risk - Average
+2204,2,Moderate Risk - Average
+2205,2,Moderate Risk - Average
+2206,2,Moderate Risk - Average
+2207,2,Moderate Risk - Average
+2208,2,Moderate Risk - Average
+2209,2,Moderate Risk - Average
+2210,1,Risk Group - Many Claims/Violations
+2211,2,Moderate Risk - Average
+2212,2,Moderate Risk - Average
+2213,2,Moderate Risk - Average
+2214,2,Moderate Risk - Average
+2215,2,Moderate Risk - Average
+2216,2,Moderate Risk - Average
+2217,2,Moderate Risk - Average
+2218,2,Moderate Risk - Average
+2219,2,Moderate Risk - Average
+2220,1,Risk Group - Many Claims/Violations
+2221,2,Moderate Risk - Average
+2222,2,Moderate Risk - Average
+2223,2,Moderate Risk - Average
+2224,2,Moderate Risk - Average
+2225,2,Moderate Risk - Average
+2226,2,Moderate Risk - Average
+2227,2,Moderate Risk - Average
+2228,2,Moderate Risk - Average
+2229,1,Risk Group - Many Claims/Violations
+2230,2,Moderate Risk - Average
+2231,2,Moderate Risk - Average
+2232,2,Moderate Risk - Average
+2233,2,Moderate Risk - Average
+2234,1,Risk Group - Many Claims/Violations
+2235,2,Moderate Risk - Average
+2236,2,Moderate Risk - Average
+2237,2,Moderate Risk - Average
+2238,2,Moderate Risk - Average
+2239,2,Moderate Risk - Average
+2240,1,Risk Group - Many Claims/Violations
+2241,2,Moderate Risk - Average
+2242,2,Moderate Risk - Average
+2243,2,Moderate Risk - Average
+2244,2,Moderate Risk - Average
+2245,2,Moderate Risk - Average
+2246,2,Moderate Risk - Average
+2247,2,Moderate Risk - Average
+2248,2,Moderate Risk - Average
+2249,2,Moderate Risk - Average
+2250,2,Moderate Risk - Average
+2251,2,Moderate Risk - Average
+2252,2,Moderate Risk - Average
+2253,2,Moderate Risk - Average
+2254,1,Risk Group - Many Claims/Violations
+2255,2,Moderate Risk - Average
+2256,2,Moderate Risk - Average
+2257,2,Moderate Risk - Average
+2258,2,Moderate Risk - Average
+2259,2,Moderate Risk - Average
+2260,1,Risk Group - Many Claims/Violations
+2261,1,Risk Group - Many Claims/Violations
+2262,1,Risk Group - Many Claims/Violations
+2263,2,Moderate Risk - Average
+2264,2,Moderate Risk - Average
+2265,2,Moderate Risk - Average
+2266,2,Moderate Risk - Average
+2267,2,Moderate Risk - Average
+2268,2,Moderate Risk - Average
+2269,1,Risk Group - Many Claims/Violations
+2270,2,Moderate Risk - Average
+2271,2,Moderate Risk - Average
+2272,2,Moderate Risk - Average
+2273,2,Moderate Risk - Average
+2274,2,Moderate Risk - Average
+2275,2,Moderate Risk - Average
+2276,2,Moderate Risk - Average
+2277,2,Moderate Risk - Average
+2278,2,Moderate Risk - Average
+2279,2,Moderate Risk - Average
+2280,2,Moderate Risk - Average
+2281,2,Moderate Risk - Average
+2282,1,Risk Group - Many Claims/Violations
+2283,2,Moderate Risk - Average
+2284,2,Moderate Risk - Average
+2285,2,Moderate Risk - Average
+2286,2,Moderate Risk - Average
+2287,1,Risk Group - Many Claims/Violations
+2288,2,Moderate Risk - Average
+2289,2,Moderate Risk - Average
+2290,1,Risk Group - Many Claims/Violations
+2291,2,Moderate Risk - Average
+2292,2,Moderate Risk - Average
+2293,2,Moderate Risk - Average
+2294,2,Moderate Risk - Average
+2295,1,Risk Group - Many Claims/Violations
+2296,2,Moderate Risk - Average
+2297,2,Moderate Risk - Average
+2298,2,Moderate Risk - Average
+2299,2,Moderate Risk - Average
+2300,2,Moderate Risk - Average
+2301,2,Moderate Risk - Average
+2302,2,Moderate Risk - Average
+2303,2,Moderate Risk - Average
+2304,1,Risk Group - Many Claims/Violations
+2305,2,Moderate Risk - Average
+2306,2,Moderate Risk - Average
+2307,2,Moderate Risk - Average
+2308,2,Moderate Risk - Average
+2309,1,Risk Group - Many Claims/Violations
+2310,2,Moderate Risk - Average
+2311,2,Moderate Risk - Average
+2312,1,Risk Group - Many Claims/Violations
+2313,2,Moderate Risk - Average
+2314,2,Moderate Risk - Average
+2315,2,Moderate Risk - Average
+2316,2,Moderate Risk - Average
+2317,2,Moderate Risk - Average
+2318,2,Moderate Risk - Average
+2319,1,Risk Group - Many Claims/Violations
+2320,2,Moderate Risk - Average
+2321,2,Moderate Risk - Average
+2322,1,Risk Group - Many Claims/Violations
+2323,2,Moderate Risk - Average
+2324,2,Moderate Risk - Average
+2325,2,Moderate Risk - Average
+2326,2,Moderate Risk - Average
+2327,2,Moderate Risk - Average
+2328,2,Moderate Risk - Average
+2329,2,Moderate Risk - Average
+2330,2,Moderate Risk - Average
+2331,2,Moderate Risk - Average
+2332,2,Moderate Risk - Average
+2333,2,Moderate Risk - Average
+2334,2,Moderate Risk - Average
+2335,2,Moderate Risk - Average
+2336,2,Moderate Risk - Average
+2337,2,Moderate Risk - Average
+2338,2,Moderate Risk - Average
+2339,1,Risk Group - Many Claims/Violations
+2340,2,Moderate Risk - Average
+2341,2,Moderate Risk - Average
+2342,2,Moderate Risk - Average
+2343,1,Risk Group - Many Claims/Violations
+2344,2,Moderate Risk - Average
+2345,2,Moderate Risk - Average
+2346,2,Moderate Risk - Average
+2347,2,Moderate Risk - Average
+2348,2,Moderate Risk - Average
+2349,2,Moderate Risk - Average
+2350,2,Moderate Risk - Average
+2351,1,Risk Group - Many Claims/Violations
+2352,2,Moderate Risk - Average
+2353,2,Moderate Risk - Average
+2354,2,Moderate Risk - Average
+2355,1,Risk Group - Many Claims/Violations
+2356,2,Moderate Risk - Average
+2357,1,Risk Group - Many Claims/Violations
+2358,2,Moderate Risk - Average
+2359,2,Moderate Risk - Average
+2360,2,Moderate Risk - Average
+2361,1,Risk Group - Many Claims/Violations
+2362,2,Moderate Risk - Average
+2363,2,Moderate Risk - Average
+2364,2,Moderate Risk - Average
+2365,2,Moderate Risk - Average
+2366,2,Moderate Risk - Average
+2367,2,Moderate Risk - Average
+2368,2,Moderate Risk - Average
+2369,2,Moderate Risk - Average
+2370,1,Risk Group - Many Claims/Violations
+2371,1,Risk Group - Many Claims/Violations
+2372,2,Moderate Risk - Average
+2373,2,Moderate Risk - Average
+2374,2,Moderate Risk - Average
+2375,2,Moderate Risk - Average
+2376,2,Moderate Risk - Average
+2377,2,Moderate Risk - Average
+2378,2,Moderate Risk - Average
+2379,2,Moderate Risk - Average
+2380,2,Moderate Risk - Average
+2381,2,Moderate Risk - Average
+2382,2,Moderate Risk - Average
+2383,2,Moderate Risk - Average
+2384,1,Risk Group - Many Claims/Violations
+2385,1,Risk Group - Many Claims/Violations
+2386,1,Risk Group - Many Claims/Violations
+2387,2,Moderate Risk - Average
+2388,2,Moderate Risk - Average
+2389,2,Moderate Risk - Average
+2390,2,Moderate Risk - Average
+2391,2,Moderate Risk - Average
+2392,1,Risk Group - Many Claims/Violations
+2393,2,Moderate Risk - Average
+2394,2,Moderate Risk - Average
+2395,2,Moderate Risk - Average
+2396,2,Moderate Risk - Average
+2397,1,Risk Group - Many Claims/Violations
+2398,2,Moderate Risk - Average
+2399,2,Moderate Risk - Average
+2400,2,Moderate Risk - Average
+2401,2,Moderate Risk - Average
+2402,2,Moderate Risk - Average
+2403,2,Moderate Risk - Average
+2404,2,Moderate Risk - Average
+2405,2,Moderate Risk - Average
+2406,2,Moderate Risk - Average
+2407,2,Moderate Risk - Average
+2408,2,Moderate Risk - Average
+2409,2,Moderate Risk - Average
+2410,2,Moderate Risk - Average
+2411,2,Moderate Risk - Average
+2412,2,Moderate Risk - Average
+2413,2,Moderate Risk - Average
+2414,2,Moderate Risk - Average
+2415,2,Moderate Risk - Average
+2416,2,Moderate Risk - Average
+2417,2,Moderate Risk - Average
+2418,2,Moderate Risk - Average
+2419,2,Moderate Risk - Average
+2420,2,Moderate Risk - Average
+2421,2,Moderate Risk - Average
+2422,2,Moderate Risk - Average
+2423,2,Moderate Risk - Average
+2424,2,Moderate Risk - Average
+2425,1,Risk Group - Many Claims/Violations
+2426,2,Moderate Risk - Average
+2427,2,Moderate Risk - Average
+2428,2,Moderate Risk - Average
+2429,2,Moderate Risk - Average
+2430,2,Moderate Risk - Average
+2431,1,Risk Group - Many Claims/Violations
+2432,2,Moderate Risk - Average
+2433,1,Risk Group - Many Claims/Violations
+2434,1,Risk Group - Many Claims/Violations
+2435,1,Risk Group - Many Claims/Violations
+2436,2,Moderate Risk - Average
+2437,2,Moderate Risk - Average
+2438,2,Moderate Risk - Average
+2439,2,Moderate Risk - Average
+2440,1,Risk Group - Many Claims/Violations
+2441,2,Moderate Risk - Average
+2442,2,Moderate Risk - Average
+2443,2,Moderate Risk - Average
+2444,2,Moderate Risk - Average
+2445,2,Moderate Risk - Average
+2446,2,Moderate Risk - Average
+2447,2,Moderate Risk - Average
+2448,2,Moderate Risk - Average
+2449,2,Moderate Risk - Average
+2450,2,Moderate Risk - Average
+2451,2,Moderate Risk - Average
+2452,2,Moderate Risk - Average
+2453,2,Moderate Risk - Average
+2454,2,Moderate Risk - Average
+2455,2,Moderate Risk - Average
+2456,2,Moderate Risk - Average
+2457,1,Risk Group - Many Claims/Violations
+2458,1,Risk Group - Many Claims/Violations
+2459,2,Moderate Risk - Average
+2460,2,Moderate Risk - Average
+2461,2,Moderate Risk - Average
+2462,2,Moderate Risk - Average
+2463,2,Moderate Risk - Average
+2464,2,Moderate Risk - Average
+2465,2,Moderate Risk - Average
+2466,2,Moderate Risk - Average
+2467,2,Moderate Risk - Average
+2468,2,Moderate Risk - Average
+2469,2,Moderate Risk - Average
+2470,2,Moderate Risk - Average
+2471,2,Moderate Risk - Average
+2472,2,Moderate Risk - Average
+2473,1,Risk Group - Many Claims/Violations
+2474,2,Moderate Risk - Average
+2475,2,Moderate Risk - Average
+2476,2,Moderate Risk - Average
+2477,2,Moderate Risk - Average
+2478,2,Moderate Risk - Average
+2479,2,Moderate Risk - Average
+2480,2,Moderate Risk - Average
+2481,2,Moderate Risk - Average
+2482,1,Risk Group - Many Claims/Violations
+2483,2,Moderate Risk - Average
+2484,1,Risk Group - Many Claims/Violations
+2485,2,Moderate Risk - Average
+2486,2,Moderate Risk - Average
+2487,2,Moderate Risk - Average
+2488,2,Moderate Risk - Average
+2489,2,Moderate Risk - Average
+2490,2,Moderate Risk - Average
+2491,2,Moderate Risk - Average
+2492,1,Risk Group - Many Claims/Violations
+2493,1,Risk Group - Many Claims/Violations
+2494,2,Moderate Risk - Average
+2495,2,Moderate Risk - Average
+2496,2,Moderate Risk - Average
+2497,2,Moderate Risk - Average
+2498,2,Moderate Risk - Average
+2499,2,Moderate Risk - Average
+2500,1,Risk Group - Many Claims/Violations
+2501,2,Moderate Risk - Average
+2502,2,Moderate Risk - Average
+2503,1,Risk Group - Many Claims/Violations
+2504,2,Moderate Risk - Average
+2505,2,Moderate Risk - Average
+2506,2,Moderate Risk - Average
+2507,2,Moderate Risk - Average
+2508,2,Moderate Risk - Average
+2509,2,Moderate Risk - Average
+2510,1,Risk Group - Many Claims/Violations
+2511,2,Moderate Risk - Average
+2512,2,Moderate Risk - Average
+2513,2,Moderate Risk - Average
+2514,2,Moderate Risk - Average
+2515,1,Risk Group - Many Claims/Violations
+2516,2,Moderate Risk - Average
+2517,2,Moderate Risk - Average
+2518,1,Risk Group - Many Claims/Violations
+2519,2,Moderate Risk - Average
+2520,2,Moderate Risk - Average
+2521,2,Moderate Risk - Average
+2522,2,Moderate Risk - Average
+2523,1,Risk Group - Many Claims/Violations
+2524,2,Moderate Risk - Average
+2525,1,Risk Group - Many Claims/Violations
+2526,2,Moderate Risk - Average
+2527,1,Risk Group - Many Claims/Violations
+2528,2,Moderate Risk - Average
+2529,2,Moderate Risk - Average
+2530,1,Risk Group - Many Claims/Violations
+2531,2,Moderate Risk - Average
+2532,1,Risk Group - Many Claims/Violations
+2533,1,Risk Group - Many Claims/Violations
+2534,1,Risk Group - Many Claims/Violations
+2535,2,Moderate Risk - Average
+2536,2,Moderate Risk - Average
+2537,2,Moderate Risk - Average
+2538,2,Moderate Risk - Average
+2539,2,Moderate Risk - Average
+2540,2,Moderate Risk - Average
+2541,2,Moderate Risk - Average
+2542,2,Moderate Risk - Average
+2543,2,Moderate Risk - Average
+2544,2,Moderate Risk - Average
+2545,2,Moderate Risk - Average
+2546,1,Risk Group - Many Claims/Violations
+2547,2,Moderate Risk - Average
+2548,2,Moderate Risk - Average
+2549,2,Moderate Risk - Average
+2550,2,Moderate Risk - Average
+2551,1,Risk Group - Many Claims/Violations
+2552,2,Moderate Risk - Average
+2553,2,Moderate Risk - Average
+2554,2,Moderate Risk - Average
+2555,2,Moderate Risk - Average
+2556,2,Moderate Risk - Average
+2557,1,Risk Group - Many Claims/Violations
+2558,2,Moderate Risk - Average
+2559,2,Moderate Risk - Average
+2560,2,Moderate Risk - Average
+2561,2,Moderate Risk - Average
+2562,2,Moderate Risk - Average
+2563,2,Moderate Risk - Average
+2564,2,Moderate Risk - Average
+2565,2,Moderate Risk - Average
+2566,2,Moderate Risk - Average
+2567,2,Moderate Risk - Average
+2568,2,Moderate Risk - Average
+2569,2,Moderate Risk - Average
+2570,2,Moderate Risk - Average
+2571,2,Moderate Risk - Average
+2572,2,Moderate Risk - Average
+2573,2,Moderate Risk - Average
+2574,2,Moderate Risk - Average
+2575,2,Moderate Risk - Average
+2576,1,Risk Group - Many Claims/Violations
+2577,2,Moderate Risk - Average
+2578,2,Moderate Risk - Average
+2579,1,Risk Group - Many Claims/Violations
+2580,2,Moderate Risk - Average
+2581,2,Moderate Risk - Average
+2582,2,Moderate Risk - Average
+2583,2,Moderate Risk - Average
+2584,2,Moderate Risk - Average
+2585,2,Moderate Risk - Average
+2586,1,Risk Group - Many Claims/Violations
+2587,2,Moderate Risk - Average
+2588,2,Moderate Risk - Average
+2589,2,Moderate Risk - Average
+2590,2,Moderate Risk - Average
+2591,2,Moderate Risk - Average
+2592,1,Risk Group - Many Claims/Violations
+2593,2,Moderate Risk - Average
+2594,2,Moderate Risk - Average
+2595,2,Moderate Risk - Average
+2596,2,Moderate Risk - Average
+2597,2,Moderate Risk - Average
+2598,2,Moderate Risk - Average
+2599,2,Moderate Risk - Average
+2600,1,Risk Group - Many Claims/Violations
+2601,2,Moderate Risk - Average
+2602,2,Moderate Risk - Average
+2603,2,Moderate Risk - Average
+2604,2,Moderate Risk - Average
+2605,2,Moderate Risk - Average
+2606,2,Moderate Risk - Average
+2607,2,Moderate Risk - Average
+2608,2,Moderate Risk - Average
+2609,2,Moderate Risk - Average
+2610,2,Moderate Risk - Average
+2611,1,Risk Group - Many Claims/Violations
+2612,2,Moderate Risk - Average
+2613,2,Moderate Risk - Average
+2614,2,Moderate Risk - Average
+2615,2,Moderate Risk - Average
+2616,2,Moderate Risk - Average
+2617,2,Moderate Risk - Average
+2618,1,Risk Group - Many Claims/Violations
+2619,1,Risk Group - Many Claims/Violations
+2620,2,Moderate Risk - Average
+2621,2,Moderate Risk - Average
+2622,1,Risk Group - Many Claims/Violations
+2623,2,Moderate Risk - Average
+2624,2,Moderate Risk - Average
+2625,2,Moderate Risk - Average
+2626,2,Moderate Risk - Average
+2627,2,Moderate Risk - Average
+2628,2,Moderate Risk - Average
+2629,1,Risk Group - Many Claims/Violations
+2630,2,Moderate Risk - Average
+2631,2,Moderate Risk - Average
+2632,2,Moderate Risk - Average
+2633,2,Moderate Risk - Average
+2634,1,Risk Group - Many Claims/Violations
+2635,2,Moderate Risk - Average
+2636,1,Risk Group - Many Claims/Violations
+2637,2,Moderate Risk - Average
+2638,2,Moderate Risk - Average
+2639,2,Moderate Risk - Average
+2640,2,Moderate Risk - Average
+2641,2,Moderate Risk - Average
+2642,1,Risk Group - Many Claims/Violations
+2643,2,Moderate Risk - Average
+2644,2,Moderate Risk - Average
+2645,2,Moderate Risk - Average
+2646,1,Risk Group - Many Claims/Violations
+2647,2,Moderate Risk - Average
+2648,2,Moderate Risk - Average
+2649,2,Moderate Risk - Average
+2650,1,Risk Group - Many Claims/Violations
+2651,1,Risk Group - Many Claims/Violations
+2652,2,Moderate Risk - Average
+2653,2,Moderate Risk - Average
+2654,2,Moderate Risk - Average
+2655,1,Risk Group - Many Claims/Violations
+2656,2,Moderate Risk - Average
+2657,2,Moderate Risk - Average
+2658,1,Risk Group - Many Claims/Violations
+2659,2,Moderate Risk - Average
+2660,1,Risk Group - Many Claims/Violations
+2661,2,Moderate Risk - Average
+2662,1,Risk Group - Many Claims/Violations
+2663,1,Risk Group - Many Claims/Violations
+2664,2,Moderate Risk - Average
+2665,2,Moderate Risk - Average
+2666,2,Moderate Risk - Average
+2667,2,Moderate Risk - Average
+2668,2,Moderate Risk - Average
+2669,2,Moderate Risk - Average
+2670,2,Moderate Risk - Average
+2671,2,Moderate Risk - Average
+2672,2,Moderate Risk - Average
+2673,2,Moderate Risk - Average
+2674,2,Moderate Risk - Average
+2675,2,Moderate Risk - Average
+2676,2,Moderate Risk - Average
+2677,2,Moderate Risk - Average
+2678,2,Moderate Risk - Average
+2679,2,Moderate Risk - Average
+2680,2,Moderate Risk - Average
+2681,2,Moderate Risk - Average
+2682,2,Moderate Risk - Average
+2683,2,Moderate Risk - Average
+2684,2,Moderate Risk - Average
+2685,2,Moderate Risk - Average
+2686,2,Moderate Risk - Average
+2687,2,Moderate Risk - Average
+2688,2,Moderate Risk - Average
+2689,1,Risk Group - Many Claims/Violations
+2690,2,Moderate Risk - Average
+2691,2,Moderate Risk - Average
+2692,1,Risk Group - Many Claims/Violations
+2693,1,Risk Group - Many Claims/Violations
+2694,2,Moderate Risk - Average
+2695,2,Moderate Risk - Average
+2696,1,Risk Group - Many Claims/Violations
+2697,1,Risk Group - Many Claims/Violations
+2698,1,Risk Group - Many Claims/Violations
+2699,1,Risk Group - Many Claims/Violations
+2700,2,Moderate Risk - Average
+2701,2,Moderate Risk - Average
+2702,2,Moderate Risk - Average
+2703,2,Moderate Risk - Average
+2704,2,Moderate Risk - Average
+2705,2,Moderate Risk - Average
+2706,2,Moderate Risk - Average
+2707,1,Risk Group - Many Claims/Violations
+2708,2,Moderate Risk - Average
+2709,2,Moderate Risk - Average
+2710,2,Moderate Risk - Average
+2711,2,Moderate Risk - Average
+2712,2,Moderate Risk - Average
+2713,1,Risk Group - Many Claims/Violations
+2714,2,Moderate Risk - Average
+2715,2,Moderate Risk - Average
+2716,2,Moderate Risk - Average
+2717,2,Moderate Risk - Average
+2718,2,Moderate Risk - Average
+2719,2,Moderate Risk - Average
+2720,2,Moderate Risk - Average
+2721,2,Moderate Risk - Average
+2722,2,Moderate Risk - Average
+2723,2,Moderate Risk - Average
+2724,2,Moderate Risk - Average
+2725,2,Moderate Risk - Average
+2726,2,Moderate Risk - Average
+2727,2,Moderate Risk - Average
+2728,1,Risk Group - Many Claims/Violations
+2729,2,Moderate Risk - Average
+2730,2,Moderate Risk - Average
+2731,2,Moderate Risk - Average
+2732,2,Moderate Risk - Average
+2733,2,Moderate Risk - Average
+2734,2,Moderate Risk - Average
+2735,2,Moderate Risk - Average
+2736,2,Moderate Risk - Average
+2737,1,Risk Group - Many Claims/Violations
+2738,2,Moderate Risk - Average
+2739,2,Moderate Risk - Average
+2740,2,Moderate Risk - Average
+2741,2,Moderate Risk - Average
+2742,1,Risk Group - Many Claims/Violations
+2743,2,Moderate Risk - Average
+2744,2,Moderate Risk - Average
+2745,2,Moderate Risk - Average
+2746,2,Moderate Risk - Average
+2747,1,Risk Group - Many Claims/Violations
+2748,2,Moderate Risk - Average
+2749,2,Moderate Risk - Average
+2750,2,Moderate Risk - Average
+2751,2,Moderate Risk - Average
+2752,2,Moderate Risk - Average
+2753,2,Moderate Risk - Average
+2754,2,Moderate Risk - Average
+2755,1,Risk Group - Many Claims/Violations
+2756,2,Moderate Risk - Average
+2757,1,Risk Group - Many Claims/Violations
+2758,1,Risk Group - Many Claims/Violations
+2759,2,Moderate Risk - Average
+2760,2,Moderate Risk - Average
+2761,2,Moderate Risk - Average
+2762,1,Risk Group - Many Claims/Violations
+2763,1,Risk Group - Many Claims/Violations
+2764,2,Moderate Risk - Average
+2765,2,Moderate Risk - Average
+2766,2,Moderate Risk - Average
+2767,1,Risk Group - Many Claims/Violations
+2768,2,Moderate Risk - Average
+2769,2,Moderate Risk - Average
+2770,2,Moderate Risk - Average
+2771,1,Risk Group - Many Claims/Violations
+2772,2,Moderate Risk - Average
+2773,2,Moderate Risk - Average
+2774,1,Risk Group - Many Claims/Violations
+2775,1,Risk Group - Many Claims/Violations
+2776,2,Moderate Risk - Average
+2777,1,Risk Group - Many Claims/Violations
+2778,2,Moderate Risk - Average
+2779,1,Risk Group - Many Claims/Violations
+2780,2,Moderate Risk - Average
+2781,2,Moderate Risk - Average
+2782,2,Moderate Risk - Average
+2783,2,Moderate Risk - Average
+2784,2,Moderate Risk - Average
+2785,2,Moderate Risk - Average
+2786,2,Moderate Risk - Average
+2787,1,Risk Group - Many Claims/Violations
+2788,1,Risk Group - Many Claims/Violations
+2789,2,Moderate Risk - Average
+2790,2,Moderate Risk - Average
+2791,1,Risk Group - Many Claims/Violations
+2792,2,Moderate Risk - Average
+2793,1,Risk Group - Many Claims/Violations
+2794,2,Moderate Risk - Average
+2795,2,Moderate Risk - Average
+2796,2,Moderate Risk - Average
+2797,2,Moderate Risk - Average
+2798,2,Moderate Risk - Average
+2799,1,Risk Group - Many Claims/Violations
+2800,2,Moderate Risk - Average
+2801,2,Moderate Risk - Average
+2802,1,Risk Group - Many Claims/Violations
+2803,2,Moderate Risk - Average
+2804,2,Moderate Risk - Average
+2805,2,Moderate Risk - Average
+2806,2,Moderate Risk - Average
+2807,2,Moderate Risk - Average
+2808,1,Risk Group - Many Claims/Violations
+2809,2,Moderate Risk - Average
+2810,2,Moderate Risk - Average
+2811,2,Moderate Risk - Average
+2812,2,Moderate Risk - Average
+2813,2,Moderate Risk - Average
+2814,2,Moderate Risk - Average
+2815,2,Moderate Risk - Average
+2816,2,Moderate Risk - Average
+2817,2,Moderate Risk - Average
+2818,2,Moderate Risk - Average
+2819,2,Moderate Risk - Average
+2820,2,Moderate Risk - Average
+2821,2,Moderate Risk - Average
+2822,1,Risk Group - Many Claims/Violations
+2823,2,Moderate Risk - Average
+2824,2,Moderate Risk - Average
+2825,2,Moderate Risk - Average
+2826,1,Risk Group - Many Claims/Violations
+2827,1,Risk Group - Many Claims/Violations
+2828,2,Moderate Risk - Average
+2829,2,Moderate Risk - Average
+2830,2,Moderate Risk - Average
+2831,2,Moderate Risk - Average
+2832,2,Moderate Risk - Average
+2833,2,Moderate Risk - Average
+2834,2,Moderate Risk - Average
+2835,2,Moderate Risk - Average
+2836,2,Moderate Risk - Average
+2837,1,Risk Group - Many Claims/Violations
+2838,2,Moderate Risk - Average
+2839,2,Moderate Risk - Average
+2840,2,Moderate Risk - Average
+2841,2,Moderate Risk - Average
+2842,2,Moderate Risk - Average
+2843,2,Moderate Risk - Average
+2844,2,Moderate Risk - Average
+2845,1,Risk Group - Many Claims/Violations
+2846,2,Moderate Risk - Average
+2847,2,Moderate Risk - Average
+2848,2,Moderate Risk - Average
+2849,2,Moderate Risk - Average
+2850,2,Moderate Risk - Average
+2851,2,Moderate Risk - Average
+2852,2,Moderate Risk - Average
+2853,2,Moderate Risk - Average
+2854,2,Moderate Risk - Average
+2855,2,Moderate Risk - Average
+2856,2,Moderate Risk - Average
+2857,1,Risk Group - Many Claims/Violations
+2858,2,Moderate Risk - Average
+2859,1,Risk Group - Many Claims/Violations
+2860,2,Moderate Risk - Average
+2861,2,Moderate Risk - Average
+2862,2,Moderate Risk - Average
+2863,2,Moderate Risk - Average
+2864,2,Moderate Risk - Average
+2865,1,Risk Group - Many Claims/Violations
+2866,2,Moderate Risk - Average
+2867,2,Moderate Risk - Average
+2868,2,Moderate Risk - Average
+2869,2,Moderate Risk - Average
+2870,2,Moderate Risk - Average
+2871,2,Moderate Risk - Average
+2872,2,Moderate Risk - Average
+2873,2,Moderate Risk - Average
+2874,1,Risk Group - Many Claims/Violations
+2875,2,Moderate Risk - Average
+2876,2,Moderate Risk - Average
+2877,2,Moderate Risk - Average
+2878,2,Moderate Risk - Average
+2879,2,Moderate Risk - Average
+2880,2,Moderate Risk - Average
+2881,2,Moderate Risk - Average
+2882,2,Moderate Risk - Average
+2883,1,Risk Group - Many Claims/Violations
+2884,2,Moderate Risk - Average
+2885,2,Moderate Risk - Average
+2886,2,Moderate Risk - Average
+2887,2,Moderate Risk - Average
+2888,2,Moderate Risk - Average
+2889,2,Moderate Risk - Average
+2890,2,Moderate Risk - Average
+2891,1,Risk Group - Many Claims/Violations
+2892,1,Risk Group - Many Claims/Violations
+2893,1,Risk Group - Many Claims/Violations
+2894,2,Moderate Risk - Average
+2895,2,Moderate Risk - Average
+2896,2,Moderate Risk - Average
+2897,2,Moderate Risk - Average
+2898,1,Risk Group - Many Claims/Violations
+2899,1,Risk Group - Many Claims/Violations
+2900,2,Moderate Risk - Average
+2901,1,Risk Group - Many Claims/Violations
+2902,2,Moderate Risk - Average
+2903,2,Moderate Risk - Average
+2904,2,Moderate Risk - Average
+2905,2,Moderate Risk - Average
+2906,2,Moderate Risk - Average
+2907,1,Risk Group - Many Claims/Violations
+2908,2,Moderate Risk - Average
+2909,2,Moderate Risk - Average
+2910,2,Moderate Risk - Average
+2911,2,Moderate Risk - Average
+2912,2,Moderate Risk - Average
+2913,1,Risk Group - Many Claims/Violations
+2914,2,Moderate Risk - Average
+2915,2,Moderate Risk - Average
+2916,2,Moderate Risk - Average
+2917,2,Moderate Risk - Average
+2918,2,Moderate Risk - Average
+2919,2,Moderate Risk - Average
+2920,2,Moderate Risk - Average
+2921,2,Moderate Risk - Average
+2922,2,Moderate Risk - Average
+2923,2,Moderate Risk - Average
+2924,2,Moderate Risk - Average
+2925,2,Moderate Risk - Average
+2926,2,Moderate Risk - Average
+2927,2,Moderate Risk - Average
+2928,1,Risk Group - Many Claims/Violations
+2929,1,Risk Group - Many Claims/Violations
+2930,1,Risk Group - Many Claims/Violations
+2931,1,Risk Group - Many Claims/Violations
+2932,2,Moderate Risk - Average
+2933,2,Moderate Risk - Average
+2934,2,Moderate Risk - Average
+2935,2,Moderate Risk - Average
+2936,2,Moderate Risk - Average
+2937,2,Moderate Risk - Average
+2938,2,Moderate Risk - Average
+2939,2,Moderate Risk - Average
+2940,2,Moderate Risk - Average
+2941,2,Moderate Risk - Average
+2942,2,Moderate Risk - Average
+2943,2,Moderate Risk - Average
+2944,1,Risk Group - Many Claims/Violations
+2945,2,Moderate Risk - Average
+2946,2,Moderate Risk - Average
+2947,2,Moderate Risk - Average
+2948,2,Moderate Risk - Average
+2949,1,Risk Group - Many Claims/Violations
+2950,2,Moderate Risk - Average
+2951,2,Moderate Risk - Average
+2952,2,Moderate Risk - Average
+2953,2,Moderate Risk - Average
+2954,2,Moderate Risk - Average
+2955,2,Moderate Risk - Average
+2956,2,Moderate Risk - Average
+2957,2,Moderate Risk - Average
+2958,2,Moderate Risk - Average
+2959,2,Moderate Risk - Average
+2960,2,Moderate Risk - Average
+2961,2,Moderate Risk - Average
+2962,2,Moderate Risk - Average
+2963,2,Moderate Risk - Average
+2964,2,Moderate Risk - Average
+2965,1,Risk Group - Many Claims/Violations
+2966,2,Moderate Risk - Average
+2967,2,Moderate Risk - Average
+2968,2,Moderate Risk - Average
+2969,1,Risk Group - Many Claims/Violations
+2970,2,Moderate Risk - Average
+2971,1,Risk Group - Many Claims/Violations
+2972,2,Moderate Risk - Average
+2973,2,Moderate Risk - Average
+2974,2,Moderate Risk - Average
+2975,2,Moderate Risk - Average
+2976,2,Moderate Risk - Average
+2977,2,Moderate Risk - Average
+2978,1,Risk Group - Many Claims/Violations
+2979,2,Moderate Risk - Average
+2980,2,Moderate Risk - Average
+2981,2,Moderate Risk - Average
+2982,2,Moderate Risk - Average
+2983,2,Moderate Risk - Average
+2984,1,Risk Group - Many Claims/Violations
+2985,2,Moderate Risk - Average
+2986,2,Moderate Risk - Average
+2987,2,Moderate Risk - Average
+2988,2,Moderate Risk - Average
+2989,2,Moderate Risk - Average
+2990,2,Moderate Risk - Average
+2991,2,Moderate Risk - Average
+2992,2,Moderate Risk - Average
+2993,2,Moderate Risk - Average
+2994,2,Moderate Risk - Average
+2995,2,Moderate Risk - Average
+2996,1,Risk Group - Many Claims/Violations
+2997,2,Moderate Risk - Average
+2998,2,Moderate Risk - Average
+2999,1,Risk Group - Many Claims/Violations
+3000,2,Moderate Risk - Average
+3001,3,Premium - Luxury Cars
+3002,3,Premium - Luxury Cars
+3003,3,Premium - Luxury Cars
+3004,3,Premium - Luxury Cars
+3005,3,Premium - Luxury Cars
+3006,3,Premium - Luxury Cars
+3007,3,Premium - Luxury Cars
+3008,3,Premium - Luxury Cars
+3009,3,Premium - Luxury Cars
+3010,3,Premium - Luxury Cars
+3011,3,Premium - Luxury Cars
+3012,3,Premium - Luxury Cars
+3013,3,Premium - Luxury Cars
+3014,3,Premium - Luxury Cars
+3015,3,Premium - Luxury Cars
+3016,3,Premium - Luxury Cars
+3017,3,Premium - Luxury Cars
+3018,3,Premium - Luxury Cars
+3019,3,Premium - Luxury Cars
+3020,3,Premium - Luxury Cars
+3021,3,Premium - Luxury Cars
+3022,0,Moderate Risk - Average
+3023,3,Premium - Luxury Cars
+3024,3,Premium - Luxury Cars
+3025,3,Premium - Luxury Cars
+3026,3,Premium - Luxury Cars
+3027,3,Premium - Luxury Cars
+3028,3,Premium - Luxury Cars
+3029,3,Premium - Luxury Cars
+3030,3,Premium - Luxury Cars
+3031,3,Premium - Luxury Cars
+3032,3,Premium - Luxury Cars
+3033,3,Premium - Luxury Cars
+3034,3,Premium - Luxury Cars
+3035,3,Premium - Luxury Cars
+3036,3,Premium - Luxury Cars
+3037,3,Premium - Luxury Cars
+3038,0,Moderate Risk - Average
+3039,3,Premium - Luxury Cars
+3040,3,Premium - Luxury Cars
+3041,3,Premium - Luxury Cars
+3042,3,Premium - Luxury Cars
+3043,3,Premium - Luxury Cars
+3044,3,Premium - Luxury Cars
+3045,3,Premium - Luxury Cars
+3046,3,Premium - Luxury Cars
+3047,3,Premium - Luxury Cars
+3048,3,Premium - Luxury Cars
+3049,3,Premium - Luxury Cars
+3050,3,Premium - Luxury Cars
+3051,3,Premium - Luxury Cars
+3052,3,Premium - Luxury Cars
+3053,3,Premium - Luxury Cars
+3054,3,Premium - Luxury Cars
+3055,3,Premium - Luxury Cars
+3056,3,Premium - Luxury Cars
+3057,3,Premium - Luxury Cars
+3058,3,Premium - Luxury Cars
+3059,3,Premium - Luxury Cars
+3060,3,Premium - Luxury Cars
+3061,3,Premium - Luxury Cars
+3062,3,Premium - Luxury Cars
+3063,3,Premium - Luxury Cars
+3064,3,Premium - Luxury Cars
+3065,3,Premium - Luxury Cars
+3066,3,Premium - Luxury Cars
+3067,3,Premium - Luxury Cars
+3068,3,Premium - Luxury Cars
+3069,3,Premium - Luxury Cars
+3070,3,Premium - Luxury Cars
+3071,3,Premium - Luxury Cars
+3072,3,Premium - Luxury Cars
+3073,3,Premium - Luxury Cars
+3074,3,Premium - Luxury Cars
+3075,3,Premium - Luxury Cars
+3076,3,Premium - Luxury Cars
+3077,3,Premium - Luxury Cars
+3078,3,Premium - Luxury Cars
+3079,0,Moderate Risk - Average
+3080,3,Premium - Luxury Cars
+3081,3,Premium - Luxury Cars
+3082,3,Premium - Luxury Cars
+3083,3,Premium - Luxury Cars
+3084,3,Premium - Luxury Cars
+3085,3,Premium - Luxury Cars
+3086,3,Premium - Luxury Cars
+3087,3,Premium - Luxury Cars
+3088,3,Premium - Luxury Cars
+3089,3,Premium - Luxury Cars
+3090,3,Premium - Luxury Cars
+3091,0,Moderate Risk - Average
+3092,3,Premium - Luxury Cars
+3093,3,Premium - Luxury Cars
+3094,3,Premium - Luxury Cars
+3095,3,Premium - Luxury Cars
+3096,3,Premium - Luxury Cars
+3097,3,Premium - Luxury Cars
+3098,3,Premium - Luxury Cars
+3099,0,Moderate Risk - Average
+3100,3,Premium - Luxury Cars
+3101,3,Premium - Luxury Cars
+3102,3,Premium - Luxury Cars
+3103,3,Premium - Luxury Cars
+3104,3,Premium - Luxury Cars
+3105,3,Premium - Luxury Cars
+3106,3,Premium - Luxury Cars
+3107,3,Premium - Luxury Cars
+3108,3,Premium - Luxury Cars
+3109,3,Premium - Luxury Cars
+3110,3,Premium - Luxury Cars
+3111,0,Moderate Risk - Average
+3112,3,Premium - Luxury Cars
+3113,3,Premium - Luxury Cars
+3114,3,Premium - Luxury Cars
+3115,3,Premium - Luxury Cars
+3116,3,Premium - Luxury Cars
+3117,3,Premium - Luxury Cars
+3118,3,Premium - Luxury Cars
+3119,3,Premium - Luxury Cars
+3120,3,Premium - Luxury Cars
+3121,3,Premium - Luxury Cars
+3122,3,Premium - Luxury Cars
+3123,3,Premium - Luxury Cars
+3124,3,Premium - Luxury Cars
+3125,3,Premium - Luxury Cars
+3126,3,Premium - Luxury Cars
+3127,3,Premium - Luxury Cars
+3128,3,Premium - Luxury Cars
+3129,3,Premium - Luxury Cars
+3130,3,Premium - Luxury Cars
+3131,3,Premium - Luxury Cars
+3132,3,Premium - Luxury Cars
+3133,3,Premium - Luxury Cars
+3134,3,Premium - Luxury Cars
+3135,3,Premium - Luxury Cars
+3136,3,Premium - Luxury Cars
+3137,3,Premium - Luxury Cars
+3138,3,Premium - Luxury Cars
+3139,3,Premium - Luxury Cars
+3140,0,Moderate Risk - Average
+3141,3,Premium - Luxury Cars
+3142,0,Moderate Risk - Average
+3143,3,Premium - Luxury Cars
+3144,0,Moderate Risk - Average
+3145,3,Premium - Luxury Cars
+3146,3,Premium - Luxury Cars
+3147,3,Premium - Luxury Cars
+3148,3,Premium - Luxury Cars
+3149,0,Moderate Risk - Average
+3150,3,Premium - Luxury Cars
+3151,3,Premium - Luxury Cars
+3152,3,Premium - Luxury Cars
+3153,3,Premium - Luxury Cars
+3154,0,Moderate Risk - Average
+3155,3,Premium - Luxury Cars
+3156,3,Premium - Luxury Cars
+3157,3,Premium - Luxury Cars
+3158,3,Premium - Luxury Cars
+3159,0,Moderate Risk - Average
+3160,3,Premium - Luxury Cars
+3161,3,Premium - Luxury Cars
+3162,3,Premium - Luxury Cars
+3163,3,Premium - Luxury Cars
+3164,3,Premium - Luxury Cars
+3165,3,Premium - Luxury Cars
+3166,3,Premium - Luxury Cars
+3167,3,Premium - Luxury Cars
+3168,3,Premium - Luxury Cars
+3169,3,Premium - Luxury Cars
+3170,3,Premium - Luxury Cars
+3171,3,Premium - Luxury Cars
+3172,3,Premium - Luxury Cars
+3173,3,Premium - Luxury Cars
+3174,3,Premium - Luxury Cars
+3175,3,Premium - Luxury Cars
+3176,3,Premium - Luxury Cars
+3177,3,Premium - Luxury Cars
+3178,3,Premium - Luxury Cars
+3179,3,Premium - Luxury Cars
+3180,3,Premium - Luxury Cars
+3181,3,Premium - Luxury Cars
+3182,3,Premium - Luxury Cars
+3183,3,Premium - Luxury Cars
+3184,3,Premium - Luxury Cars
+3185,3,Premium - Luxury Cars
+3186,3,Premium - Luxury Cars
+3187,3,Premium - Luxury Cars
+3188,3,Premium - Luxury Cars
+3189,3,Premium - Luxury Cars
+3190,3,Premium - Luxury Cars
+3191,3,Premium - Luxury Cars
+3192,3,Premium - Luxury Cars
+3193,3,Premium - Luxury Cars
+3194,3,Premium - Luxury Cars
+3195,3,Premium - Luxury Cars
+3196,3,Premium - Luxury Cars
+3197,3,Premium - Luxury Cars
+3198,3,Premium - Luxury Cars
+3199,3,Premium - Luxury Cars
+3200,3,Premium - Luxury Cars
+3201,3,Premium - Luxury Cars
+3202,3,Premium - Luxury Cars
+3203,3,Premium - Luxury Cars
+3204,3,Premium - Luxury Cars
+3205,3,Premium - Luxury Cars
+3206,3,Premium - Luxury Cars
+3207,3,Premium - Luxury Cars
+3208,3,Premium - Luxury Cars
+3209,3,Premium - Luxury Cars
+3210,3,Premium - Luxury Cars
+3211,3,Premium - Luxury Cars
+3212,3,Premium - Luxury Cars
+3213,3,Premium - Luxury Cars
+3214,3,Premium - Luxury Cars
+3215,3,Premium - Luxury Cars
+3216,3,Premium - Luxury Cars
+3217,3,Premium - Luxury Cars
+3218,3,Premium - Luxury Cars
+3219,3,Premium - Luxury Cars
+3220,0,Moderate Risk - Average
+3221,3,Premium - Luxury Cars
+3222,3,Premium - Luxury Cars
+3223,3,Premium - Luxury Cars
+3224,3,Premium - Luxury Cars
+3225,3,Premium - Luxury Cars
+3226,0,Moderate Risk - Average
+3227,3,Premium - Luxury Cars
+3228,3,Premium - Luxury Cars
+3229,3,Premium - Luxury Cars
+3230,3,Premium - Luxury Cars
+3231,3,Premium - Luxury Cars
+3232,3,Premium - Luxury Cars
+3233,3,Premium - Luxury Cars
+3234,3,Premium - Luxury Cars
+3235,3,Premium - Luxury Cars
+3236,3,Premium - Luxury Cars
+3237,3,Premium - Luxury Cars
+3238,3,Premium - Luxury Cars
+3239,3,Premium - Luxury Cars
+3240,3,Premium - Luxury Cars
+3241,3,Premium - Luxury Cars
+3242,3,Premium - Luxury Cars
+3243,0,Moderate Risk - Average
+3244,3,Premium - Luxury Cars
+3245,3,Premium - Luxury Cars
+3246,0,Moderate Risk - Average
+3247,3,Premium - Luxury Cars
+3248,3,Premium - Luxury Cars
+3249,3,Premium - Luxury Cars
+3250,3,Premium - Luxury Cars
+3251,3,Premium - Luxury Cars
+3252,3,Premium - Luxury Cars
+3253,3,Premium - Luxury Cars
+3254,3,Premium - Luxury Cars
+3255,3,Premium - Luxury Cars
+3256,3,Premium - Luxury Cars
+3257,3,Premium - Luxury Cars
+3258,3,Premium - Luxury Cars
+3259,3,Premium - Luxury Cars
+3260,3,Premium - Luxury Cars
+3261,3,Premium - Luxury Cars
+3262,3,Premium - Luxury Cars
+3263,3,Premium - Luxury Cars
+3264,3,Premium - Luxury Cars
+3265,3,Premium - Luxury Cars
+3266,3,Premium - Luxury Cars
+3267,3,Premium - Luxury Cars
+3268,3,Premium - Luxury Cars
+3269,3,Premium - Luxury Cars
+3270,3,Premium - Luxury Cars
+3271,3,Premium - Luxury Cars
+3272,3,Premium - Luxury Cars
+3273,3,Premium - Luxury Cars
+3274,3,Premium - Luxury Cars
+3275,3,Premium - Luxury Cars
+3276,3,Premium - Luxury Cars
+3277,3,Premium - Luxury Cars
+3278,3,Premium - Luxury Cars
+3279,3,Premium - Luxury Cars
+3280,3,Premium - Luxury Cars
+3281,3,Premium - Luxury Cars
+3282,3,Premium - Luxury Cars
+3283,3,Premium - Luxury Cars
+3284,3,Premium - Luxury Cars
+3285,3,Premium - Luxury Cars
+3286,3,Premium - Luxury Cars
+3287,3,Premium - Luxury Cars
+3288,3,Premium - Luxury Cars
+3289,3,Premium - Luxury Cars
+3290,3,Premium - Luxury Cars
+3291,3,Premium - Luxury Cars
+3292,3,Premium - Luxury Cars
+3293,3,Premium - Luxury Cars
+3294,3,Premium - Luxury Cars
+3295,3,Premium - Luxury Cars
+3296,3,Premium - Luxury Cars
+3297,0,Moderate Risk - Average
+3298,3,Premium - Luxury Cars
+3299,3,Premium - Luxury Cars
+3300,3,Premium - Luxury Cars
+3301,3,Premium - Luxury Cars
+3302,3,Premium - Luxury Cars
+3303,0,Moderate Risk - Average
+3304,3,Premium - Luxury Cars
+3305,3,Premium - Luxury Cars
+3306,3,Premium - Luxury Cars
+3307,3,Premium - Luxury Cars
+3308,3,Premium - Luxury Cars
+3309,3,Premium - Luxury Cars
+3310,3,Premium - Luxury Cars
+3311,3,Premium - Luxury Cars
+3312,3,Premium - Luxury Cars
+3313,3,Premium - Luxury Cars
+3314,3,Premium - Luxury Cars
+3315,3,Premium - Luxury Cars
+3316,3,Premium - Luxury Cars
+3317,3,Premium - Luxury Cars
+3318,3,Premium - Luxury Cars
+3319,3,Premium - Luxury Cars
+3320,3,Premium - Luxury Cars
+3321,3,Premium - Luxury Cars
+3322,3,Premium - Luxury Cars
+3323,3,Premium - Luxury Cars
+3324,3,Premium - Luxury Cars
+3325,3,Premium - Luxury Cars
+3326,0,Moderate Risk - Average
+3327,3,Premium - Luxury Cars
+3328,3,Premium - Luxury Cars
+3329,3,Premium - Luxury Cars
+3330,3,Premium - Luxury Cars
+3331,3,Premium - Luxury Cars
+3332,3,Premium - Luxury Cars
+3333,3,Premium - Luxury Cars
+3334,3,Premium - Luxury Cars
+3335,3,Premium - Luxury Cars
+3336,3,Premium - Luxury Cars
+3337,3,Premium - Luxury Cars
+3338,3,Premium - Luxury Cars
+3339,3,Premium - Luxury Cars
+3340,3,Premium - Luxury Cars
+3341,3,Premium - Luxury Cars
+3342,3,Premium - Luxury Cars
+3343,3,Premium - Luxury Cars
+3344,3,Premium - Luxury Cars
+3345,3,Premium - Luxury Cars
+3346,3,Premium - Luxury Cars
+3347,3,Premium - Luxury Cars
+3348,3,Premium - Luxury Cars
+3349,3,Premium - Luxury Cars
+3350,3,Premium - Luxury Cars
+3351,3,Premium - Luxury Cars
+3352,3,Premium - Luxury Cars
+3353,3,Premium - Luxury Cars
+3354,3,Premium - Luxury Cars
+3355,3,Premium - Luxury Cars
+3356,3,Premium - Luxury Cars
+3357,3,Premium - Luxury Cars
+3358,3,Premium - Luxury Cars
+3359,3,Premium - Luxury Cars
+3360,3,Premium - Luxury Cars
+3361,3,Premium - Luxury Cars
+3362,3,Premium - Luxury Cars
+3363,3,Premium - Luxury Cars
+3364,3,Premium - Luxury Cars
+3365,3,Premium - Luxury Cars
+3366,3,Premium - Luxury Cars
+3367,3,Premium - Luxury Cars
+3368,3,Premium - Luxury Cars
+3369,3,Premium - Luxury Cars
+3370,3,Premium - Luxury Cars
+3371,3,Premium - Luxury Cars
+3372,3,Premium - Luxury Cars
+3373,3,Premium - Luxury Cars
+3374,3,Premium - Luxury Cars
+3375,3,Premium - Luxury Cars
+3376,0,Moderate Risk - Average
+3377,3,Premium - Luxury Cars
+3378,0,Moderate Risk - Average
+3379,3,Premium - Luxury Cars
+3380,0,Moderate Risk - Average
+3381,3,Premium - Luxury Cars
+3382,3,Premium - Luxury Cars
+3383,3,Premium - Luxury Cars
+3384,3,Premium - Luxury Cars
+3385,0,Moderate Risk - Average
+3386,3,Premium - Luxury Cars
+3387,3,Premium - Luxury Cars
+3388,3,Premium - Luxury Cars
+3389,3,Premium - Luxury Cars
+3390,3,Premium - Luxury Cars
+3391,3,Premium - Luxury Cars
+3392,3,Premium - Luxury Cars
+3393,3,Premium - Luxury Cars
+3394,3,Premium - Luxury Cars
+3395,3,Premium - Luxury Cars
+3396,3,Premium - Luxury Cars
+3397,3,Premium - Luxury Cars
+3398,3,Premium - Luxury Cars
+3399,3,Premium - Luxury Cars
+3400,3,Premium - Luxury Cars
+3401,3,Premium - Luxury Cars
+3402,3,Premium - Luxury Cars
+3403,3,Premium - Luxury Cars
+3404,3,Premium - Luxury Cars
+3405,3,Premium - Luxury Cars
+3406,3,Premium - Luxury Cars
+3407,3,Premium - Luxury Cars
+3408,3,Premium - Luxury Cars
+3409,3,Premium - Luxury Cars
+3410,3,Premium - Luxury Cars
+3411,3,Premium - Luxury Cars
+3412,3,Premium - Luxury Cars
+3413,3,Premium - Luxury Cars
+3414,3,Premium - Luxury Cars
+3415,3,Premium - Luxury Cars
+3416,3,Premium - Luxury Cars
+3417,3,Premium - Luxury Cars
+3418,3,Premium - Luxury Cars
+3419,3,Premium - Luxury Cars
+3420,3,Premium - Luxury Cars
+3421,3,Premium - Luxury Cars
+3422,3,Premium - Luxury Cars
+3423,3,Premium - Luxury Cars
+3424,3,Premium - Luxury Cars
+3425,3,Premium - Luxury Cars
+3426,3,Premium - Luxury Cars
+3427,3,Premium - Luxury Cars
+3428,3,Premium - Luxury Cars
+3429,3,Premium - Luxury Cars
+3430,3,Premium - Luxury Cars
+3431,3,Premium - Luxury Cars
+3432,3,Premium - Luxury Cars
+3433,3,Premium - Luxury Cars
+3434,3,Premium - Luxury Cars
+3435,3,Premium - Luxury Cars
+3436,3,Premium - Luxury Cars
+3437,3,Premium - Luxury Cars
+3438,3,Premium - Luxury Cars
+3439,3,Premium - Luxury Cars
+3440,3,Premium - Luxury Cars
+3441,3,Premium - Luxury Cars
+3442,3,Premium - Luxury Cars
+3443,3,Premium - Luxury Cars
+3444,3,Premium - Luxury Cars
+3445,3,Premium - Luxury Cars
+3446,3,Premium - Luxury Cars
+3447,3,Premium - Luxury Cars
+3448,3,Premium - Luxury Cars
+3449,3,Premium - Luxury Cars
+3450,0,Moderate Risk - Average
+3451,3,Premium - Luxury Cars
+3452,3,Premium - Luxury Cars
+3453,3,Premium - Luxury Cars
+3454,3,Premium - Luxury Cars
+3455,3,Premium - Luxury Cars
+3456,3,Premium - Luxury Cars
+3457,3,Premium - Luxury Cars
+3458,3,Premium - Luxury Cars
+3459,3,Premium - Luxury Cars
+3460,3,Premium - Luxury Cars
+3461,3,Premium - Luxury Cars
+3462,3,Premium - Luxury Cars
+3463,3,Premium - Luxury Cars
+3464,3,Premium - Luxury Cars
+3465,3,Premium - Luxury Cars
+3466,3,Premium - Luxury Cars
+3467,3,Premium - Luxury Cars
+3468,3,Premium - Luxury Cars
+3469,3,Premium - Luxury Cars
+3470,3,Premium - Luxury Cars
+3471,3,Premium - Luxury Cars
+3472,3,Premium - Luxury Cars
+3473,3,Premium - Luxury Cars
+3474,3,Premium - Luxury Cars
+3475,3,Premium - Luxury Cars
+3476,3,Premium - Luxury Cars
+3477,3,Premium - Luxury Cars
+3478,3,Premium - Luxury Cars
+3479,3,Premium - Luxury Cars
+3480,3,Premium - Luxury Cars
+3481,3,Premium - Luxury Cars
+3482,3,Premium - Luxury Cars
+3483,3,Premium - Luxury Cars
+3484,3,Premium - Luxury Cars
+3485,3,Premium - Luxury Cars
+3486,3,Premium - Luxury Cars
+3487,3,Premium - Luxury Cars
+3488,3,Premium - Luxury Cars
+3489,3,Premium - Luxury Cars
+3490,3,Premium - Luxury Cars
+3491,3,Premium - Luxury Cars
+3492,3,Premium - Luxury Cars
+3493,3,Premium - Luxury Cars
+3494,3,Premium - Luxury Cars
+3495,3,Premium - Luxury Cars
+3496,3,Premium - Luxury Cars
+3497,3,Premium - Luxury Cars
+3498,3,Premium - Luxury Cars
+3499,3,Premium - Luxury Cars
+3500,3,Premium - Luxury Cars
+3501,3,Premium - Luxury Cars
+3502,3,Premium - Luxury Cars
+3503,3,Premium - Luxury Cars
+3504,3,Premium - Luxury Cars
+3505,3,Premium - Luxury Cars
+3506,3,Premium - Luxury Cars
+3507,3,Premium - Luxury Cars
+3508,0,Moderate Risk - Average
+3509,3,Premium - Luxury Cars
+3510,3,Premium - Luxury Cars
+3511,3,Premium - Luxury Cars
+3512,3,Premium - Luxury Cars
+3513,3,Premium - Luxury Cars
+3514,3,Premium - Luxury Cars
+3515,3,Premium - Luxury Cars
+3516,3,Premium - Luxury Cars
+3517,3,Premium - Luxury Cars
+3518,3,Premium - Luxury Cars
+3519,3,Premium - Luxury Cars
+3520,3,Premium - Luxury Cars
+3521,3,Premium - Luxury Cars
+3522,3,Premium - Luxury Cars
+3523,3,Premium - Luxury Cars
+3524,3,Premium - Luxury Cars
+3525,3,Premium - Luxury Cars
+3526,3,Premium - Luxury Cars
+3527,3,Premium - Luxury Cars
+3528,3,Premium - Luxury Cars
+3529,3,Premium - Luxury Cars
+3530,3,Premium - Luxury Cars
+3531,3,Premium - Luxury Cars
+3532,3,Premium - Luxury Cars
+3533,3,Premium - Luxury Cars
+3534,3,Premium - Luxury Cars
+3535,3,Premium - Luxury Cars
+3536,3,Premium - Luxury Cars
+3537,3,Premium - Luxury Cars
+3538,3,Premium - Luxury Cars
+3539,3,Premium - Luxury Cars
+3540,3,Premium - Luxury Cars
+3541,3,Premium - Luxury Cars
+3542,3,Premium - Luxury Cars
+3543,3,Premium - Luxury Cars
+3544,3,Premium - Luxury Cars
+3545,3,Premium - Luxury Cars
+3546,3,Premium - Luxury Cars
+3547,3,Premium - Luxury Cars
+3548,3,Premium - Luxury Cars
+3549,3,Premium - Luxury Cars
+3550,3,Premium - Luxury Cars
+3551,3,Premium - Luxury Cars
+3552,3,Premium - Luxury Cars
+3553,3,Premium - Luxury Cars
+3554,3,Premium - Luxury Cars
+3555,3,Premium - Luxury Cars
+3556,3,Premium - Luxury Cars
+3557,3,Premium - Luxury Cars
+3558,3,Premium - Luxury Cars
+3559,3,Premium - Luxury Cars
+3560,3,Premium - Luxury Cars
+3561,3,Premium - Luxury Cars
+3562,3,Premium - Luxury Cars
+3563,3,Premium - Luxury Cars
+3564,3,Premium - Luxury Cars
+3565,3,Premium - Luxury Cars
+3566,3,Premium - Luxury Cars
+3567,3,Premium - Luxury Cars
+3568,3,Premium - Luxury Cars
+3569,0,Moderate Risk - Average
+3570,3,Premium - Luxury Cars
+3571,3,Premium - Luxury Cars
+3572,3,Premium - Luxury Cars
+3573,3,Premium - Luxury Cars
+3574,3,Premium - Luxury Cars
+3575,3,Premium - Luxury Cars
+3576,3,Premium - Luxury Cars
+3577,3,Premium - Luxury Cars
+3578,3,Premium - Luxury Cars
+3579,3,Premium - Luxury Cars
+3580,3,Premium - Luxury Cars
+3581,3,Premium - Luxury Cars
+3582,3,Premium - Luxury Cars
+3583,3,Premium - Luxury Cars
+3584,3,Premium - Luxury Cars
+3585,3,Premium - Luxury Cars
+3586,3,Premium - Luxury Cars
+3587,3,Premium - Luxury Cars
+3588,3,Premium - Luxury Cars
+3589,3,Premium - Luxury Cars
+3590,3,Premium - Luxury Cars
+3591,3,Premium - Luxury Cars
+3592,3,Premium - Luxury Cars
+3593,3,Premium - Luxury Cars
+3594,3,Premium - Luxury Cars
+3595,3,Premium - Luxury Cars
+3596,3,Premium - Luxury Cars
+3597,3,Premium - Luxury Cars
+3598,3,Premium - Luxury Cars
+3599,3,Premium - Luxury Cars
+3600,3,Premium - Luxury Cars
+3601,3,Premium - Luxury Cars
+3602,3,Premium - Luxury Cars
+3603,3,Premium - Luxury Cars
+3604,3,Premium - Luxury Cars
+3605,3,Premium - Luxury Cars
+3606,3,Premium - Luxury Cars
+3607,3,Premium - Luxury Cars
+3608,0,Moderate Risk - Average
+3609,3,Premium - Luxury Cars
+3610,3,Premium - Luxury Cars
+3611,3,Premium - Luxury Cars
+3612,3,Premium - Luxury Cars
+3613,3,Premium - Luxury Cars
+3614,3,Premium - Luxury Cars
+3615,3,Premium - Luxury Cars
+3616,3,Premium - Luxury Cars
+3617,3,Premium - Luxury Cars
+3618,3,Premium - Luxury Cars
+3619,3,Premium - Luxury Cars
+3620,3,Premium - Luxury Cars
+3621,3,Premium - Luxury Cars
+3622,3,Premium - Luxury Cars
+3623,3,Premium - Luxury Cars
+3624,3,Premium - Luxury Cars
+3625,3,Premium - Luxury Cars
+3626,3,Premium - Luxury Cars
+3627,3,Premium - Luxury Cars
+3628,3,Premium - Luxury Cars
+3629,3,Premium - Luxury Cars
+3630,3,Premium - Luxury Cars
+3631,3,Premium - Luxury Cars
+3632,3,Premium - Luxury Cars
+3633,3,Premium - Luxury Cars
+3634,3,Premium - Luxury Cars
+3635,3,Premium - Luxury Cars
+3636,3,Premium - Luxury Cars
+3637,3,Premium - Luxury Cars
+3638,3,Premium - Luxury Cars
+3639,3,Premium - Luxury Cars
+3640,3,Premium - Luxury Cars
+3641,0,Moderate Risk - Average
+3642,3,Premium - Luxury Cars
+3643,3,Premium - Luxury Cars
+3644,3,Premium - Luxury Cars
+3645,3,Premium - Luxury Cars
+3646,3,Premium - Luxury Cars
+3647,3,Premium - Luxury Cars
+3648,3,Premium - Luxury Cars
+3649,3,Premium - Luxury Cars
+3650,3,Premium - Luxury Cars
+3651,3,Premium - Luxury Cars
+3652,3,Premium - Luxury Cars
+3653,3,Premium - Luxury Cars
+3654,3,Premium - Luxury Cars
+3655,3,Premium - Luxury Cars
+3656,3,Premium - Luxury Cars
+3657,3,Premium - Luxury Cars
+3658,3,Premium - Luxury Cars
+3659,3,Premium - Luxury Cars
+3660,3,Premium - Luxury Cars
+3661,3,Premium - Luxury Cars
+3662,3,Premium - Luxury Cars
+3663,3,Premium - Luxury Cars
+3664,3,Premium - Luxury Cars
+3665,3,Premium - Luxury Cars
+3666,3,Premium - Luxury Cars
+3667,3,Premium - Luxury Cars
+3668,3,Premium - Luxury Cars
+3669,3,Premium - Luxury Cars
+3670,3,Premium - Luxury Cars
+3671,3,Premium - Luxury Cars
+3672,3,Premium - Luxury Cars
+3673,3,Premium - Luxury Cars
+3674,3,Premium - Luxury Cars
+3675,3,Premium - Luxury Cars
+3676,3,Premium - Luxury Cars
+3677,3,Premium - Luxury Cars
+3678,3,Premium - Luxury Cars
+3679,3,Premium - Luxury Cars
+3680,3,Premium - Luxury Cars
+3681,3,Premium - Luxury Cars
+3682,0,Moderate Risk - Average
+3683,3,Premium - Luxury Cars
+3684,3,Premium - Luxury Cars
+3685,3,Premium - Luxury Cars
+3686,3,Premium - Luxury Cars
+3687,3,Premium - Luxury Cars
+3688,3,Premium - Luxury Cars
+3689,3,Premium - Luxury Cars
+3690,3,Premium - Luxury Cars
+3691,3,Premium - Luxury Cars
+3692,3,Premium - Luxury Cars
+3693,3,Premium - Luxury Cars
+3694,3,Premium - Luxury Cars
+3695,3,Premium - Luxury Cars
+3696,3,Premium - Luxury Cars
+3697,3,Premium - Luxury Cars
+3698,3,Premium - Luxury Cars
+3699,3,Premium - Luxury Cars
+3700,3,Premium - Luxury Cars
+3701,3,Premium - Luxury Cars
+3702,3,Premium - Luxury Cars
+3703,3,Premium - Luxury Cars
+3704,3,Premium - Luxury Cars
+3705,3,Premium - Luxury Cars
+3706,3,Premium - Luxury Cars
+3707,3,Premium - Luxury Cars
+3708,3,Premium - Luxury Cars
+3709,3,Premium - Luxury Cars
+3710,3,Premium - Luxury Cars
+3711,3,Premium - Luxury Cars
+3712,3,Premium - Luxury Cars
+3713,3,Premium - Luxury Cars
+3714,3,Premium - Luxury Cars
+3715,3,Premium - Luxury Cars
+3716,3,Premium - Luxury Cars
+3717,3,Premium - Luxury Cars
+3718,3,Premium - Luxury Cars
+3719,3,Premium - Luxury Cars
+3720,3,Premium - Luxury Cars
+3721,3,Premium - Luxury Cars
+3722,3,Premium - Luxury Cars
+3723,3,Premium - Luxury Cars
+3724,3,Premium - Luxury Cars
+3725,3,Premium - Luxury Cars
+3726,3,Premium - Luxury Cars
+3727,3,Premium - Luxury Cars
+3728,3,Premium - Luxury Cars
+3729,3,Premium - Luxury Cars
+3730,3,Premium - Luxury Cars
+3731,0,Moderate Risk - Average
+3732,3,Premium - Luxury Cars
+3733,3,Premium - Luxury Cars
+3734,0,Moderate Risk - Average
+3735,3,Premium - Luxury Cars
+3736,3,Premium - Luxury Cars
+3737,3,Premium - Luxury Cars
+3738,3,Premium - Luxury Cars
+3739,3,Premium - Luxury Cars
+3740,3,Premium - Luxury Cars
+3741,3,Premium - Luxury Cars
+3742,3,Premium - Luxury Cars
+3743,3,Premium - Luxury Cars
+3744,3,Premium - Luxury Cars
+3745,3,Premium - Luxury Cars
+3746,3,Premium - Luxury Cars
+3747,3,Premium - Luxury Cars
+3748,3,Premium - Luxury Cars
+3749,3,Premium - Luxury Cars
+3750,3,Premium - Luxury Cars
+3751,3,Premium - Luxury Cars
+3752,3,Premium - Luxury Cars
+3753,3,Premium - Luxury Cars
+3754,3,Premium - Luxury Cars
+3755,3,Premium - Luxury Cars
+3756,3,Premium - Luxury Cars
+3757,0,Moderate Risk - Average
+3758,3,Premium - Luxury Cars
+3759,3,Premium - Luxury Cars
+3760,3,Premium - Luxury Cars
+3761,3,Premium - Luxury Cars
+3762,3,Premium - Luxury Cars
+3763,3,Premium - Luxury Cars
+3764,3,Premium - Luxury Cars
+3765,3,Premium - Luxury Cars
+3766,3,Premium - Luxury Cars
+3767,3,Premium - Luxury Cars
+3768,0,Moderate Risk - Average
+3769,3,Premium - Luxury Cars
+3770,3,Premium - Luxury Cars
+3771,3,Premium - Luxury Cars
+3772,3,Premium - Luxury Cars
+3773,3,Premium - Luxury Cars
+3774,3,Premium - Luxury Cars
+3775,3,Premium - Luxury Cars
+3776,3,Premium - Luxury Cars
+3777,3,Premium - Luxury Cars
+3778,3,Premium - Luxury Cars
+3779,3,Premium - Luxury Cars
+3780,3,Premium - Luxury Cars
+3781,3,Premium - Luxury Cars
+3782,3,Premium - Luxury Cars
+3783,3,Premium - Luxury Cars
+3784,3,Premium - Luxury Cars
+3785,3,Premium - Luxury Cars
+3786,3,Premium - Luxury Cars
+3787,3,Premium - Luxury Cars
+3788,3,Premium - Luxury Cars
+3789,3,Premium - Luxury Cars
+3790,3,Premium - Luxury Cars
+3791,3,Premium - Luxury Cars
+3792,3,Premium - Luxury Cars
+3793,3,Premium - Luxury Cars
+3794,3,Premium - Luxury Cars
+3795,3,Premium - Luxury Cars
+3796,3,Premium - Luxury Cars
+3797,3,Premium - Luxury Cars
+3798,3,Premium - Luxury Cars
+3799,3,Premium - Luxury Cars
+3800,3,Premium - Luxury Cars
+3801,3,Premium - Luxury Cars
+3802,0,Moderate Risk - Average
+3803,3,Premium - Luxury Cars
+3804,3,Premium - Luxury Cars
+3805,3,Premium - Luxury Cars
+3806,3,Premium - Luxury Cars
+3807,3,Premium - Luxury Cars
+3808,3,Premium - Luxury Cars
+3809,3,Premium - Luxury Cars
+3810,3,Premium - Luxury Cars
+3811,3,Premium - Luxury Cars
+3812,3,Premium - Luxury Cars
+3813,3,Premium - Luxury Cars
+3814,3,Premium - Luxury Cars
+3815,0,Moderate Risk - Average
+3816,3,Premium - Luxury Cars
+3817,3,Premium - Luxury Cars
+3818,0,Moderate Risk - Average
+3819,3,Premium - Luxury Cars
+3820,3,Premium - Luxury Cars
+3821,3,Premium - Luxury Cars
+3822,3,Premium - Luxury Cars
+3823,3,Premium - Luxury Cars
+3824,3,Premium - Luxury Cars
+3825,0,Moderate Risk - Average
+3826,3,Premium - Luxury Cars
+3827,0,Moderate Risk - Average
+3828,3,Premium - Luxury Cars
+3829,3,Premium - Luxury Cars
+3830,3,Premium - Luxury Cars
+3831,3,Premium - Luxury Cars
+3832,3,Premium - Luxury Cars
+3833,3,Premium - Luxury Cars
+3834,3,Premium - Luxury Cars
+3835,3,Premium - Luxury Cars
+3836,3,Premium - Luxury Cars
+3837,3,Premium - Luxury Cars
+3838,3,Premium - Luxury Cars
+3839,3,Premium - Luxury Cars
+3840,3,Premium - Luxury Cars
+3841,3,Premium - Luxury Cars
+3842,3,Premium - Luxury Cars
+3843,3,Premium - Luxury Cars
+3844,3,Premium - Luxury Cars
+3845,3,Premium - Luxury Cars
+3846,3,Premium - Luxury Cars
+3847,3,Premium - Luxury Cars
+3848,3,Premium - Luxury Cars
+3849,3,Premium - Luxury Cars
+3850,3,Premium - Luxury Cars
+3851,3,Premium - Luxury Cars
+3852,3,Premium - Luxury Cars
+3853,3,Premium - Luxury Cars
+3854,3,Premium - Luxury Cars
+3855,3,Premium - Luxury Cars
+3856,3,Premium - Luxury Cars
+3857,3,Premium - Luxury Cars
+3858,3,Premium - Luxury Cars
+3859,3,Premium - Luxury Cars
+3860,0,Moderate Risk - Average
+3861,3,Premium - Luxury Cars
+3862,3,Premium - Luxury Cars
+3863,3,Premium - Luxury Cars
+3864,3,Premium - Luxury Cars
+3865,3,Premium - Luxury Cars
+3866,3,Premium - Luxury Cars
+3867,0,Moderate Risk - Average
+3868,3,Premium - Luxury Cars
+3869,3,Premium - Luxury Cars
+3870,3,Premium - Luxury Cars
+3871,3,Premium - Luxury Cars
+3872,3,Premium - Luxury Cars
+3873,3,Premium - Luxury Cars
+3874,3,Premium - Luxury Cars
+3875,3,Premium - Luxury Cars
+3876,3,Premium - Luxury Cars
+3877,3,Premium - Luxury Cars
+3878,3,Premium - Luxury Cars
+3879,3,Premium - Luxury Cars
+3880,3,Premium - Luxury Cars
+3881,3,Premium - Luxury Cars
+3882,3,Premium - Luxury Cars
+3883,3,Premium - Luxury Cars
+3884,3,Premium - Luxury Cars
+3885,3,Premium - Luxury Cars
+3886,3,Premium - Luxury Cars
+3887,3,Premium - Luxury Cars
+3888,3,Premium - Luxury Cars
+3889,3,Premium - Luxury Cars
+3890,3,Premium - Luxury Cars
+3891,0,Moderate Risk - Average
+3892,3,Premium - Luxury Cars
+3893,3,Premium - Luxury Cars
+3894,3,Premium - Luxury Cars
+3895,3,Premium - Luxury Cars
+3896,3,Premium - Luxury Cars
+3897,3,Premium - Luxury Cars
+3898,3,Premium - Luxury Cars
+3899,3,Premium - Luxury Cars
+3900,3,Premium - Luxury Cars
+3901,3,Premium - Luxury Cars
+3902,3,Premium - Luxury Cars
+3903,3,Premium - Luxury Cars
+3904,3,Premium - Luxury Cars
+3905,3,Premium - Luxury Cars
+3906,3,Premium - Luxury Cars
+3907,3,Premium - Luxury Cars
+3908,3,Premium - Luxury Cars
+3909,3,Premium - Luxury Cars
+3910,3,Premium - Luxury Cars
+3911,3,Premium - Luxury Cars
+3912,3,Premium - Luxury Cars
+3913,3,Premium - Luxury Cars
+3914,3,Premium - Luxury Cars
+3915,3,Premium - Luxury Cars
+3916,0,Moderate Risk - Average
+3917,3,Premium - Luxury Cars
+3918,3,Premium - Luxury Cars
+3919,3,Premium - Luxury Cars
+3920,3,Premium - Luxury Cars
+3921,3,Premium - Luxury Cars
+3922,3,Premium - Luxury Cars
+3923,3,Premium - Luxury Cars
+3924,3,Premium - Luxury Cars
+3925,3,Premium - Luxury Cars
+3926,3,Premium - Luxury Cars
+3927,3,Premium - Luxury Cars
+3928,0,Moderate Risk - Average
+3929,3,Premium - Luxury Cars
+3930,3,Premium - Luxury Cars
+3931,3,Premium - Luxury Cars
+3932,3,Premium - Luxury Cars
+3933,3,Premium - Luxury Cars
+3934,3,Premium - Luxury Cars
+3935,3,Premium - Luxury Cars
+3936,3,Premium - Luxury Cars
+3937,3,Premium - Luxury Cars
+3938,3,Premium - Luxury Cars
+3939,3,Premium - Luxury Cars
+3940,3,Premium - Luxury Cars
+3941,3,Premium - Luxury Cars
+3942,3,Premium - Luxury Cars
+3943,3,Premium - Luxury Cars
+3944,3,Premium - Luxury Cars
+3945,3,Premium - Luxury Cars
+3946,3,Premium - Luxury Cars
+3947,3,Premium - Luxury Cars
+3948,3,Premium - Luxury Cars
+3949,3,Premium - Luxury Cars
+3950,3,Premium - Luxury Cars
+3951,3,Premium - Luxury Cars
+3952,3,Premium - Luxury Cars
+3953,3,Premium - Luxury Cars
+3954,3,Premium - Luxury Cars
+3955,3,Premium - Luxury Cars
+3956,3,Premium - Luxury Cars
+3957,3,Premium - Luxury Cars
+3958,3,Premium - Luxury Cars
+3959,3,Premium - Luxury Cars
+3960,3,Premium - Luxury Cars
+3961,3,Premium - Luxury Cars
+3962,0,Moderate Risk - Average
+3963,3,Premium - Luxury Cars
+3964,3,Premium - Luxury Cars
+3965,3,Premium - Luxury Cars
+3966,3,Premium - Luxury Cars
+3967,0,Moderate Risk - Average
+3968,3,Premium - Luxury Cars
+3969,3,Premium - Luxury Cars
+3970,0,Moderate Risk - Average
+3971,3,Premium - Luxury Cars
+3972,3,Premium - Luxury Cars
+3973,3,Premium - Luxury Cars
+3974,3,Premium - Luxury Cars
+3975,3,Premium - Luxury Cars
+3976,3,Premium - Luxury Cars
+3977,3,Premium - Luxury Cars
+3978,3,Premium - Luxury Cars
+3979,3,Premium - Luxury Cars
+3980,3,Premium - Luxury Cars
+3981,3,Premium - Luxury Cars
+3982,3,Premium - Luxury Cars
+3983,3,Premium - Luxury Cars
+3984,3,Premium - Luxury Cars
+3985,3,Premium - Luxury Cars
+3986,3,Premium - Luxury Cars
+3987,3,Premium - Luxury Cars
+3988,3,Premium - Luxury Cars
+3989,3,Premium - Luxury Cars
+3990,3,Premium - Luxury Cars
+3991,3,Premium - Luxury Cars
+3992,3,Premium - Luxury Cars
+3993,3,Premium - Luxury Cars
+3994,3,Premium - Luxury Cars
+3995,3,Premium - Luxury Cars
+3996,3,Premium - Luxury Cars
+3997,3,Premium - Luxury Cars
+3998,3,Premium - Luxury Cars
+3999,3,Premium - Luxury Cars
+4000,3,Premium - Luxury Cars
+4001,1,Risk Group - Many Claims/Violations
+4002,1,Risk Group - Many Claims/Violations
+4003,1,Risk Group - Many Claims/Violations
+4004,1,Risk Group - Many Claims/Violations
+4005,1,Risk Group - Many Claims/Violations
+4006,1,Risk Group - Many Claims/Violations
+4007,0,Moderate Risk - Average
+4008,2,Moderate Risk - Average
+4009,2,Moderate Risk - Average
+4010,1,Risk Group - Many Claims/Violations
+4011,1,Risk Group - Many Claims/Violations
+4012,2,Moderate Risk - Average
+4013,1,Risk Group - Many Claims/Violations
+4014,1,Risk Group - Many Claims/Violations
+4015,1,Risk Group - Many Claims/Violations
+4016,1,Risk Group - Many Claims/Violations
+4017,1,Risk Group - Many Claims/Violations
+4018,1,Risk Group - Many Claims/Violations
+4019,1,Risk Group - Many Claims/Violations
+4020,1,Risk Group - Many Claims/Violations
+4021,1,Risk Group - Many Claims/Violations
+4022,1,Risk Group - Many Claims/Violations
+4023,1,Risk Group - Many Claims/Violations
+4024,1,Risk Group - Many Claims/Violations
+4025,1,Risk Group - Many Claims/Violations
+4026,2,Moderate Risk - Average
+4027,1,Risk Group - Many Claims/Violations
+4028,1,Risk Group - Many Claims/Violations
+4029,1,Risk Group - Many Claims/Violations
+4030,1,Risk Group - Many Claims/Violations
+4031,1,Risk Group - Many Claims/Violations
+4032,1,Risk Group - Many Claims/Violations
+4033,1,Risk Group - Many Claims/Violations
+4034,1,Risk Group - Many Claims/Violations
+4035,1,Risk Group - Many Claims/Violations
+4036,0,Moderate Risk - Average
+4037,1,Risk Group - Many Claims/Violations
+4038,1,Risk Group - Many Claims/Violations
+4039,1,Risk Group - Many Claims/Violations
+4040,1,Risk Group - Many Claims/Violations
+4041,1,Risk Group - Many Claims/Violations
+4042,1,Risk Group - Many Claims/Violations
+4043,1,Risk Group - Many Claims/Violations
+4044,1,Risk Group - Many Claims/Violations
+4045,1,Risk Group - Many Claims/Violations
+4046,1,Risk Group - Many Claims/Violations
+4047,1,Risk Group - Many Claims/Violations
+4048,1,Risk Group - Many Claims/Violations
+4049,1,Risk Group - Many Claims/Violations
+4050,1,Risk Group - Many Claims/Violations
+4051,1,Risk Group - Many Claims/Violations
+4052,1,Risk Group - Many Claims/Violations
+4053,1,Risk Group - Many Claims/Violations
+4054,1,Risk Group - Many Claims/Violations
+4055,1,Risk Group - Many Claims/Violations
+4056,1,Risk Group - Many Claims/Violations
+4057,1,Risk Group - Many Claims/Violations
+4058,2,Moderate Risk - Average
+4059,1,Risk Group - Many Claims/Violations
+4060,1,Risk Group - Many Claims/Violations
+4061,1,Risk Group - Many Claims/Violations
+4062,1,Risk Group - Many Claims/Violations
+4063,1,Risk Group - Many Claims/Violations
+4064,1,Risk Group - Many Claims/Violations
+4065,1,Risk Group - Many Claims/Violations
+4066,1,Risk Group - Many Claims/Violations
+4067,1,Risk Group - Many Claims/Violations
+4068,1,Risk Group - Many Claims/Violations
+4069,1,Risk Group - Many Claims/Violations
+4070,1,Risk Group - Many Claims/Violations
+4071,1,Risk Group - Many Claims/Violations
+4072,1,Risk Group - Many Claims/Violations
+4073,1,Risk Group - Many Claims/Violations
+4074,1,Risk Group - Many Claims/Violations
+4075,1,Risk Group - Many Claims/Violations
+4076,1,Risk Group - Many Claims/Violations
+4077,1,Risk Group - Many Claims/Violations
+4078,1,Risk Group - Many Claims/Violations
+4079,1,Risk Group - Many Claims/Violations
+4080,1,Risk Group - Many Claims/Violations
+4081,1,Risk Group - Many Claims/Violations
+4082,1,Risk Group - Many Claims/Violations
+4083,1,Risk Group - Many Claims/Violations
+4084,1,Risk Group - Many Claims/Violations
+4085,1,Risk Group - Many Claims/Violations
+4086,1,Risk Group - Many Claims/Violations
+4087,1,Risk Group - Many Claims/Violations
+4088,1,Risk Group - Many Claims/Violations
+4089,1,Risk Group - Many Claims/Violations
+4090,1,Risk Group - Many Claims/Violations
+4091,1,Risk Group - Many Claims/Violations
+4092,1,Risk Group - Many Claims/Violations
+4093,1,Risk Group - Many Claims/Violations
+4094,2,Moderate Risk - Average
+4095,1,Risk Group - Many Claims/Violations
+4096,1,Risk Group - Many Claims/Violations
+4097,1,Risk Group - Many Claims/Violations
+4098,1,Risk Group - Many Claims/Violations
+4099,2,Moderate Risk - Average
+4100,1,Risk Group - Many Claims/Violations
+4101,1,Risk Group - Many Claims/Violations
+4102,1,Risk Group - Many Claims/Violations
+4103,1,Risk Group - Many Claims/Violations
+4104,1,Risk Group - Many Claims/Violations
+4105,1,Risk Group - Many Claims/Violations
+4106,1,Risk Group - Many Claims/Violations
+4107,1,Risk Group - Many Claims/Violations
+4108,0,Moderate Risk - Average
+4109,0,Moderate Risk - Average
+4110,1,Risk Group - Many Claims/Violations
+4111,1,Risk Group - Many Claims/Violations
+4112,2,Moderate Risk - Average
+4113,1,Risk Group - Many Claims/Violations
+4114,1,Risk Group - Many Claims/Violations
+4115,1,Risk Group - Many Claims/Violations
+4116,1,Risk Group - Many Claims/Violations
+4117,1,Risk Group - Many Claims/Violations
+4118,1,Risk Group - Many Claims/Violations
+4119,1,Risk Group - Many Claims/Violations
+4120,1,Risk Group - Many Claims/Violations
+4121,1,Risk Group - Many Claims/Violations
+4122,1,Risk Group - Many Claims/Violations
+4123,1,Risk Group - Many Claims/Violations
+4124,1,Risk Group - Many Claims/Violations
+4125,1,Risk Group - Many Claims/Violations
+4126,1,Risk Group - Many Claims/Violations
+4127,1,Risk Group - Many Claims/Violations
+4128,1,Risk Group - Many Claims/Violations
+4129,1,Risk Group - Many Claims/Violations
+4130,1,Risk Group - Many Claims/Violations
+4131,1,Risk Group - Many Claims/Violations
+4132,1,Risk Group - Many Claims/Violations
+4133,1,Risk Group - Many Claims/Violations
+4134,1,Risk Group - Many Claims/Violations
+4135,1,Risk Group - Many Claims/Violations
+4136,1,Risk Group - Many Claims/Violations
+4137,1,Risk Group - Many Claims/Violations
+4138,1,Risk Group - Many Claims/Violations
+4139,0,Moderate Risk - Average
+4140,1,Risk Group - Many Claims/Violations
+4141,1,Risk Group - Many Claims/Violations
+4142,1,Risk Group - Many Claims/Violations
+4143,0,Moderate Risk - Average
+4144,0,Moderate Risk - Average
+4145,1,Risk Group - Many Claims/Violations
+4146,1,Risk Group - Many Claims/Violations
+4147,1,Risk Group - Many Claims/Violations
+4148,0,Moderate Risk - Average
+4149,1,Risk Group - Many Claims/Violations
+4150,1,Risk Group - Many Claims/Violations
+4151,1,Risk Group - Many Claims/Violations
+4152,1,Risk Group - Many Claims/Violations
+4153,1,Risk Group - Many Claims/Violations
+4154,1,Risk Group - Many Claims/Violations
+4155,1,Risk Group - Many Claims/Violations
+4156,1,Risk Group - Many Claims/Violations
+4157,1,Risk Group - Many Claims/Violations
+4158,1,Risk Group - Many Claims/Violations
+4159,0,Moderate Risk - Average
+4160,1,Risk Group - Many Claims/Violations
+4161,1,Risk Group - Many Claims/Violations
+4162,1,Risk Group - Many Claims/Violations
+4163,1,Risk Group - Many Claims/Violations
+4164,1,Risk Group - Many Claims/Violations
+4165,1,Risk Group - Many Claims/Violations
+4166,1,Risk Group - Many Claims/Violations
+4167,1,Risk Group - Many Claims/Violations
+4168,1,Risk Group - Many Claims/Violations
+4169,2,Moderate Risk - Average
+4170,1,Risk Group - Many Claims/Violations
+4171,1,Risk Group - Many Claims/Violations
+4172,1,Risk Group - Many Claims/Violations
+4173,1,Risk Group - Many Claims/Violations
+4174,1,Risk Group - Many Claims/Violations
+4175,1,Risk Group - Many Claims/Violations
+4176,1,Risk Group - Many Claims/Violations
+4177,1,Risk Group - Many Claims/Violations
+4178,1,Risk Group - Many Claims/Violations
+4179,1,Risk Group - Many Claims/Violations
+4180,1,Risk Group - Many Claims/Violations
+4181,1,Risk Group - Many Claims/Violations
+4182,1,Risk Group - Many Claims/Violations
+4183,1,Risk Group - Many Claims/Violations
+4184,1,Risk Group - Many Claims/Violations
+4185,1,Risk Group - Many Claims/Violations
+4186,1,Risk Group - Many Claims/Violations
+4187,1,Risk Group - Many Claims/Violations
+4188,1,Risk Group - Many Claims/Violations
+4189,1,Risk Group - Many Claims/Violations
+4190,1,Risk Group - Many Claims/Violations
+4191,1,Risk Group - Many Claims/Violations
+4192,1,Risk Group - Many Claims/Violations
+4193,1,Risk Group - Many Claims/Violations
+4194,1,Risk Group - Many Claims/Violations
+4195,0,Moderate Risk - Average
+4196,1,Risk Group - Many Claims/Violations
+4197,1,Risk Group - Many Claims/Violations
+4198,0,Moderate Risk - Average
+4199,1,Risk Group - Many Claims/Violations
+4200,1,Risk Group - Many Claims/Violations
+4201,2,Moderate Risk - Average
+4202,1,Risk Group - Many Claims/Violations
+4203,1,Risk Group - Many Claims/Violations
+4204,1,Risk Group - Many Claims/Violations
+4205,1,Risk Group - Many Claims/Violations
+4206,1,Risk Group - Many Claims/Violations
+4207,1,Risk Group - Many Claims/Violations
+4208,1,Risk Group - Many Claims/Violations
+4209,1,Risk Group - Many Claims/Violations
+4210,1,Risk Group - Many Claims/Violations
+4211,0,Moderate Risk - Average
+4212,1,Risk Group - Many Claims/Violations
+4213,1,Risk Group - Many Claims/Violations
+4214,1,Risk Group - Many Claims/Violations
+4215,1,Risk Group - Many Claims/Violations
+4216,1,Risk Group - Many Claims/Violations
+4217,1,Risk Group - Many Claims/Violations
+4218,1,Risk Group - Many Claims/Violations
+4219,1,Risk Group - Many Claims/Violations
+4220,1,Risk Group - Many Claims/Violations
+4221,1,Risk Group - Many Claims/Violations
+4222,1,Risk Group - Many Claims/Violations
+4223,1,Risk Group - Many Claims/Violations
+4224,1,Risk Group - Many Claims/Violations
+4225,1,Risk Group - Many Claims/Violations
+4226,1,Risk Group - Many Claims/Violations
+4227,1,Risk Group - Many Claims/Violations
+4228,1,Risk Group - Many Claims/Violations
+4229,1,Risk Group - Many Claims/Violations
+4230,1,Risk Group - Many Claims/Violations
+4231,1,Risk Group - Many Claims/Violations
+4232,1,Risk Group - Many Claims/Violations
+4233,1,Risk Group - Many Claims/Violations
+4234,1,Risk Group - Many Claims/Violations
+4235,1,Risk Group - Many Claims/Violations
+4236,1,Risk Group - Many Claims/Violations
+4237,1,Risk Group - Many Claims/Violations
+4238,1,Risk Group - Many Claims/Violations
+4239,1,Risk Group - Many Claims/Violations
+4240,1,Risk Group - Many Claims/Violations
+4241,1,Risk Group - Many Claims/Violations
+4242,1,Risk Group - Many Claims/Violations
+4243,0,Moderate Risk - Average
+4244,1,Risk Group - Many Claims/Violations
+4245,1,Risk Group - Many Claims/Violations
+4246,1,Risk Group - Many Claims/Violations
+4247,1,Risk Group - Many Claims/Violations
+4248,1,Risk Group - Many Claims/Violations
+4249,1,Risk Group - Many Claims/Violations
+4250,2,Moderate Risk - Average
+4251,1,Risk Group - Many Claims/Violations
+4252,1,Risk Group - Many Claims/Violations
+4253,1,Risk Group - Many Claims/Violations
+4254,1,Risk Group - Many Claims/Violations
+4255,0,Moderate Risk - Average
+4256,1,Risk Group - Many Claims/Violations
+4257,1,Risk Group - Many Claims/Violations
+4258,1,Risk Group - Many Claims/Violations
+4259,1,Risk Group - Many Claims/Violations
+4260,1,Risk Group - Many Claims/Violations
+4261,1,Risk Group - Many Claims/Violations
+4262,1,Risk Group - Many Claims/Violations
+4263,1,Risk Group - Many Claims/Violations
+4264,1,Risk Group - Many Claims/Violations
+4265,1,Risk Group - Many Claims/Violations
+4266,1,Risk Group - Many Claims/Violations
+4267,1,Risk Group - Many Claims/Violations
+4268,1,Risk Group - Many Claims/Violations
+4269,1,Risk Group - Many Claims/Violations
+4270,1,Risk Group - Many Claims/Violations
+4271,1,Risk Group - Many Claims/Violations
+4272,1,Risk Group - Many Claims/Violations
+4273,1,Risk Group - Many Claims/Violations
+4274,1,Risk Group - Many Claims/Violations
+4275,1,Risk Group - Many Claims/Violations
+4276,1,Risk Group - Many Claims/Violations
+4277,1,Risk Group - Many Claims/Violations
+4278,1,Risk Group - Many Claims/Violations
+4279,1,Risk Group - Many Claims/Violations
+4280,1,Risk Group - Many Claims/Violations
+4281,1,Risk Group - Many Claims/Violations
+4282,0,Moderate Risk - Average
+4283,1,Risk Group - Many Claims/Violations
+4284,1,Risk Group - Many Claims/Violations
+4285,1,Risk Group - Many Claims/Violations
+4286,1,Risk Group - Many Claims/Violations
+4287,1,Risk Group - Many Claims/Violations
+4288,1,Risk Group - Many Claims/Violations
+4289,1,Risk Group - Many Claims/Violations
+4290,1,Risk Group - Many Claims/Violations
+4291,0,Moderate Risk - Average
+4292,1,Risk Group - Many Claims/Violations
+4293,1,Risk Group - Many Claims/Violations
+4294,1,Risk Group - Many Claims/Violations
+4295,1,Risk Group - Many Claims/Violations
+4296,1,Risk Group - Many Claims/Violations
+4297,1,Risk Group - Many Claims/Violations
+4298,1,Risk Group - Many Claims/Violations
+4299,1,Risk Group - Many Claims/Violations
+4300,1,Risk Group - Many Claims/Violations
+4301,1,Risk Group - Many Claims/Violations
+4302,1,Risk Group - Many Claims/Violations
+4303,2,Moderate Risk - Average
+4304,2,Moderate Risk - Average
+4305,1,Risk Group - Many Claims/Violations
+4306,1,Risk Group - Many Claims/Violations
+4307,1,Risk Group - Many Claims/Violations
+4308,1,Risk Group - Many Claims/Violations
+4309,1,Risk Group - Many Claims/Violations
+4310,1,Risk Group - Many Claims/Violations
+4311,1,Risk Group - Many Claims/Violations
+4312,1,Risk Group - Many Claims/Violations
+4313,1,Risk Group - Many Claims/Violations
+4314,1,Risk Group - Many Claims/Violations
+4315,1,Risk Group - Many Claims/Violations
+4316,1,Risk Group - Many Claims/Violations
+4317,1,Risk Group - Many Claims/Violations
+4318,1,Risk Group - Many Claims/Violations
+4319,1,Risk Group - Many Claims/Violations
+4320,1,Risk Group - Many Claims/Violations
+4321,1,Risk Group - Many Claims/Violations
+4322,1,Risk Group - Many Claims/Violations
+4323,1,Risk Group - Many Claims/Violations
+4324,1,Risk Group - Many Claims/Violations
+4325,1,Risk Group - Many Claims/Violations
+4326,1,Risk Group - Many Claims/Violations
+4327,1,Risk Group - Many Claims/Violations
+4328,1,Risk Group - Many Claims/Violations
+4329,1,Risk Group - Many Claims/Violations
+4330,1,Risk Group - Many Claims/Violations
+4331,1,Risk Group - Many Claims/Violations
+4332,1,Risk Group - Many Claims/Violations
+4333,1,Risk Group - Many Claims/Violations
+4334,0,Moderate Risk - Average
+4335,1,Risk Group - Many Claims/Violations
+4336,1,Risk Group - Many Claims/Violations
+4337,1,Risk Group - Many Claims/Violations
+4338,1,Risk Group - Many Claims/Violations
+4339,1,Risk Group - Many Claims/Violations
+4340,1,Risk Group - Many Claims/Violations
+4341,0,Moderate Risk - Average
+4342,1,Risk Group - Many Claims/Violations
+4343,1,Risk Group - Many Claims/Violations
+4344,1,Risk Group - Many Claims/Violations
+4345,1,Risk Group - Many Claims/Violations
+4346,1,Risk Group - Many Claims/Violations
+4347,1,Risk Group - Many Claims/Violations
+4348,1,Risk Group - Many Claims/Violations
+4349,1,Risk Group - Many Claims/Violations
+4350,1,Risk Group - Many Claims/Violations
+4351,2,Moderate Risk - Average
+4352,1,Risk Group - Many Claims/Violations
+4353,1,Risk Group - Many Claims/Violations
+4354,1,Risk Group - Many Claims/Violations
+4355,1,Risk Group - Many Claims/Violations
+4356,1,Risk Group - Many Claims/Violations
+4357,1,Risk Group - Many Claims/Violations
+4358,1,Risk Group - Many Claims/Violations
+4359,0,Moderate Risk - Average
+4360,1,Risk Group - Many Claims/Violations
+4361,1,Risk Group - Many Claims/Violations
+4362,0,Moderate Risk - Average
+4363,1,Risk Group - Many Claims/Violations
+4364,1,Risk Group - Many Claims/Violations
+4365,1,Risk Group - Many Claims/Violations
+4366,1,Risk Group - Many Claims/Violations
+4367,1,Risk Group - Many Claims/Violations
+4368,1,Risk Group - Many Claims/Violations
+4369,1,Risk Group - Many Claims/Violations
+4370,1,Risk Group - Many Claims/Violations
+4371,1,Risk Group - Many Claims/Violations
+4372,1,Risk Group - Many Claims/Violations
+4373,1,Risk Group - Many Claims/Violations
+4374,1,Risk Group - Many Claims/Violations
+4375,1,Risk Group - Many Claims/Violations
+4376,1,Risk Group - Many Claims/Violations
+4377,1,Risk Group - Many Claims/Violations
+4378,1,Risk Group - Many Claims/Violations
+4379,1,Risk Group - Many Claims/Violations
+4380,1,Risk Group - Many Claims/Violations
+4381,1,Risk Group - Many Claims/Violations
+4382,1,Risk Group - Many Claims/Violations
+4383,0,Moderate Risk - Average
+4384,1,Risk Group - Many Claims/Violations
+4385,1,Risk Group - Many Claims/Violations
+4386,1,Risk Group - Many Claims/Violations
+4387,0,Moderate Risk - Average
+4388,1,Risk Group - Many Claims/Violations
+4389,2,Moderate Risk - Average
+4390,1,Risk Group - Many Claims/Violations
+4391,1,Risk Group - Many Claims/Violations
+4392,1,Risk Group - Many Claims/Violations
+4393,1,Risk Group - Many Claims/Violations
+4394,1,Risk Group - Many Claims/Violations
+4395,1,Risk Group - Many Claims/Violations
+4396,1,Risk Group - Many Claims/Violations
+4397,1,Risk Group - Many Claims/Violations
+4398,1,Risk Group - Many Claims/Violations
+4399,1,Risk Group - Many Claims/Violations
+4400,1,Risk Group - Many Claims/Violations
+4401,1,Risk Group - Many Claims/Violations
+4402,0,Moderate Risk - Average
+4403,1,Risk Group - Many Claims/Violations
+4404,1,Risk Group - Many Claims/Violations
+4405,1,Risk Group - Many Claims/Violations
+4406,0,Moderate Risk - Average
+4407,1,Risk Group - Many Claims/Violations
+4408,1,Risk Group - Many Claims/Violations
+4409,0,Moderate Risk - Average
+4410,1,Risk Group - Many Claims/Violations
+4411,1,Risk Group - Many Claims/Violations
+4412,1,Risk Group - Many Claims/Violations
+4413,1,Risk Group - Many Claims/Violations
+4414,2,Moderate Risk - Average
+4415,1,Risk Group - Many Claims/Violations
+4416,1,Risk Group - Many Claims/Violations
+4417,1,Risk Group - Many Claims/Violations
+4418,1,Risk Group - Many Claims/Violations
+4419,1,Risk Group - Many Claims/Violations
+4420,1,Risk Group - Many Claims/Violations
+4421,1,Risk Group - Many Claims/Violations
+4422,1,Risk Group - Many Claims/Violations
+4423,1,Risk Group - Many Claims/Violations
+4424,1,Risk Group - Many Claims/Violations
+4425,1,Risk Group - Many Claims/Violations
+4426,1,Risk Group - Many Claims/Violations
+4427,1,Risk Group - Many Claims/Violations
+4428,1,Risk Group - Many Claims/Violations
+4429,1,Risk Group - Many Claims/Violations
+4430,1,Risk Group - Many Claims/Violations
+4431,1,Risk Group - Many Claims/Violations
+4432,1,Risk Group - Many Claims/Violations
+4433,1,Risk Group - Many Claims/Violations
+4434,1,Risk Group - Many Claims/Violations
+4435,1,Risk Group - Many Claims/Violations
+4436,1,Risk Group - Many Claims/Violations
+4437,1,Risk Group - Many Claims/Violations
+4438,1,Risk Group - Many Claims/Violations
+4439,1,Risk Group - Many Claims/Violations
+4440,1,Risk Group - Many Claims/Violations
+4441,2,Moderate Risk - Average
+4442,0,Moderate Risk - Average
+4443,1,Risk Group - Many Claims/Violations
+4444,1,Risk Group - Many Claims/Violations
+4445,2,Moderate Risk - Average
+4446,1,Risk Group - Many Claims/Violations
+4447,2,Moderate Risk - Average
+4448,1,Risk Group - Many Claims/Violations
+4449,1,Risk Group - Many Claims/Violations
+4450,1,Risk Group - Many Claims/Violations
+4451,1,Risk Group - Many Claims/Violations
+4452,1,Risk Group - Many Claims/Violations
+4453,1,Risk Group - Many Claims/Violations
+4454,1,Risk Group - Many Claims/Violations
+4455,2,Moderate Risk - Average
+4456,1,Risk Group - Many Claims/Violations
+4457,1,Risk Group - Many Claims/Violations
+4458,1,Risk Group - Many Claims/Violations
+4459,1,Risk Group - Many Claims/Violations
+4460,1,Risk Group - Many Claims/Violations
+4461,1,Risk Group - Many Claims/Violations
+4462,1,Risk Group - Many Claims/Violations
+4463,1,Risk Group - Many Claims/Violations
+4464,1,Risk Group - Many Claims/Violations
+4465,1,Risk Group - Many Claims/Violations
+4466,1,Risk Group - Many Claims/Violations
+4467,1,Risk Group - Many Claims/Violations
+4468,1,Risk Group - Many Claims/Violations
+4469,1,Risk Group - Many Claims/Violations
+4470,0,Moderate Risk - Average
+4471,2,Moderate Risk - Average
+4472,1,Risk Group - Many Claims/Violations
+4473,1,Risk Group - Many Claims/Violations
+4474,1,Risk Group - Many Claims/Violations
+4475,2,Moderate Risk - Average
+4476,1,Risk Group - Many Claims/Violations
+4477,1,Risk Group - Many Claims/Violations
+4478,1,Risk Group - Many Claims/Violations
+4479,1,Risk Group - Many Claims/Violations
+4480,1,Risk Group - Many Claims/Violations
+4481,1,Risk Group - Many Claims/Violations
+4482,1,Risk Group - Many Claims/Violations
+4483,1,Risk Group - Many Claims/Violations
+4484,1,Risk Group - Many Claims/Violations
+4485,1,Risk Group - Many Claims/Violations
+4486,1,Risk Group - Many Claims/Violations
+4487,1,Risk Group - Many Claims/Violations
+4488,1,Risk Group - Many Claims/Violations
+4489,1,Risk Group - Many Claims/Violations
+4490,1,Risk Group - Many Claims/Violations
+4491,0,Moderate Risk - Average
+4492,1,Risk Group - Many Claims/Violations
+4493,1,Risk Group - Many Claims/Violations
+4494,1,Risk Group - Many Claims/Violations
+4495,2,Moderate Risk - Average
+4496,1,Risk Group - Many Claims/Violations
+4497,1,Risk Group - Many Claims/Violations
+4498,1,Risk Group - Many Claims/Violations
+4499,2,Moderate Risk - Average
+4500,1,Risk Group - Many Claims/Violations
+4501,1,Risk Group - Many Claims/Violations
+4502,1,Risk Group - Many Claims/Violations
+4503,1,Risk Group - Many Claims/Violations
+4504,1,Risk Group - Many Claims/Violations
+4505,2,Moderate Risk - Average
+4506,1,Risk Group - Many Claims/Violations
+4507,1,Risk Group - Many Claims/Violations
+4508,1,Risk Group - Many Claims/Violations
+4509,1,Risk Group - Many Claims/Violations
+4510,1,Risk Group - Many Claims/Violations
+4511,1,Risk Group - Many Claims/Violations
+4512,1,Risk Group - Many Claims/Violations
+4513,1,Risk Group - Many Claims/Violations
+4514,1,Risk Group - Many Claims/Violations
+4515,1,Risk Group - Many Claims/Violations
+4516,1,Risk Group - Many Claims/Violations
+4517,1,Risk Group - Many Claims/Violations
+4518,1,Risk Group - Many Claims/Violations
+4519,0,Moderate Risk - Average
+4520,1,Risk Group - Many Claims/Violations
+4521,1,Risk Group - Many Claims/Violations
+4522,1,Risk Group - Many Claims/Violations
+4523,1,Risk Group - Many Claims/Violations
+4524,1,Risk Group - Many Claims/Violations
+4525,1,Risk Group - Many Claims/Violations
+4526,1,Risk Group - Many Claims/Violations
+4527,1,Risk Group - Many Claims/Violations
+4528,1,Risk Group - Many Claims/Violations
+4529,1,Risk Group - Many Claims/Violations
+4530,1,Risk Group - Many Claims/Violations
+4531,0,Moderate Risk - Average
+4532,1,Risk Group - Many Claims/Violations
+4533,1,Risk Group - Many Claims/Violations
+4534,1,Risk Group - Many Claims/Violations
+4535,1,Risk Group - Many Claims/Violations
+4536,1,Risk Group - Many Claims/Violations
+4537,1,Risk Group - Many Claims/Violations
+4538,1,Risk Group - Many Claims/Violations
+4539,1,Risk Group - Many Claims/Violations
+4540,1,Risk Group - Many Claims/Violations
+4541,1,Risk Group - Many Claims/Violations
+4542,1,Risk Group - Many Claims/Violations
+4543,1,Risk Group - Many Claims/Violations
+4544,1,Risk Group - Many Claims/Violations
+4545,2,Moderate Risk - Average
+4546,1,Risk Group - Many Claims/Violations
+4547,1,Risk Group - Many Claims/Violations
+4548,1,Risk Group - Many Claims/Violations
+4549,1,Risk Group - Many Claims/Violations
+4550,1,Risk Group - Many Claims/Violations
+4551,0,Moderate Risk - Average
+4552,1,Risk Group - Many Claims/Violations
+4553,1,Risk Group - Many Claims/Violations
+4554,0,Moderate Risk - Average
+4555,2,Moderate Risk - Average
+4556,1,Risk Group - Many Claims/Violations
+4557,1,Risk Group - Many Claims/Violations
+4558,1,Risk Group - Many Claims/Violations
+4559,1,Risk Group - Many Claims/Violations
+4560,1,Risk Group - Many Claims/Violations
+4561,1,Risk Group - Many Claims/Violations
+4562,1,Risk Group - Many Claims/Violations
+4563,1,Risk Group - Many Claims/Violations
+4564,1,Risk Group - Many Claims/Violations
+4565,0,Moderate Risk - Average
+4566,2,Moderate Risk - Average
+4567,1,Risk Group - Many Claims/Violations
+4568,1,Risk Group - Many Claims/Violations
+4569,1,Risk Group - Many Claims/Violations
+4570,1,Risk Group - Many Claims/Violations
+4571,1,Risk Group - Many Claims/Violations
+4572,1,Risk Group - Many Claims/Violations
+4573,1,Risk Group - Many Claims/Violations
+4574,1,Risk Group - Many Claims/Violations
+4575,1,Risk Group - Many Claims/Violations
+4576,1,Risk Group - Many Claims/Violations
+4577,1,Risk Group - Many Claims/Violations
+4578,1,Risk Group - Many Claims/Violations
+4579,1,Risk Group - Many Claims/Violations
+4580,1,Risk Group - Many Claims/Violations
+4581,0,Moderate Risk - Average
+4582,1,Risk Group - Many Claims/Violations
+4583,1,Risk Group - Many Claims/Violations
+4584,1,Risk Group - Many Claims/Violations
+4585,1,Risk Group - Many Claims/Violations
+4586,1,Risk Group - Many Claims/Violations
+4587,0,Moderate Risk - Average
+4588,1,Risk Group - Many Claims/Violations
+4589,2,Moderate Risk - Average
+4590,1,Risk Group - Many Claims/Violations
+4591,1,Risk Group - Many Claims/Violations
+4592,1,Risk Group - Many Claims/Violations
+4593,0,Moderate Risk - Average
+4594,1,Risk Group - Many Claims/Violations
+4595,1,Risk Group - Many Claims/Violations
+4596,1,Risk Group - Many Claims/Violations
+4597,1,Risk Group - Many Claims/Violations
+4598,1,Risk Group - Many Claims/Violations
+4599,1,Risk Group - Many Claims/Violations
+4600,1,Risk Group - Many Claims/Violations
+4601,1,Risk Group - Many Claims/Violations
+4602,1,Risk Group - Many Claims/Violations
+4603,1,Risk Group - Many Claims/Violations
+4604,1,Risk Group - Many Claims/Violations
+4605,1,Risk Group - Many Claims/Violations
+4606,0,Moderate Risk - Average
+4607,1,Risk Group - Many Claims/Violations
+4608,0,Moderate Risk - Average
+4609,1,Risk Group - Many Claims/Violations
+4610,1,Risk Group - Many Claims/Violations
+4611,1,Risk Group - Many Claims/Violations
+4612,1,Risk Group - Many Claims/Violations
+4613,1,Risk Group - Many Claims/Violations
+4614,1,Risk Group - Many Claims/Violations
+4615,1,Risk Group - Many Claims/Violations
+4616,1,Risk Group - Many Claims/Violations
+4617,1,Risk Group - Many Claims/Violations
+4618,1,Risk Group - Many Claims/Violations
+4619,1,Risk Group - Many Claims/Violations
+4620,1,Risk Group - Many Claims/Violations
+4621,1,Risk Group - Many Claims/Violations
+4622,1,Risk Group - Many Claims/Violations
+4623,1,Risk Group - Many Claims/Violations
+4624,1,Risk Group - Many Claims/Violations
+4625,1,Risk Group - Many Claims/Violations
+4626,1,Risk Group - Many Claims/Violations
+4627,1,Risk Group - Many Claims/Violations
+4628,1,Risk Group - Many Claims/Violations
+4629,1,Risk Group - Many Claims/Violations
+4630,1,Risk Group - Many Claims/Violations
+4631,1,Risk Group - Many Claims/Violations
+4632,1,Risk Group - Many Claims/Violations
+4633,1,Risk Group - Many Claims/Violations
+4634,1,Risk Group - Many Claims/Violations
+4635,1,Risk Group - Many Claims/Violations
+4636,1,Risk Group - Many Claims/Violations
+4637,1,Risk Group - Many Claims/Violations
+4638,1,Risk Group - Many Claims/Violations
+4639,1,Risk Group - Many Claims/Violations
+4640,0,Moderate Risk - Average
+4641,1,Risk Group - Many Claims/Violations
+4642,1,Risk Group - Many Claims/Violations
+4643,1,Risk Group - Many Claims/Violations
+4644,1,Risk Group - Many Claims/Violations
+4645,1,Risk Group - Many Claims/Violations
+4646,1,Risk Group - Many Claims/Violations
+4647,1,Risk Group - Many Claims/Violations
+4648,1,Risk Group - Many Claims/Violations
+4649,1,Risk Group - Many Claims/Violations
+4650,1,Risk Group - Many Claims/Violations
+4651,1,Risk Group - Many Claims/Violations
+4652,1,Risk Group - Many Claims/Violations
+4653,1,Risk Group - Many Claims/Violations
+4654,1,Risk Group - Many Claims/Violations
+4655,1,Risk Group - Many Claims/Violations
+4656,1,Risk Group - Many Claims/Violations
+4657,1,Risk Group - Many Claims/Violations
+4658,1,Risk Group - Many Claims/Violations
+4659,0,Moderate Risk - Average
+4660,1,Risk Group - Many Claims/Violations
+4661,1,Risk Group - Many Claims/Violations
+4662,1,Risk Group - Many Claims/Violations
+4663,0,Moderate Risk - Average
+4664,1,Risk Group - Many Claims/Violations
+4665,1,Risk Group - Many Claims/Violations
+4666,1,Risk Group - Many Claims/Violations
+4667,1,Risk Group - Many Claims/Violations
+4668,1,Risk Group - Many Claims/Violations
+4669,1,Risk Group - Many Claims/Violations
+4670,1,Risk Group - Many Claims/Violations
+4671,1,Risk Group - Many Claims/Violations
+4672,1,Risk Group - Many Claims/Violations
+4673,0,Moderate Risk - Average
+4674,1,Risk Group - Many Claims/Violations
+4675,1,Risk Group - Many Claims/Violations
+4676,1,Risk Group - Many Claims/Violations
+4677,1,Risk Group - Many Claims/Violations
+4678,1,Risk Group - Many Claims/Violations
+4679,0,Moderate Risk - Average
+4680,1,Risk Group - Many Claims/Violations
+4681,0,Moderate Risk - Average
+4682,0,Moderate Risk - Average
+4683,2,Moderate Risk - Average
+4684,1,Risk Group - Many Claims/Violations
+4685,1,Risk Group - Many Claims/Violations
+4686,1,Risk Group - Many Claims/Violations
+4687,1,Risk Group - Many Claims/Violations
+4688,1,Risk Group - Many Claims/Violations
+4689,1,Risk Group - Many Claims/Violations
+4690,1,Risk Group - Many Claims/Violations
+4691,1,Risk Group - Many Claims/Violations
+4692,1,Risk Group - Many Claims/Violations
+4693,2,Moderate Risk - Average
+4694,1,Risk Group - Many Claims/Violations
+4695,1,Risk Group - Many Claims/Violations
+4696,1,Risk Group - Many Claims/Violations
+4697,0,Moderate Risk - Average
+4698,1,Risk Group - Many Claims/Violations
+4699,1,Risk Group - Many Claims/Violations
+4700,1,Risk Group - Many Claims/Violations
+4701,1,Risk Group - Many Claims/Violations
+4702,1,Risk Group - Many Claims/Violations
+4703,1,Risk Group - Many Claims/Violations
+4704,1,Risk Group - Many Claims/Violations
+4705,1,Risk Group - Many Claims/Violations
+4706,1,Risk Group - Many Claims/Violations
+4707,1,Risk Group - Many Claims/Violations
+4708,1,Risk Group - Many Claims/Violations
+4709,1,Risk Group - Many Claims/Violations
+4710,1,Risk Group - Many Claims/Violations
+4711,1,Risk Group - Many Claims/Violations
+4712,1,Risk Group - Many Claims/Violations
+4713,1,Risk Group - Many Claims/Violations
+4714,1,Risk Group - Many Claims/Violations
+4715,0,Moderate Risk - Average
+4716,1,Risk Group - Many Claims/Violations
+4717,2,Moderate Risk - Average
+4718,1,Risk Group - Many Claims/Violations
+4719,1,Risk Group - Many Claims/Violations
+4720,1,Risk Group - Many Claims/Violations
+4721,1,Risk Group - Many Claims/Violations
+4722,1,Risk Group - Many Claims/Violations
+4723,1,Risk Group - Many Claims/Violations
+4724,1,Risk Group - Many Claims/Violations
+4725,1,Risk Group - Many Claims/Violations
+4726,1,Risk Group - Many Claims/Violations
+4727,1,Risk Group - Many Claims/Violations
+4728,1,Risk Group - Many Claims/Violations
+4729,1,Risk Group - Many Claims/Violations
+4730,1,Risk Group - Many Claims/Violations
+4731,1,Risk Group - Many Claims/Violations
+4732,1,Risk Group - Many Claims/Violations
+4733,1,Risk Group - Many Claims/Violations
+4734,1,Risk Group - Many Claims/Violations
+4735,1,Risk Group - Many Claims/Violations
+4736,2,Moderate Risk - Average
+4737,1,Risk Group - Many Claims/Violations
+4738,2,Moderate Risk - Average
+4739,1,Risk Group - Many Claims/Violations
+4740,1,Risk Group - Many Claims/Violations
+4741,1,Risk Group - Many Claims/Violations
+4742,1,Risk Group - Many Claims/Violations
+4743,1,Risk Group - Many Claims/Violations
+4744,1,Risk Group - Many Claims/Violations
+4745,1,Risk Group - Many Claims/Violations
+4746,1,Risk Group - Many Claims/Violations
+4747,1,Risk Group - Many Claims/Violations
+4748,2,Moderate Risk - Average
+4749,1,Risk Group - Many Claims/Violations
+4750,1,Risk Group - Many Claims/Violations
+4751,1,Risk Group - Many Claims/Violations
+4752,1,Risk Group - Many Claims/Violations
+4753,1,Risk Group - Many Claims/Violations
+4754,1,Risk Group - Many Claims/Violations
+4755,1,Risk Group - Many Claims/Violations
+4756,1,Risk Group - Many Claims/Violations
+4757,1,Risk Group - Many Claims/Violations
+4758,2,Moderate Risk - Average
+4759,1,Risk Group - Many Claims/Violations
+4760,1,Risk Group - Many Claims/Violations
+4761,1,Risk Group - Many Claims/Violations
+4762,1,Risk Group - Many Claims/Violations
+4763,1,Risk Group - Many Claims/Violations
+4764,1,Risk Group - Many Claims/Violations
+4765,1,Risk Group - Many Claims/Violations
+4766,1,Risk Group - Many Claims/Violations
+4767,1,Risk Group - Many Claims/Violations
+4768,1,Risk Group - Many Claims/Violations
+4769,1,Risk Group - Many Claims/Violations
+4770,0,Moderate Risk - Average
+4771,2,Moderate Risk - Average
+4772,1,Risk Group - Many Claims/Violations
+4773,1,Risk Group - Many Claims/Violations
+4774,1,Risk Group - Many Claims/Violations
+4775,1,Risk Group - Many Claims/Violations
+4776,1,Risk Group - Many Claims/Violations
+4777,1,Risk Group - Many Claims/Violations
+4778,1,Risk Group - Many Claims/Violations
+4779,1,Risk Group - Many Claims/Violations
+4780,1,Risk Group - Many Claims/Violations
+4781,1,Risk Group - Many Claims/Violations
+4782,1,Risk Group - Many Claims/Violations
+4783,0,Moderate Risk - Average
+4784,2,Moderate Risk - Average
+4785,1,Risk Group - Many Claims/Violations
+4786,1,Risk Group - Many Claims/Violations
+4787,1,Risk Group - Many Claims/Violations
+4788,1,Risk Group - Many Claims/Violations
+4789,0,Moderate Risk - Average
+4790,1,Risk Group - Many Claims/Violations
+4791,1,Risk Group - Many Claims/Violations
+4792,1,Risk Group - Many Claims/Violations
+4793,1,Risk Group - Many Claims/Violations
+4794,2,Moderate Risk - Average
+4795,2,Moderate Risk - Average
+4796,1,Risk Group - Many Claims/Violations
+4797,1,Risk Group - Many Claims/Violations
+4798,1,Risk Group - Many Claims/Violations
+4799,2,Moderate Risk - Average
+4800,1,Risk Group - Many Claims/Violations
+4801,1,Risk Group - Many Claims/Violations
+4802,1,Risk Group - Many Claims/Violations
+4803,1,Risk Group - Many Claims/Violations
+4804,1,Risk Group - Many Claims/Violations
+4805,1,Risk Group - Many Claims/Violations
+4806,1,Risk Group - Many Claims/Violations
+4807,1,Risk Group - Many Claims/Violations
+4808,1,Risk Group - Many Claims/Violations
+4809,1,Risk Group - Many Claims/Violations
+4810,1,Risk Group - Many Claims/Violations
+4811,1,Risk Group - Many Claims/Violations
+4812,1,Risk Group - Many Claims/Violations
+4813,1,Risk Group - Many Claims/Violations
+4814,1,Risk Group - Many Claims/Violations
+4815,1,Risk Group - Many Claims/Violations
+4816,1,Risk Group - Many Claims/Violations
+4817,2,Moderate Risk - Average
+4818,1,Risk Group - Many Claims/Violations
+4819,1,Risk Group - Many Claims/Violations
+4820,1,Risk Group - Many Claims/Violations
+4821,1,Risk Group - Many Claims/Violations
+4822,1,Risk Group - Many Claims/Violations
+4823,1,Risk Group - Many Claims/Violations
+4824,2,Moderate Risk - Average
+4825,1,Risk Group - Many Claims/Violations
+4826,1,Risk Group - Many Claims/Violations
+4827,1,Risk Group - Many Claims/Violations
+4828,1,Risk Group - Many Claims/Violations
+4829,1,Risk Group - Many Claims/Violations
+4830,1,Risk Group - Many Claims/Violations
+4831,1,Risk Group - Many Claims/Violations
+4832,1,Risk Group - Many Claims/Violations
+4833,1,Risk Group - Many Claims/Violations
+4834,1,Risk Group - Many Claims/Violations
+4835,1,Risk Group - Many Claims/Violations
+4836,1,Risk Group - Many Claims/Violations
+4837,1,Risk Group - Many Claims/Violations
+4838,1,Risk Group - Many Claims/Violations
+4839,1,Risk Group - Many Claims/Violations
+4840,1,Risk Group - Many Claims/Violations
+4841,2,Moderate Risk - Average
+4842,1,Risk Group - Many Claims/Violations
+4843,1,Risk Group - Many Claims/Violations
+4844,1,Risk Group - Many Claims/Violations
+4845,1,Risk Group - Many Claims/Violations
+4846,1,Risk Group - Many Claims/Violations
+4847,1,Risk Group - Many Claims/Violations
+4848,1,Risk Group - Many Claims/Violations
+4849,1,Risk Group - Many Claims/Violations
+4850,1,Risk Group - Many Claims/Violations
+4851,0,Moderate Risk - Average
+4852,1,Risk Group - Many Claims/Violations
+4853,1,Risk Group - Many Claims/Violations
+4854,1,Risk Group - Many Claims/Violations
+4855,1,Risk Group - Many Claims/Violations
+4856,1,Risk Group - Many Claims/Violations
+4857,2,Moderate Risk - Average
+4858,1,Risk Group - Many Claims/Violations
+4859,1,Risk Group - Many Claims/Violations
+4860,0,Moderate Risk - Average
+4861,1,Risk Group - Many Claims/Violations
+4862,1,Risk Group - Many Claims/Violations
+4863,1,Risk Group - Many Claims/Violations
+4864,1,Risk Group - Many Claims/Violations
+4865,1,Risk Group - Many Claims/Violations
+4866,1,Risk Group - Many Claims/Violations
+4867,1,Risk Group - Many Claims/Violations
+4868,1,Risk Group - Many Claims/Violations
+4869,1,Risk Group - Many Claims/Violations
+4870,1,Risk Group - Many Claims/Violations
+4871,1,Risk Group - Many Claims/Violations
+4872,1,Risk Group - Many Claims/Violations
+4873,1,Risk Group - Many Claims/Violations
+4874,2,Moderate Risk - Average
+4875,1,Risk Group - Many Claims/Violations
+4876,1,Risk Group - Many Claims/Violations
+4877,1,Risk Group - Many Claims/Violations
+4878,1,Risk Group - Many Claims/Violations
+4879,1,Risk Group - Many Claims/Violations
+4880,1,Risk Group - Many Claims/Violations
+4881,1,Risk Group - Many Claims/Violations
+4882,1,Risk Group - Many Claims/Violations
+4883,1,Risk Group - Many Claims/Violations
+4884,1,Risk Group - Many Claims/Violations
+4885,1,Risk Group - Many Claims/Violations
+4886,1,Risk Group - Many Claims/Violations
+4887,1,Risk Group - Many Claims/Violations
+4888,1,Risk Group - Many Claims/Violations
+4889,1,Risk Group - Many Claims/Violations
+4890,0,Moderate Risk - Average
+4891,0,Moderate Risk - Average
+4892,1,Risk Group - Many Claims/Violations
+4893,1,Risk Group - Many Claims/Violations
+4894,1,Risk Group - Many Claims/Violations
+4895,1,Risk Group - Many Claims/Violations
+4896,1,Risk Group - Many Claims/Violations
+4897,1,Risk Group - Many Claims/Violations
+4898,1,Risk Group - Many Claims/Violations
+4899,1,Risk Group - Many Claims/Violations
+4900,1,Risk Group - Many Claims/Violations
+4901,1,Risk Group - Many Claims/Violations
+4902,1,Risk Group - Many Claims/Violations
+4903,1,Risk Group - Many Claims/Violations
+4904,1,Risk Group - Many Claims/Violations
+4905,1,Risk Group - Many Claims/Violations
+4906,1,Risk Group - Many Claims/Violations
+4907,1,Risk Group - Many Claims/Violations
+4908,1,Risk Group - Many Claims/Violations
+4909,1,Risk Group - Many Claims/Violations
+4910,1,Risk Group - Many Claims/Violations
+4911,1,Risk Group - Many Claims/Violations
+4912,1,Risk Group - Many Claims/Violations
+4913,1,Risk Group - Many Claims/Violations
+4914,1,Risk Group - Many Claims/Violations
+4915,1,Risk Group - Many Claims/Violations
+4916,1,Risk Group - Many Claims/Violations
+4917,1,Risk Group - Many Claims/Violations
+4918,1,Risk Group - Many Claims/Violations
+4919,1,Risk Group - Many Claims/Violations
+4920,1,Risk Group - Many Claims/Violations
+4921,1,Risk Group - Many Claims/Violations
+4922,1,Risk Group - Many Claims/Violations
+4923,1,Risk Group - Many Claims/Violations
+4924,1,Risk Group - Many Claims/Violations
+4925,1,Risk Group - Many Claims/Violations
+4926,1,Risk Group - Many Claims/Violations
+4927,1,Risk Group - Many Claims/Violations
+4928,1,Risk Group - Many Claims/Violations
+4929,1,Risk Group - Many Claims/Violations
+4930,1,Risk Group - Many Claims/Violations
+4931,1,Risk Group - Many Claims/Violations
+4932,1,Risk Group - Many Claims/Violations
+4933,1,Risk Group - Many Claims/Violations
+4934,1,Risk Group - Many Claims/Violations
+4935,1,Risk Group - Many Claims/Violations
+4936,1,Risk Group - Many Claims/Violations
+4937,0,Moderate Risk - Average
+4938,1,Risk Group - Many Claims/Violations
+4939,1,Risk Group - Many Claims/Violations
+4940,1,Risk Group - Many Claims/Violations
+4941,1,Risk Group - Many Claims/Violations
+4942,1,Risk Group - Many Claims/Violations
+4943,1,Risk Group - Many Claims/Violations
+4944,1,Risk Group - Many Claims/Violations
+4945,1,Risk Group - Many Claims/Violations
+4946,1,Risk Group - Many Claims/Violations
+4947,1,Risk Group - Many Claims/Violations
+4948,1,Risk Group - Many Claims/Violations
+4949,1,Risk Group - Many Claims/Violations
+4950,1,Risk Group - Many Claims/Violations
+4951,1,Risk Group - Many Claims/Violations
+4952,1,Risk Group - Many Claims/Violations
+4953,1,Risk Group - Many Claims/Violations
+4954,1,Risk Group - Many Claims/Violations
+4955,1,Risk Group - Many Claims/Violations
+4956,1,Risk Group - Many Claims/Violations
+4957,1,Risk Group - Many Claims/Violations
+4958,1,Risk Group - Many Claims/Violations
+4959,1,Risk Group - Many Claims/Violations
+4960,1,Risk Group - Many Claims/Violations
+4961,1,Risk Group - Many Claims/Violations
+4962,1,Risk Group - Many Claims/Violations
+4963,1,Risk Group - Many Claims/Violations
+4964,1,Risk Group - Many Claims/Violations
+4965,0,Moderate Risk - Average
+4966,1,Risk Group - Many Claims/Violations
+4967,1,Risk Group - Many Claims/Violations
+4968,1,Risk Group - Many Claims/Violations
+4969,1,Risk Group - Many Claims/Violations
+4970,1,Risk Group - Many Claims/Violations
+4971,1,Risk Group - Many Claims/Violations
+4972,1,Risk Group - Many Claims/Violations
+4973,1,Risk Group - Many Claims/Violations
+4974,1,Risk Group - Many Claims/Violations
+4975,1,Risk Group - Many Claims/Violations
+4976,1,Risk Group - Many Claims/Violations
+4977,1,Risk Group - Many Claims/Violations
+4978,1,Risk Group - Many Claims/Violations
+4979,1,Risk Group - Many Claims/Violations
+4980,1,Risk Group - Many Claims/Violations
+4981,2,Moderate Risk - Average
+4982,1,Risk Group - Many Claims/Violations
+4983,1,Risk Group - Many Claims/Violations
+4984,1,Risk Group - Many Claims/Violations
+4985,1,Risk Group - Many Claims/Violations
+4986,2,Moderate Risk - Average
+4987,1,Risk Group - Many Claims/Violations
+4988,1,Risk Group - Many Claims/Violations
+4989,0,Moderate Risk - Average
+4990,1,Risk Group - Many Claims/Violations
+4991,1,Risk Group - Many Claims/Violations
+4992,1,Risk Group - Many Claims/Violations
+4993,1,Risk Group - Many Claims/Violations
+4994,1,Risk Group - Many Claims/Violations
+4995,0,Moderate Risk - Average
+4996,1,Risk Group - Many Claims/Violations
+4997,1,Risk Group - Many Claims/Violations
+4998,1,Risk Group - Many Claims/Violations
+4999,1,Risk Group - Many Claims/Violations
+5000,1,Risk Group - Many Claims/Violations
