@@ -3,6 +3,9 @@ import secrets
 import hashlib
 from typing import Tuple
 
+from dh_params import RFC3526_GROUPS, DEFAULT_GROUP
+
+
 def is_prime(n: int, k: int = 10) -> bool:
     if n < 2: return False
     if n == 2 or n == 3: return True
@@ -79,3 +82,17 @@ class DiffieHellman:
 
     def get_public_parameters(self) -> Tuple[int, int]:
         return self.prime, self.generator
+
+    @classmethod
+    def from_rfc3526(cls, group_name: str = None) -> 'DiffieHellman':
+        """Create DiffieHellman instance using pre-computed RFC 3526 parameters.
+
+        Available groups: modp_1024, modp_1536, modp_2048
+        Default: modp_2048 (recommended for production)
+        """
+        if group_name is None:
+            group_name = DEFAULT_GROUP
+        if group_name not in RFC3526_GROUPS:
+            raise ValueError(f"Unknown group: {group_name}. Available: {list(RFC3526_GROUPS.keys())}")
+        group = RFC3526_GROUPS[group_name]
+        return cls(prime=group["prime"], generator=group["generator"])

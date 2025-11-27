@@ -7,7 +7,6 @@ from typing import Dict
 from diffie_hellman import DiffieHellman
 from crypto_utils import AESCipher
 from utils import send_message, receive_message, create_message, MessageType
-from dh_params import get_params
 
 class ChatClient:
     def __init__(self, socket: socket.socket, address: tuple, username: str):
@@ -18,22 +17,22 @@ class ChatClient:
         self.session_key = None
 
 class ChatServer:
-    def __init__(self, host: str = '0.0.0.0', port: int = 5555, bits: int = 512):
+    def __init__(self, host: str = '0.0.0.0', port: int = 5555, dh_group: str = "modp_2048"):
         self.host, self.port = host, port
         self.server_socket = None
-        print(f"[*] Loading DH parameters ({bits} bits)...")
-        params = get_params(bits)
-        self.dh = DiffieHellman(prime=params['prime'], generator=params['generator'])
+        print(f"[*] Loading DH parameters (RFC 3526 {dh_group})...")
+        self.dh = DiffieHellman.from_rfc3526(dh_group)
         self.server_private_key, self.server_public_key = self.dh.generate_keypair()
         self.prime, self.generator = self.dh.get_public_parameters()
         print(f"[+] DH parameters loaded")
-        print(f"    Q = {str(self.prime)[:50]}...")
-        print(f"    A = {self.generator}")
+        print(f"    Q (prime) = {str(self.prime)[:50]}...")
+        print(f"    A (generator) = {self.generator}")
+        print(f"    Server public key = {str(self.server_public_key)[:50]}...")
         self.clients: Dict[str, ChatClient] = {}
         self.clients_lock = threading.Lock()
         self.group_key = os.urandom(32)
         self.group_cipher = AESCipher(self.group_key)
-        print(f"[+] Group key: {self.group_key.hex()[:32]}...")
+        print(f"[+] Group key generated: {self.group_key.hex()[:32]}...")
 
     def start(self):
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -132,10 +131,21 @@ class ChatServer:
         except Exception as e: print(f"[!] Error sending user list: {e}")
 
 def main():
+    import sys
+    from dh_params import RFC3526_GROUPS
     print("="*60)
     print("  SECURE CHAT SERVER - Lab 4")
     print("="*60)
-    server = ChatServer('0.0.0.0', 5555, 256)  # 256 bits for faster startup
+    dh_group = "modp_2048"  # Default (recommended)
+    if len(sys.argv) > 1:
+        group = sys.argv[1]
+        if group in RFC3526_GROUPS:
+            dh_group = group
+            print(f"[*] Using DH group: {dh_group}")
+        else:
+            print(f"[!] Unknown group '{group}', available: {list(RFC3526_GROUPS.keys())}")
+            print(f"[*] Using default: {dh_group}")
+    server = ChatServer('0.0.0.0', 5555, dh_group)
     server.start()
 
 if __name__ == "__main__":
