@@ -63,7 +63,10 @@ func (sc *StripeClient) CreateCheckoutSession(carModel string, amount int64, suc
 
 // VerifyWebhookSignature verifies the webhook signature
 func (sc *StripeClient) VerifyWebhookSignature(payload []byte, signature string) (stripe.Event, error) {
-	event, err := webhook.ConstructEvent(payload, signature, sc.WebhookSecret)
+	event, err := webhook.ConstructEventWithOptions(payload, signature, sc.WebhookSecret,
+		webhook.ConstructEventOptions{
+			IgnoreAPIVersionMismatch: true,
+		})
 	if err != nil {
 		return event, fmt.Errorf("failed to verify webhook signature: %w", err)
 	}
